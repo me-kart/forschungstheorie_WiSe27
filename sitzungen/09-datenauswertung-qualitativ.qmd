@@ -1,0 +1,151 @@
+---
+title: "Sitzung 9: Datenauswertung I (qualitativ)"
+subtitle: "01.12.2026 · Qualitative Inhaltsanalyse, Grounded Theory, Kodieren und Kategorienbildung"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Wie werden aus Interviews, Protokollen und Dokumenten nachvollziehbare Befunde, und worin unterscheiden sich qualitative Inhaltsanalyse und Grounded Theory?
+:::
+
+„Am Anfang dachte ich, ich kann wirklich etwas verändern. Aber heute – nach all den Jahren – merke ich, dass es mehr ums Verwalten geht als ums Helfen. Ich schreibe Berichte, fülle Formulare aus. Die Zeit für die Familien – die fehlt einfach.“ Was sagt diese Sozialarbeiterin aus dem Jugendamt über ihre Arbeit? Qualitative Auswertung fragt nicht „Wie viele?“, sondern „Was bedeutet das?“. Sie interpretiert sprachliches, visuelles oder handlungsbasiertes Material und sucht nach Bedeutungen, Mustern und Strukturen. Die Sitzung stellt die beiden wichtigsten Verfahren vor.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Nach dieser Sitzung können Sie …
+
+- qualitative von quantitativer Auswertung abgrenzen,
+- die qualitative Inhaltsanalyse nach Mayring erklären,
+- induktive und deduktive Kategorienbildung unterscheiden,
+- die Grundprinzipien der Grounded Theory benennen,
+- offenes, axiales und selektives Kodieren beschreiben und erproben.
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- Kategoriensystem, Kodierleitfaden
+- Definition, Ankerbeispiel, Kodierregel
+- In-vivo-Kode
+- Constant Comparison, Memo
+- Kernkategorie, theoretische Sättigung
+:::
+
+:::
+
+## 1. Was ist qualitative Datenauswertung?
+
+Qualitative Auswertung arbeitet mit Interviews, Fokusgruppen, Feldnotizen und Beobachtungsprotokollen, mit Dokumenten, Fallakten, Medientexten und Social-Media-Inhalten. Sie will **verstehen** (subjektive Bedeutungen und Sinnkonstruktionen rekonstruieren), **Typen bilden** (Kategorien und Muster aus dem Material entwickeln) und **Theorien entwickeln** (neue Konzepte und Zusammenhänge generieren).
+
+| | Quantitativ | Qualitativ |
+|---|---|---|
+| **Ziel** | messen, vergleichen, erklären, vorhersagen | verstehen, interpretieren, Theorie bilden |
+| **Daten** | Zahlen, Skalen, standardisierte Antworten | Texte, Bilder, Tonaufnahmen, Beobachtungen |
+| **Vorgehen** | deduktiv: Hypothese → Daten → Prüfung | induktiv oder abduktiv: Daten → Konzepte → Theorie |
+| **Auswertung** | Statistik | Kodierung, Kategorienbildung, Interpretation |
+
+: Quantitative und qualitative Auswertung {#tbl-auswertung}
+
+## 2. Qualitative Inhaltsanalyse (Mayring)
+
+Die qualitative Inhaltsanalyse nach Philipp Mayring (2015) ist ein systematisches, regelgeleitetes Verfahren zur Analyse von Kommunikationsmaterial. Sie läuft nach festgelegten Schritten ab, ordnet das Material Kategorien zu, ist für andere nachvollziehbar und überprüfbar, bewahrt die Bedeutung im Kontext und verdichtet große Textmengen auf das Wesentliche. Mayring hat sie als Brücke zwischen qualitativer Tiefe und systematisch-nachvollziehbarer Auswertung entwickelt.
+
+### Drei Grundformen
+
+- Die **zusammenfassende** Inhaltsanalyse reduziert das Material auf wesentliche Inhalte, indem sie paraphrasiert, generalisiert und reduziert. Sie eignet sich für große Textmengen und Überblicksanalysen.
+- Die **explikative** Inhaltsanalyse klärt unklare oder mehrdeutige Textstellen, indem sie den engen Kontext der Stelle und weiteres Hintergrundwissen heranzieht.
+- Die **strukturierende** Inhaltsanalyse filtert bestimmte Aspekte, Typen oder Strukturen aus dem Material heraus. Sie ist die häufigste Form und in der Sozialen Arbeit am weitesten verbreitet.
+
+### Ablauf
+
+Mayring beschreibt einen schrittweisen Ablauf: (1) Material festlegen, (2) Entstehungssituation analysieren, (3) formale Charakteristika bestimmen (etwa die Transkriptionsregeln), (4) Richtung der Analyse festlegen, (5) Fragestellung theoriegeleitet differenzieren, (6) Analysetechnik bestimmen, (7) Analyseeinheiten definieren, (8) Kategoriensystem entwickeln, (9) Material kodieren und Kategorien am Material überarbeiten, (10) Ergebnisse im Hinblick auf die Forschungsfrage interpretieren. Der Prozess ist zirkulär: Kategorien werden bei Bedarf angepasst und erneut angewandt.
+
+### Kategorienbildung
+
+Bei **deduktiver** Kategorienbildung werden die Kategorien vor der Analyse aus Theorie oder Forschungsstand abgeleitet, und das Material wird ihnen zugeordnet. Das ist theoretisch gut verankert, kann aber neue, unerwartete Aspekte übersehen. Bei **induktiver** Kategorienbildung entstehen die Kategorien aus dem Material selbst: paraphrasieren, abstrahieren, Kategorien bilden, subsumieren. Das ist offen für Neues, aber aufwendiger. In der Praxis werden beide oft kombiniert: ein deduktiver Rahmen mit induktiver Ergänzung.
+
+### Der Kodierleitfaden
+
+Damit verschiedene Personen gleich kodieren, wird jede Kategorie durch drei Elemente bestimmt: eine **Definition** (was die Kategorie umfasst), ein **Ankerbeispiel** (eine Textstelle, die sie prototypisch zeigt) und eine **Kodierregel** (die Abgrenzung zu ähnlichen Kategorien).
+
+| Kategorie | Kodierregel | Ankerbeispiel |
+|---|---|---|
+| Diskriminierungserfahrung | Aussagen über Benachteiligung aufgrund von Herkunft, Religion oder Aussehen | „Ich hatte das Gefühl, wegen meines Namens schlechter behandelt zu werden.“ |
+| Soziale Ausgrenzung | Aussagen über fehlende Zugehörigkeit oder Ausschluss | „In der Klasse wurde ich oft ignoriert.“ |
+| Demokratieskepsis | Aussagen, die Misstrauen gegenüber demokratischen Institutionen ausdrücken | „Politik interessiert sich sowieso nicht für Leute wie uns.“ |
+| Zugehörigkeitsgefühl | Aussagen über Anerkennung, Gemeinschaft oder Akzeptanz | „Im Verein habe ich endlich Anschluss gefunden.“ |
+
+: Ausschnitt aus einem Kodierleitfaden (fiktive Beispiele) {#tbl-kodierleitfaden}
+
+**Ein Beispiel aus der Sozialen Arbeit:** Eine Studie fragt, wie Fachkräfte der Kinder- und Jugendhilfe ihre berufliche Belastung erleben, und stützt sich auf zwölf problemzentrierte Interviews. Die Hauptkategorien werden deduktiv aus einem Belastungsmodell abgeleitet, die Unterkategorien induktiv aus dem Material gewonnen. Zwei Personen kodieren unabhängig voneinander, und ihre Übereinstimmung wird geprüft. Am Ende stehen Hauptkategorien wie emotionale Belastung, Zeitdruck, Ressourcenmangel und kollegiale Unterstützung.
+
+## 3. Grounded Theory
+
+Die Grounded Theory wurde von Barney Glaser und Anselm Strauss (1967) entwickelt. Ihr Ziel ist eine „gegenstandsverankerte“ Theorie, die im Material verwurzelt ist. Die Theorie entsteht nicht vor der Forschung, sondern durch sie: Daten → Konzepte → Kategorien → Theorie. Erhebung und Auswertung finden parallel statt. Weiterentwickelt wurde der Ansatz unter anderem von Strauss und Corbin, die das Vorgehen methodisch stärker ausgearbeitet haben, und von Kathy Charmaz (2006), die eine konstruktivistische Variante begründet hat. Die Grounded Theory ist damit nicht nur ein Auswertungsverfahren, sondern ein Forschungsstil.
+
+### Grundprinzipien
+
+- **Theoretical Sampling:** Neue Fälle werden auf Grundlage der bisherigen Analyse ausgewählt (→ [Sitzung 6](06-stichprobenziehung-2.qmd)).
+- **Ständiges Vergleichen** (*Constant Comparison*): Neue Daten werden fortlaufend mit den gebildeten Kategorien verglichen: Wie verhält sich dieser Fall zum vorherigen?
+- **Theoretische Sättigung:** Die Auswahl endet, wenn neue Daten keine neuen Konzepte mehr liefern.
+- **Memos:** Theoretische Ideen, Vergleiche und Fragen werden während der gesamten Analyse schriftlich festgehalten.
+
+### Drei Kodierphasen (Strauss/Corbin 1996)
+
+**Offenes Kodieren.** Das Material wird Zeile für Zeile oder Satz für Satz aufgebrochen und mit Kodes versehen. Kodes können *In-vivo-Kodes* sein, also Worte der Befragten, oder von den Forschenden gebildet werden. Leitfragen sind: Was? Wer? Wann? Wie? Warum? Wozu? Ähnliche Kodes werden zu Konzepten und diese zu abstrakteren Kategorien gebündelt. Aus dem Satz „Wir haben keine Zeit mehr für die wirklichen Gespräche mit den Kindern“ können etwa die Kodes „Zeitdruck“, „Qualitätseinbuße“ und „Verlust von Beziehungsarbeit“ entstehen und daraus das Konzept „Entfremdung vom professionellen Kern“.
+
+**Axiales Kodieren.** Die Beziehungen zwischen den Kategorien werden herausgearbeitet. Strauss und Corbin nutzen dafür das *paradigmatische Modell*: ursächliche Bedingungen, Phänomen, Kontext, intervenierende Bedingungen, Handlungsstrategien und Konsequenzen. Für das Phänomen „professionelle Erschöpfung“ wäre etwa Personalmangel eine Ursache, die Trägerstruktur der Kontext, Rückzug eine Strategie und höhere Fluktuation eine Konsequenz.
+
+**Selektives Kodieren.** Alle Kategorien werden um eine **Kernkategorie** integriert, die den roten Faden der Analyse bildet und sich in einer „Story Line“ erzählen lässt. Eine mögliche Kernkategorie wäre „Zerrissenheit zwischen Anspruch und Wirklichkeit“: Fachkräfte erleben einen ständigen Widerspruch zwischen ihrem beziehungsorientierten Selbstverständnis und den Zwängen von Zeitdruck, Bürokratie und Fallzahlen.
+
+Die Phasen sind nicht strikt getrennt; Rückschleifen sind ausdrücklich erwünscht.
+
+## 4. Qualitative Inhaltsanalyse und Grounded Theory im Vergleich
+
+| | Qualitative Inhaltsanalyse | Grounded Theory |
+|---|---|---|
+| **Ziel** | systematische Auswertung und Beschreibung von Inhalten | Theoriegenerierung aus dem Material |
+| **Kategorien** | deduktiv, induktiv oder kombiniert | induktiv, im iterativen Kodieren entwickelt |
+| **Ablauf** | festgelegtes Ablaufmodell | zirkulär, flexibel, bis zur Sättigung |
+| **Stärke** | transparent, nachprüfbar, auch für große Materialmengen | offen für Neues, Theorieentwicklung |
+| **Grenze** | Theorieentwicklung, unerwartete Phänomene | standardisierte Fragestellungen |
+
+: Qualitative Inhaltsanalyse und Grounded Theory {#tbl-qia-gt}
+
+Welche Methode passt, hängt von Forschungsfrage und Erkenntnisziel ab. Für die Auswertung gibt es Software wie MAXQDA oder ATLAS.ti. Gütekriterien qualitativer Auswertung behandeln wir in [Sitzung 11](11-guetekriterien.qmd).
+
+::: {.praxis}
+**Für die Praxis heißt das:** Auch Fallbesprechungen und Dokumentationen in der Sozialen Arbeit sind Deutungsarbeit. Die Verfahren qualitativer Auswertung schärfen den Blick dafür, Deutungen am Material zu begründen und alternative Lesarten ernst zu nehmen.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Übung 1: Offenes Kodieren (Einzelarbeit, 10 Minuten)"}
+Lesen Sie den Ausschnitt aus einem Interview mit einer Sozialarbeiterin (Jugendamt, sieben Jahre Berufserfahrung):
+
+> „Am Anfang dachte ich, ich kann wirklich etwas verändern. Aber heute – nach all den Jahren – merke ich, dass es mehr ums Verwalten geht als ums Helfen. Ich schreibe Berichte, fülle Formulare aus. Die Zeit für die Familien – die fehlt einfach.“
+
+1. Vergeben Sie für jede Sinneinheit mindestens einen Kode.
+2. Formulieren Sie In-vivo-Kodes und selbst gebildete Kodes.
+3. Fassen Sie ähnliche Kodes zu einem Konzept zusammen.
+4. Notieren Sie Ihre Fragen und Ideen als Memo.
+
+<details>
+<summary>Musterkodes</summary>
+
+**Satz 1:** „initiale Motivation“, „Veränderungsanspruch“, „Idealismus“
+**Satz 2:** „Verwaltungsarbeit vs. Beziehungsarbeit“, „Rollenkonflikt“, „Bürokratisierung“
+**Satz 3:** „Zeitdruck“, „Ressourcenmangel“, „Qualitätsverlust“
+
+**Mögliches Konzept:** „Zerrissenheit zwischen professionellem Ethos und strukturellen Zwängen“
+
+**Memo:** Zusammenhang mit der Burnout-Literatur? Die Diskrepanz zwischen Ideal und Realität als Belastungsfaktor – prüfen, ob sich das in weiteren Interviews bestätigt.
+</details>
+:::
+
+::: {.callout-tip title="Übung 2: Kategorienbildung (Partnerarbeit, 15 Minuten)"}
+Kodieren Sie vier weitere Interviewausschnitte zum Thema „Belastungserleben in der Sozialen Arbeit“. Bilden Sie drei bis fünf induktive Hauptkategorien, definieren Sie jede Kategorie und nennen Sie ein Ankerbeispiel. Wo gibt es Abgrenzungsprobleme? Vergleichen Sie Ihre Kategorien mit denen anderer Gruppen: Was sagt das über Intersubjektivität in der qualitativen Forschung?
+:::
+
+**Zum Weiterlesen:** Mayring, Philipp (2015): Qualitative Inhaltsanalyse. Grundlagen und Techniken. 12. Aufl. Weinheim: Beltz. · Kuckartz, Udo (2018): Qualitative Inhaltsanalyse. Methoden, Praxis, Computerunterstützung. 4. Aufl. Weinheim: Beltz Juventa. · Strauss, Anselm/Corbin, Juliet (1996): Grounded Theory. Grundlagen qualitativer Sozialforschung. Weinheim: Beltz. · Charmaz, Kathy (2006): Constructing Grounded Theory. A Practical Guide through Qualitative Analysis. London: Sage.

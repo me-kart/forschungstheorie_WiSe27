@@ -1,0 +1,98 @@
+---
+title: "Sitzung 5: Stichprobenziehung I"
+subtitle: "03.11.2026 · Grundgesamtheit, Auswahlgesamtheit und Zufallsauswahl"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Für wen gelten meine Ergebnisse, und unter welchen Bedingungen lassen sie sich von einer Stichprobe auf eine Grundgesamtheit übertragen?
+:::
+
+Ein Jugendzentrum befragt 80 seiner Besucher:innen. Gelten die Ergebnisse nur für dieses Jugendzentrum oder für alle Jugendlichen in Regensburg? Die Antwort hängt nicht davon ab, wie sorgfältig ausgewertet wird, sondern davon, wie die Befragten ausgewählt wurden. Forschung untersucht fast nie alle Fälle; Zeit, Geld und Zugang sind begrenzt. Wer nicht in der Stichprobe ist, kommt in den Ergebnissen nicht vor. Und Fehler bei der Auswahl lassen sich später nicht mehr reparieren. Keine Auswahlmethode ist dabei per se besser; sie ist nur passend oder unpassend zur Fragestellung.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Themen
+
+- Grundgesamtheit, Auswahlgesamtheit, Stichprobe
+- Vollerhebung und Teilerhebung
+- Zufallsauswahl: einfach, systematisch, geschichtet
+- Klumpen- und mehrstufige Auswahl
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- Coverage-Fehler (Under- und Overcoverage)
+- Auswahlwahrscheinlichkeit
+- Schrittweite *k*
+- Klumpeneffekt
+- ADM-Design
+:::
+
+:::
+
+## 1. Drei Grundbegriffe
+
+- Die **Grundgesamtheit** (Population) umfasst alle Einheiten, über die eine Aussage getroffen werden soll, zum Beispiel alle Jugendlichen von 14 bis 17 Jahren in Bayern.
+- Die **Auswahlgesamtheit** (Sampling Frame) umfasst alle Einheiten, die tatsächlich eine Chance haben, in die Stichprobe zu gelangen, meist über eine Liste. Beispiel: alle in den Melderegistern ausgewählter Gemeinden eingetragenen 14- bis 17-Jährigen.
+- Die **Stichprobe** (Sample) ist die Teilmenge der Auswahlgesamtheit, die konkret untersucht wird, etwa 1.000 zufällig gezogene und befragte Jugendliche.
+
+Die Grundgesamtheit muss immer sachlich (wer?), räumlich (wo?) und zeitlich (wann?) eindeutig festgelegt werden.
+
+### Wenn Auswahlgesamtheit und Grundgesamtheit nicht übereinstimmen
+
+Bei **Undercoverage** (Unterdeckung) fehlen Einheiten der Grundgesamtheit in der Liste; sie haben keine Chance, gezogen zu werden. Wohnungslose Jugendliche ohne Meldeadresse etwa tauchen im Melderegister nicht auf. Bei **Overcoverage** (Überdeckung) enthält die Liste Einheiten, die nicht zur Grundgesamtheit gehören, etwa bereits verzogene Personen. Beides führt zu Verzerrungen, sogenannten Coverage-Fehlern. Sie treffen besonders häufig die Zielgruppen der Sozialen Arbeit.
+
+### Vollerhebung oder Teilerhebung?
+
+Eine **Vollerhebung** erfasst alle Elemente der Grundgesamtheit. Sie ist sinnvoll, wenn die Grundgesamtheit klein und gut zugänglich ist und jeder einzelne Fall zählt, etwa bei einer Befragung aller 96 Jugendämter in Bayern. Eine **Teilerhebung** erfasst nur eine Stichprobe. Sie ist der Regelfall in der empirischen Sozialforschung: Sie ist günstiger, schneller und belastet das Feld weniger. Oft ist eine Vollerhebung auch gar nicht möglich, etwa wenn die Größe der Grundgesamtheit unbekannt ist. Eine Teilerhebung kann sogar genauer sein, weil mehr Ressourcen für die Qualität jedes einzelnen Falls bleiben.
+
+## 2. Zwei Grundlogiken der Auswahl
+
+Bei einer **Zufallsauswahl** (Wahrscheinlichkeitsauswahl) hat jedes Element eine bekannte Chance größer als null, gezogen zu werden. Der Zufall entscheidet, nicht die Forschenden. Der Stichprobenfehler ist berechenbar, und nur so ist eine statistische Verallgemeinerung möglich.
+
+Bei einer **nicht-zufälligen Auswahl** wählen die Forschenden aus, oder es wird befragt, wer erreichbar ist. Die Auswahlchancen sind unbekannt, eine statistisch begründete Verallgemeinerung ist nicht möglich. Dennoch ist sie oft der einzige Weg zu schwer erreichbaren Gruppen und in der qualitativen Forschung der Standard. Sie ist Thema von [Sitzung 6](06-stichprobenziehung-2.qmd).
+
+## 3. Verfahren der Zufallsauswahl
+
+**Einfache Zufallsstichprobe.** Die Stichprobe wird direkt aus der vollständigen Auswahlgesamtheit gezogen, nach dem Prinzip der Lostrommel: *n* aus *N* per Zufallsgenerator. Jedes Element hat die gleiche Auswahlwahrscheinlichkeit, der Stichprobenfehler ist berechenbar, und das Verfahren ist transparent. Allerdings ist eine vollständige Liste oft nicht verfügbar, räumlich verstreute Fälle erhöhen den Aufwand, und kleine Gruppen können zufällig unterrepräsentiert sein.
+
+**Systematische Zufallsauswahl.** Aus einer geordneten Liste wird nach einem zufälligen Startpunkt jedes *k*-te Element gezogen; die Schrittweite beträgt *k* = *N* / *n*. Beispiel: Eine Beratungsstelle hat 2.000 Akten (*N*) und möchte 200 (*n*) auswerten. Die Schrittweite ist *k* = 10. Ist die zufällige Startzahl 7, werden die Akten 7, 17, 27, 37 … bis 1.997 gezogen. Das Verfahren ist praktisch einfach. Ist die Liste aber periodisch geordnet, etwa wenn jede zehnte Akte von derselben Fachkraft stammt, entsteht eine systematische Verzerrung.
+
+**Geschichtete Zufallsstichprobe.** Die Grundgesamtheit wird in Schichten aufgeteilt, die in sich möglichst homogen und untereinander verschieden sind. In jeder Schicht wird separat zufällig gezogen, zum Beispiel bei einer Befragung von Fachkräften der Kinder- und Jugendhilfe, geschichtet nach öffentlichen, freien und privat-gewerblichen Trägern. Bei **proportionaler** Schichtung ist jede Schicht in der Stichprobe so stark vertreten wie in der Grundgesamtheit (etwa 40 / 45 / 15 Prozent); das ist genauer als eine einfache Zufallsstichprobe. Bei **disproportionaler** Schichtung werden kleine Schichten überproportional gezogen, um Vergleiche zu ermöglichen. Für Gesamtaussagen muss dann gewichtet werden.
+
+**Klumpenstichprobe.** Gezogen werden nicht einzelne Personen, sondern Gruppen (Klumpen), in denen dann alle Elemente untersucht werden. Beispiel: Aus acht Kitas werden zwei zufällig gezogen, und dort werden alle Familien befragt. Nötig ist nur eine Liste der Klumpen, die Erhebung ist räumlich konzentriert und kostengünstig, und das Verfahren passt gut zu Einrichtungen der Sozialen Arbeit. Der Nachteil ist der **Klumpeneffekt**: Personen in einem Klumpen ähneln sich, weil sie dieselbe Einrichtung besuchen oder im selben Stadtteil leben. Die Ergebnisse schwanken daher stärker, die Präzision sinkt.
+
+**Mehrstufige Zufallsauswahl.** Die Auswahl erfolgt in mindestens zwei Stufen; die Stichprobe einer Stufe ist die Auswahlgesamtheit der nächsten. Beispiel: Zuerst werden zufällig Landkreise gezogen, dann Schulen in diesen Landkreisen, dann Schüler:innen in diesen Schulen. Eine Gesamtliste aller Personen ist nicht nötig, und die Kosten sind geringer. Allerdings wirkt der Klumpeneffekt auf den oberen Stufen, und Fehler addieren sich über die Stufen.
+
+### Praxisbeispiel: das ADM-Design
+
+Für bundesweite Befragungen gibt es keine Liste aller Einwohner:innen. Der Arbeitskreis Deutscher Markt- und Sozialforschungsinstitute (ADM) hat deshalb ein mehrstufig geschichtetes Verfahren entwickelt. In einem **ersten Schritt** wird das bewohnte Bundesgebiet in etwa 50.000 bis 60.000 Flächen gegliedert, nach Region und Gemeindegröße geschichtet; daraus werden zufällig *Sample Points* gezogen. In einem **zweiten Schritt** folgen Interviewer:innen ab einer Startadresse festen Begehungsregeln (*Random Route*) und bestimmen so die Zielhaushalte. In einem **dritten Schritt** wird im Haushalt die Zielperson zufällig ausgewählt, etwa nach der *Last-Birthday-Methode* oder dem *Schwedenschlüssel*.
+
+::: {.praxis}
+**Für die Praxis heißt das:** Zuerst die Grundgesamtheit präzise bestimmen, dann die Auswahlgesamtheit kritisch prüfen. Gerade wohnungslose, geflüchtete oder sozial isolierte Menschen fehlen in vielen Listen. Wer über sie Aussagen treffen will, muss die Auswahl darauf einstellen.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Übung: Welches Auswahlverfahren passt? (Kleingruppen, 10 Minuten)"}
+Bestimmen Sie jeweils Grundgesamtheit, Auswahlgesamtheit und ein passendes Verfahren. Begründen Sie Ihre Wahl.
+
+**A · Schuldnerberatung:** Eine Beratungsstelle möchte die Zufriedenheit ihrer 1.200 Klient:innen des letzten Jahres erheben. Eine vollständige Klient:innenliste liegt vor.
+
+**B · Mobbing an Schulen:** Ein Forschungsteam will Mobbingerfahrungen von Schüler:innen der 9. Klassen in Bayern untersuchen. Eine Liste aller Schüler:innen gibt es nicht.
+
+**C · Trägervergleich:** Verglichen werden sollen die Arbeitsbedingungen bei öffentlichen, freien und privat-gewerblichen Trägern. Letztere sind nur eine kleine Gruppe.
+
+<details>
+<summary>Lösungshinweise</summary>
+
+**A:** Die Liste ist vollständig, daher eignet sich eine einfache oder systematische Zufallsstichprobe; bei 1.200 Personen ist auch eine Vollerhebung denkbar.
+**B:** Ohne Personenliste bietet sich eine mehrstufige Auswahl an (Regionen → Schulen → Klassen), gegebenenfalls als Klumpenstichprobe mit ganzen Klassen.
+**C:** Eine geschichtete Stichprobe nach Trägerart, disproportional, damit die kleine Gruppe der privat-gewerblichen Träger für Vergleiche groß genug ist; für Gesamtaussagen wird gewichtet.
+</details>
+:::
+
+**Zum Weiterlesen:** Diekmann, Andreas (2007): Empirische Sozialforschung. Grundlagen, Methoden, Anwendungen. Reinbek: Rowohlt. · Häder, Michael (2019): Empirische Sozialforschung. Eine Einführung. 4. Aufl. Wiesbaden: Springer VS. · Schnell, Rainer/Hill, Paul B./Esser, Elke (2023): Methoden der empirischen Sozialforschung. 12. Aufl. München: De Gruyter Oldenbourg.

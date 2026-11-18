@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lernkontrolle: Forschungstheorie</title>
+<!--
+  Lernkontrolle zur Lehrveranstaltung „Forschungstheorie“:
+  neun Multiple-Choice-Fragen zu typischen Verwechslungen, mit erklärender Rückmeldung
+  zu jeder Antwortoption. Inhalte nur im DATEN-Block ändern.
+-->
+<style>
+  :root { --akzent: #1f5f8b; --ok: #2e7d32; --nok: #b3261e; --rand: #d0d7de; }
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; margin: 0; padding: 12px; color: #1b1f24; line-height: 1.45; }
+  h1 { font-size: 1.1rem; margin: 0 0 4px; }
+  .hinweis { font-size: 0.9rem; color: #57606a; margin: 0 0 10px; }
+  .frage { border: 1px solid var(--rand); border-radius: 8px; padding: 10px; margin-bottom: 10px; }
+  .frage > p { margin: 0 0 8px; font-weight: 600; }
+  .opt { display: block; width: 100%; text-align: left; font: inherit; font-size: 0.92rem; margin: 4px 0; padding: 7px 10px;
+         border: 1px solid var(--rand); border-radius: 6px; background: #fff; cursor: pointer; }
+  .opt:focus-visible { outline: 3px solid #e0a400; outline-offset: 2px; }
+  .opt.ok { border: 2px solid var(--ok); background: #e8f5e9; }
+  .opt.nok { border: 2px solid var(--nok); background: #fdecea; }
+  .fb { font-size: 0.9rem; margin-top: 6px; }
+  #summe { font-weight: 600; }
+</style>
+</head>
+<body>
+<h1 id="titel"></h1>
+<p class="hinweis" id="hinweis"></p>
+<div id="fragen"></div>
+<p id="summe" aria-live="polite"></p>
+
+<script>
+/* ===== DATEN: Nur diesen Block ändern ===================================== */
+const DATEN = {
+  "titel": "Lernkontrolle: Was haben Sie behalten?",
+  "hinweis": "Wählen Sie pro Frage eine Antwort. Die Rückmeldung erklärt jede Option, auch die falschen.",
+  "ergebnis": "Ergebnis: {punkte} von {gesamt} richtig.",
+  "fragen": [
+    {
+      "frage": "Eine Fachkraft sagt: „In meinen zehn Jahren im Jugendamt habe ich gesehen, dass Kinder aus Alleinerziehendenhaushalten häufiger auffällig sind.“ Was fehlt dieser Aussage, um als wissenschaftliches Wissen zu gelten?",
+      "optionen": [
+        {
+          "text": "Sie beruht auf zu wenigen Jahren Berufserfahrung",
+          "richtig": false,
+          "warum": "Auch zwanzig Jahre Erfahrung würden das Problem nicht lösen; entscheidend ist nicht die Menge, sondern die Art der Beobachtung."
+        },
+        {
+          "text": "Sie wurde nicht systematisch, methodisch kontrolliert und nachvollziehbar gewonnen",
+          "richtig": true,
+          "warum": "Die Beobachtungen sind nicht geplant erhoben, mögliche Verzerrungen etwa durch die Fälle, die ins Jugendamt kommen, bleiben unkontrolliert."
+        },
+        {
+          "text": "Sie ist falsch",
+          "richtig": false,
+          "warum": "Die Aussage kann zutreffen oder nicht; das Problem ist, dass ihre Grundlage ungeprüft ist."
+        }
+      ]
+    },
+    {
+      "frage": "Was unterscheidet eine Hypothese von einer Forschungsfrage?",
+      "optionen": [
+        {
+          "text": "Die Hypothese legt sich auf eine Antwort fest, die an den Daten scheitern kann",
+          "richtig": true,
+          "warum": "Die Frage ist offen; die Hypothese formuliert einen bestimmten Zusammenhang und ist damit prüfbar und widerlegbar."
+        },
+        {
+          "text": "Die Hypothese ist bereits bewiesen",
+          "richtig": false,
+          "warum": "Hypothesen sind Vermutungen; nach Popper lassen sie sich nie endgültig beweisen."
+        },
+        {
+          "text": "Die Hypothese ist allgemeiner formuliert als die Frage",
+          "richtig": false,
+          "warum": "Meist ist es umgekehrt: Die Hypothese ist präziser, weil sie Merkmale und Richtung des Zusammenhangs festlegt."
+        }
+      ]
+    },
+    {
+      "frage": "Eine Studie findet in 500 Fällen, dass ein Beratungsangebot Stress reduziert. Wie würde Karl R. Popper diesen Befund einordnen?",
+      "optionen": [
+        {
+          "text": "Die Wirkung des Angebots ist damit bewiesen",
+          "richtig": false,
+          "warum": "Für Popper beweisen auch viele bestätigende Fälle keine allgemeine Aussage; der nächste Fall kann widersprechen."
+        },
+        {
+          "text": "Die Annahme hat sich bewährt, gilt aber weiterhin nur vorläufig",
+          "richtig": true,
+          "warum": "Eine Theorie, die Prüfungen übersteht, gilt als bewährt; sie bleibt offen für Widerlegung."
+        },
+        {
+          "text": "Der Befund ist wertlos, weil Bestätigungen nichts aussagen",
+          "richtig": false,
+          "warum": "Bewährung ist durchaus wertvoll; Popper lehnt nur den Schluss auf endgültige Wahrheit ab."
+        }
+      ]
+    },
+    {
+      "frage": "Eine Online-Umfrage zu Verschwörungserzählungen wird über Instagram verbreitet und erhält 5.000 Antworten. Was lässt sich über die Ergebnisse sagen?",
+      "optionen": [
+        {
+          "text": "Sie sind repräsentativ, weil die Stichprobe sehr groß ist",
+          "richtig": false,
+          "warum": "Größe ersetzt keine Zufallsauswahl; auch eine große Stichprobe bleibt verzerrt, wenn die Auswahl verzerrt ist (vgl. Literary Digest 1936)."
+        },
+        {
+          "text": "Sie lassen sich nicht statistisch auf alle jungen Menschen verallgemeinern, weil sich die Teilnehmenden selbst ausgewählt haben",
+          "richtig": true,
+          "warum": "Bei Selbstrekrutierung antworten vor allem Interessierte und Online-Affine; die Auswahlchancen sind unbekannt."
+        },
+        {
+          "text": "Sie sind wertlos",
+          "richtig": false,
+          "warum": "Die Daten können durchaus Hinweise liefern, etwa für explorative Zwecke; nur eine statistische Verallgemeinerung ist nicht möglich."
+        }
+      ]
+    },
+    {
+      "frage": "Eine Studie zeigt, dass die Zahl gemeldeter Kindeswohlgefährdungen in einer Stadt gestiegen ist. Was würde eine sozialkonstruktivistische Perspektive besonders beachten?",
+      "optionen": [
+        {
+          "text": "Dass die Zahl objektiv beweist, dass Kinder heute häufiger gefährdet sind",
+          "richtig": false,
+          "warum": "Gerade diese Gleichsetzung von Zahl und Wirklichkeit stellt der Sozialkonstruktivismus infrage."
+        },
+        {
+          "text": "Dass sich auch verändert haben kann, was Fachkräfte und Öffentlichkeit als Gefährdung deuten und melden",
+          "richtig": true,
+          "warum": "Die Zahl ist auch Ergebnis von Wahrnehmung, Definition und Meldepraxis."
+        },
+        {
+          "text": "Dass die Zahl für die Soziale Arbeit bedeutungslos ist",
+          "richtig": false,
+          "warum": "Der Sozialkonstruktivismus erklärt Zahlen nicht für bedeutungslos, sondern fragt, wie sie zustande kommen."
+        }
+      ]
+    },
+    {
+      "frage": "Das Monatseinkommen von acht Klient:innen liegt bei 900, 950, 1.100, 1.200, 1.250, 1.300, 1.400 und 12.000 Euro. Welches Lagemaß beschreibt die typische Einkommenssituation am besten?",
+      "optionen": [
+        {
+          "text": "Der Mittelwert (2.512,50 Euro)",
+          "richtig": false,
+          "warum": "Der Mittelwert wird durch den einen Ausreißer von 12.000 Euro stark nach oben gezogen."
+        },
+        {
+          "text": "Der Median (1.225 Euro)",
+          "richtig": true,
+          "warum": "Der Median ist robust gegenüber Ausreißern und beschreibt die Situation der meisten Klient:innen besser."
+        },
+        {
+          "text": "Der Modus",
+          "richtig": false,
+          "warum": "Jeder Wert kommt nur einmal vor; einen sinnvollen Modus gibt es hier nicht."
+        }
+      ]
+    },
+    {
+      "frage": "Eine Studie findet einen statistisch signifikanten Unterschied (p < 0,05) zwischen zwei Gruppen, die Effektstärke beträgt d = 0,1. Wie ist das zu deuten?",
+      "optionen": [
+        {
+          "text": "Der Unterschied ist groß und praktisch sehr bedeutsam",
+          "richtig": false,
+          "warum": "Signifikanz sagt nichts über die Größe eines Effekts; d = 0,1 liegt noch unter einem kleinen Effekt."
+        },
+        {
+          "text": "Der Unterschied ist vermutlich nicht zufällig, aber sehr klein",
+          "richtig": true,
+          "warum": "Bei großen Stichproben werden auch sehr kleine Unterschiede signifikant; deshalb gehört die Effektstärke immer dazu."
+        },
+        {
+          "text": "Das Ergebnis ist widersprüchlich und damit unbrauchbar",
+          "richtig": false,
+          "warum": "Signifikanz und Effektstärke beantworten unterschiedliche Fragen und widersprechen sich nicht."
+        }
+      ]
+    },
+    {
+      "frage": "Ein Fragebogen misst „Einsamkeit“ mit der Frage, wie viele Kontakte jemand pro Woche hat. Wiederholt man die Befragung, ergeben sich fast identische Werte. Was lässt sich sagen?",
+      "optionen": [
+        {
+          "text": "Die Messung ist reliabel, aber möglicherweise nicht valide",
+          "richtig": true,
+          "warum": "Die Werte sind stabil; ob die Zahl der Kontakte Einsamkeit erfasst, ist fraglich, denn man kann auch mit vielen Kontakten einsam sein."
+        },
+        {
+          "text": "Die Messung ist valide, weil sie stabile Ergebnisse liefert",
+          "richtig": false,
+          "warum": "Stabilität betrifft die Reliabilität; sie sagt nichts darüber, ob das Richtige gemessen wird."
+        },
+        {
+          "text": "Die Messung ist weder reliabel noch valide",
+          "richtig": false,
+          "warum": "Die stabilen Werte sprechen für Reliabilität."
+        }
+      ]
+    },
+    {
+      "frage": "Eine Forscherin interviewt Jugendliche in einer Wohngruppe, in der sie selbst als Betreuerin arbeitet. Welches forschungsethische Problem steht im Vordergrund?",
+      "optionen": [
+        {
+          "text": "Die Interviews dauern zu lange",
+          "richtig": false,
+          "warum": "Die Dauer kann belasten, ist hier aber nicht das zentrale Problem."
+        },
+        {
+          "text": "Die Freiwilligkeit der Teilnahme ist durch das Abhängigkeitsverhältnis gefährdet",
+          "richtig": true,
+          "warum": "Jugendliche könnten sich verpflichtet fühlen teilzunehmen oder Nachteile befürchten, wenn sie ablehnen."
+        },
+        {
+          "text": "Die Ergebnisse sind nicht repräsentativ",
+          "richtig": false,
+          "warum": "Repräsentativität ist eine Frage der Methodik, nicht der Ethik."
+        }
+      ]
+    }
+  ]
+};
+/* ===== ENDE DATEN ========================================================== */
+
+(function () {
+  document.getElementById("titel").textContent = DATEN.titel;
+  document.getElementById("hinweis").textContent = DATEN.hinweis;
+  const box = document.getElementById("fragen");
+  let beantwortet = 0, punkte = 0;
+
+  DATEN.fragen.forEach((f, i) => {
+    const d = document.createElement("div"); d.className = "frage";
+    const p = document.createElement("p"); p.textContent = (i + 1) + ". " + f.frage; d.appendChild(p);
+    const fb = document.createElement("div"); fb.className = "fb"; fb.setAttribute("aria-live", "polite");
+    const knoepfe = f.optionen.map((o) => {
+      const b = document.createElement("button"); b.type = "button"; b.className = "opt"; b.textContent = o.text;
+      b.addEventListener("click", () => {
+        if (d.dataset.fertig) return;
+        d.dataset.fertig = "1"; beantwortet++; if (o.richtig) punkte++;
+        knoepfe.forEach((k, j) => { if (f.optionen[j].richtig) k.classList.add("ok"); });
+        if (!o.richtig) b.classList.add("nok");
+        fb.innerHTML = "";
+        f.optionen.forEach((x) => {
+          const z = document.createElement("div");
+          z.textContent = (x.richtig ? "✓ " : "✗ ") + x.text + ": " + x.warum; fb.appendChild(z);
+        });
+        if (beantwortet === DATEN.fragen.length)
+          document.getElementById("summe").textContent = DATEN.ergebnis.replace("{punkte}", punkte).replace("{gesamt}", DATEN.fragen.length);
+        meldeHoehe();
+      });
+      d.appendChild(b); return b;
+    });
+    d.appendChild(fb); box.appendChild(d);
+  });
+
+  function meldeHoehe() {
+    try { window.parent.postMessage({ typ: "iframe-hoehe", hoehe: document.documentElement.scrollHeight }, "*"); } catch (e) {}
+  }
+  window.addEventListener("load", meldeHoehe);
+  window.addEventListener("resize", meldeHoehe);
+})();
+</script>
+</body>
+</html>

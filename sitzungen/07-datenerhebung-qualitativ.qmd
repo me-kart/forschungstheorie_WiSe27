@@ -1,0 +1,157 @@
+---
+title: "Sitzung 7: Datenerhebungsmethoden I (qualitativ)"
+subtitle: "17.11.2026 · Leitfadeninterview, Fokusgruppe, Beobachtung, Dokumentenanalyse"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Mit welchen Verfahren erhebt qualitative Forschung ihre Daten, und wie wählt man das passende Verfahren für eine Fragestellung?
+:::
+
+Nach dem Sampling (wer?) folgt die Erhebung (wie?). Nehmen wir unsere Fallfrage: *Wie begegnen junge Menschen in Regensburg Verschwörungserzählungen in sozialen Medien?* Man kann junge Menschen **erzählen lassen**, im Leitfadeninterview, und erfährt so etwas über Erfahrungen, Deutungen und Bewältigungsstrategien Einzelner. Man kann sie **diskutieren lassen**, in einer Fokusgruppe, und sieht geteilte Orientierungen und Aushandlungen. Man kann **zuschauen**, durch Beobachtung im Jugendtreff oder in der Schule. Oder man wertet **Vorgefundenes** aus: Posts, Kommentare, Videos oder Materialien von Trägern. Eine Frage, vier Zugänge.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Themen
+
+- Prinzipien qualitativer Erhebung
+- Leitfadeninterviews und ihre Formen
+- Fokusgruppen
+- Beobachtung
+- Dokumentenanalyse
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- Offenheit, Reflexivität, Reaktivität
+- narratives, problemzentriertes, Experteninterview
+- SPSS-Prinzip, Postskriptum
+- Grundreiz
+- Beobachterrolle, „Going native“
+- Quellenkritik
+:::
+
+:::
+
+## 1. Prinzipien qualitativer Erhebung
+
+Qualitative Daten werden nicht gefunden, sondern in der Erhebung hergestellt. Vier Prinzipien leiten das Vorgehen (vgl. Lamnek/Krell 2016; Helfferich 2011):
+
+- **Offenheit** gegenüber dem Feld, den Befragten und dem Unerwarteten. Hypothesen werden eher entwickelt als geprüft.
+- **Kommunikation**: Daten entstehen in der Interaktion zwischen Forschenden und Beforschten.
+- **Prozesshaftigkeit**: Erhebung, Auswertung und Fallauswahl greifen ineinander (→ Theoretical Sampling, [Sitzung 6](06-stichprobenziehung-2.qmd)).
+- **Reflexivität**: Die eigene Position, Vorannahmen und die eigene Wirkung im Feld werden mitgedacht und dokumentiert.
+
+Das Leitprinzip lautet: so offen wie möglich, so strukturiert wie nötig.
+
+Die Verfahren unterscheiden sich darin, wie stark sie in das Feld eingreifen. Beim Leitfadeninterview entstehen die Daten im Gespräch (was Menschen sagen), in der Fokusgruppe in der Diskussion (was Gruppen aushandeln), bei der Beobachtung durch Anwesenheit im Feld (was Menschen tun). Dokumente liegen dagegen bereits vor (was festgehalten wurde). **Reaktivität**, also der Einfluss der Erhebungssituation auf die Daten, ist kein Störfaktor, den man beseitigen könnte. Sie muss reflektiert und offengelegt werden.
+
+## 2. Leitfadeninterviews
+
+Das Leitfadeninterview ist ein teilstrukturiertes Einzelinterview. Offene Fragen folgen einem vorab entwickelten Leitfaden; Reihenfolge und Formulierung bleiben flexibel, und Nachfragen sind ausdrücklich erwünscht. Es dauert meist 30 bis 90 Minuten und wird als Audio aufgezeichnet. Ziel ist, subjektive Sichtweisen zu erfassen, Deutungsmuster zu rekonstruieren und Erfahrungen zu verstehen; der Leitfaden sichert dabei die Vergleichbarkeit. Eingesetzt wird es in der Biografieforschung, bei Expert:innenbefragungen, in der Evaluation und in der Adressat:innenforschung.
+
+### Interviewformen
+
+Interviewformen lassen sich auf einem Kontinuum von offen bis stärker strukturiert anordnen:
+
+| Form | Kennzeichen | typisch für |
+|---|---|---|
+| **Narratives Interview** (Schütze 1983) | Eine Erzählaufforderung löst eine Stegreiferzählung aus; Nachfragen erst danach. | Biografieforschung |
+| **Problemzentriertes Interview** (Witzel 2000) | Erzählen und gezieltes Nachfragen zu einem Problem; Vorwissen fließt ein. | Sichtweisen auf ein Problem |
+| **Leitfadeninterview, halbstrukturiert** (Helfferich 2011) | Themenblöcke mit offenen Fragen, flexible Reihenfolge | breites Spektrum |
+| **Experteninterview** (Meuser/Nagel 1991; Bogner/Menz 2009) | Fokus auf Sonder- und Praxiswissen; Leitfaden stärker strukturiert | Fachkräfte, Leitungen |
+
+: Interviewformen {#tbl-interviewformen}
+
+**Das narrative Interview** verläuft in vier Phasen: Eine breite, erzählgenerierende Eingangsfrage (1) löst die Haupterzählung aus (2), die nicht unterbrochen wird. Danach schließen narrative Nachfragen Lücken (3), etwa „Wie ging es dann weiter?“. Erst in der Bilanzierungsphase (4) folgen Beschreibungen, Eigentheorien und auch Warum-Fragen. Eine Erzählaufforderung könnte lauten: „Mich interessiert, wie junge Menschen mit Inhalten in sozialen Medien umgehen. Erzähl doch mal, wie das bei dir angefangen hat – vom ersten Handy bis heute.“ Zu vermeiden sind Bewertungen („Das hört sich gut an!“), Suggestionen und das Unterbrechen der Haupterzählung.
+
+**Das problemzentrierte Interview** (PZI) lässt erzählen und zentriert das Gespräch zugleich auf ein gesellschaftlich relevantes Problem. Es nutzt vier Instrumente: einen **Kurzfragebogen** für Sozialdaten, der das Interview entlastet, einen **Leitfaden** als Gedächtnisstütze, eine **Tonaufzeichnung** und ein **Postskriptum** mit Notizen direkt nach dem Gespräch (Setting, Nonverbales, erste Deutungen). Typische Gesprächstechniken sind die Einleitungsfrage („Wann bist du zuletzt auf etwas gestoßen, das dir komisch vorkam? Erzähl mal.“), allgemeine Sondierungen, die den roten Faden aufgreifen, spezifische Sondierungen, die zurückspiegeln oder Widersprüche klären, und Ad-hoc-Fragen zu Themen, die noch nicht angesprochen wurden.
+
+**Das Experteninterview** richtet sich an Personen, die über spezifisches Praxis- oder Erfahrungswissen zu einem klar begrenzten Problemfeld verfügen und das Handlungsfeld mitgestalten, etwa Fachkräfte der Offenen Jugendarbeit, der Schulsozialarbeit oder der Medienpädagogik. Im Fokus steht das Wissen, nicht die Person. Experteninterviews können explorativ, systematisierend oder theoriegenerierend angelegt sein.
+
+### Einen Leitfaden entwickeln: das SPSS-Prinzip
+
+Cornelia Helfferich (2011) schlägt vier Schritte vor: **Sammeln** (alle Fragen notieren, zunächst ohne Zensur), **Prüfen** (Faktenfragen, Suggestivfragen und Fragen streichen, die nur Vorwissen bestätigen), **Sortieren** (nach Themen oder zeitlicher Abfolge bündeln) und **Subsumieren** (je Bündel eine offene, erzählgenerierende Leitfrage formulieren). Vor dem Einsatz wird der Leitfaden in einem Probeinterview getestet und nach den ersten Interviews angepasst.
+
+| Leitfrage (Erzählaufforderung) | Check: inhaltliche Aspekte | Aufrechterhaltung | Konkrete Nachfragen |
+|---|---|---|---|
+| „Erzähl mal, wie ein ganz normaler Tag mit deinem Handy bei dir aussieht.“ | Plattformen, Nutzungszeiten, Nachrichtenquellen | „Und dann?“ | „Woher bekommst du Nachrichten?“ |
+| „Erinnerst du dich an eine Situation, in der du gedacht hast: Das kann doch nicht stimmen?“ | Inhalt, Absender:in, Reaktion, Teilen | „Kannst du das noch genauer erzählen?“ | „Hast du es weitergeleitet oder kommentiert?“ |
+| „Wie gehst du damit um, wenn du unsicher bist, ob etwas stimmt?“ | Prüfstrategien, Gespräche mit Peers, Eltern, Schule | „Gibt es dafür ein Beispiel?“ | „Mit wem sprichst du darüber?“ |
+
+: Fiktiver Leitfadenausschnitt zur Fallfrage (Aufbau nach Helfferich 2011) {#tbl-leitfaden}
+
+### Gute und ungünstige Fragen
+
+| Problem | Ungünstig | Besser |
+|---|---|---|
+| Suggestivfrage | „Du findest solche Videos doch auch gefährlich, oder?“ | „Was geht dir durch den Kopf, wenn du solche Videos siehst?“ |
+| Warum-Frage | „Warum glaubst du das?“ | „Wie bist du darauf gekommen? Erzähl mal.“ |
+| geschlossene Frage | „Nutzt du TikTok?“ | „Welche Rolle spielt TikTok in deinem Alltag?“ |
+| Doppelfrage | „Wie oft nutzt du Instagram und was postest du dort?“ | eine Frage pro Satz, die zweite später stellen |
+| Fachsprache | „Welche Resilienzfaktoren gegenüber Desinformation hast du?“ | „Woran merkst du, dass etwas nicht stimmen könnte?“ |
+
+: Gute und ungünstige Interviewfragen {#tbl-fragen}
+
+Die Durchführung reicht vom **Kontakt** (Zugang, Information über Ziel und Ablauf) über die schriftliche, freiwillige und widerrufbare **Einwilligung**, die **Aufzeichnung** und das **Interview** an einem ruhigen Ort bis zum **Postskriptum** und zur **Transkription**, bei der Namen durch Pseudonyme ersetzt werden. Transkribieren dauert ein Vielfaches der Interviewzeit, und zwar umso länger, je genauer das Transkriptionssystem ist.
+
+## 3. Fokusgruppen
+
+Fokusgruppen sind moderierte Diskussionen von etwa sechs bis zehn Personen zu einem vorgegebenen Thema. Die Daten entstehen in der Interaktion: Sichtbar werden geteilte Orientierungen, Normen und Widersprüche. Verwandt ist das Gruppendiskussionsverfahren (Bohnsack 2014). Fokusgruppen machen kollektive Deutungen, Alltagssprache und Aushandlungsprozesse sichtbar, und die Teilnehmenden regen sich gegenseitig an. Zugleich können Meinungsführer:innen dominieren, Stille gehen unter, und Konformitätsdruck wirkt. Vertraulichkeit lässt sich nur begrenzt zusichern.
+
+Bei der Planung ist zu entscheiden, ob die Gruppe homogen oder heterogen zusammengesetzt wird und ob es eine Realgruppe (Clique, Klasse) oder eine künstliche Gruppe ist. Ein **Grundreiz** stößt die Diskussion an: ein Video, ein Foto, ein Zitat oder eine These. Die Moderation leitet, hält den Fokus und bewertet nicht; eine Ko-Moderation notiert die Reihenfolge der Sprecher:innen und Nonverbales. Beispiel: Eine Gruppe aus einem Jugendtreff sieht einen kurzen Clip, der eine Verschwörungserzählung verbreitet; der Einstieg lautet: „Ihr habt das Video gesehen – was geht euch dabei durch den Kopf?“
+
+## 4. Beobachtung
+
+Beobachtung erfasst, was Menschen tun, nicht nur, was sie sagen. Sie lässt sich nach vier Dimensionen unterscheiden: **teilnehmend** oder nicht teilnehmend, **offen** oder verdeckt (ethisch heikel und nur begründet zulässig), **unstrukturiert** mit freien Feldnotizen oder strukturiert mit Beobachtungsbogen, im **Feld** oder im Labor. Typisch für qualitative Forschung ist die teilnehmende, offene, wenig strukturierte Beobachtung im Feld.
+
+Raymond Gold (1958) unterscheidet vier Beobachterrollen zwischen Nähe und Distanz: vollständige:r Teilnehmer:in (ganz Teil des Feldes, Forschung bleibt verdeckt), Teilnehmer:in als Beobachter:in (nimmt aktiv teil, die Forschungsrolle ist bekannt), Beobachter:in als Teilnehmer:in (beobachtet überwiegend, kurze Kontakte) und vollständige:r Beobachter:in (kein Kontakt zum Feld). Zu viel Nähe birgt das Risiko des **„Going native“**: Die Perspektive des Feldes wird übernommen, die analytische Distanz geht verloren. Die bloße Präsenz birgt das Risiko der **Reaktivität**.
+
+Beobachtungen werden in Feldnotizen und Protokollen festgehalten. Diese enthalten **beschreibende** Notizen (Wer tut was, wo, wann? möglichst ohne Wertung), **analytische** Notizen (erste Deutungen und Muster), **methodische** Notizen (Zugang, Rolle, Entscheidungen) und **persönliche** Notizen (eigene Gefühle und Reaktionen als Teil der Reflexivität).
+
+> Jugendtreff, Dienstag, ca. 17:30 Uhr. Zwei Jugendliche (ca. 15 Jahre) sitzen auf dem Sofa. Einer hält dem anderen sein Handy hin: „Guck mal, das musst du sehen.“ Der andere lacht kurz, wird dann still und scrollt selbst weiter. Eine Fachkraft geht vorbei, schaut auf den Bildschirm, sagt nichts und geht weiter.
+> [Analytische Notiz: Keine Reaktion der Fachkraft – Unsicherheit, Routine oder bewusste Zurückhaltung?]
+
+Der fiktive Protokollauszug zeigt, wie eine Beobachtung eine Frage aufwirft, die ein Interview allein kaum erschlossen hätte.
+
+## 5. Dokumentenanalyse
+
+Dokumente sind unabhängig von der Forschung entstanden: amtliche (Gesetze, Akten, Statistiken), institutionelle (Konzeptionen, Hilfepläne, Jahresberichte, Websites von Trägern), mediale (Zeitungsartikel, Rundfunkbeiträge), digitale (Posts, Kommentare, Videos, Memes, Telegram-Kanäle) und private (Briefe, Tagebücher, Chatverläufe). Ihre Stärke ist, dass sie **nicht-reaktiv** sind: Die Forschung verändert sie nicht.
+
+Das Vorgehen umfasst fünf Schritte: Quellen erschließen (Herkunft, Autor:in, Zweck, Adressat:innen), äußere Quellenkritik (Echtheit, Vollständigkeit, Form), innere Quellenkritik (Perspektive, Intention, Widersprüche), Auswertung (etwa mit der qualitativen Inhaltsanalyse, → [Sitzung 9](09-datenauswertung-qualitativ.qmd)) und Kontextualisierung. Dokumente sind kein neutrales Abbild: Sie sind selektiv und zweckgebunden. Bei digitalen Dokumenten kommt hinzu, dass Algorithmen prägen, was sichtbar wird, und dass Inhalte verschwinden können; sie sollten deshalb mit Datum gesichert werden. Öffentlich zugänglich heißt nicht ethisch unbedenklich.
+
+## 6. Welche Methode für welche Frage?
+
+| Wenn mich interessiert … | … eignet sich |
+|---|---|
+| Erfahrungen und Lebensgeschichte | narratives Interview |
+| subjektive Sicht auf ein Problem | problemzentriertes Interview |
+| Praxis- und Sonderwissen von Fachkräften | Experteninterview |
+| geteilte Orientierungen einer Gruppe | Fokusgruppe, Gruppendiskussion |
+| Handeln und Interaktion im Alltag | teilnehmende Beobachtung |
+| institutionelle oder mediale Deutungen | Dokumentenanalyse |
+
+: Methodenwahl nach Erkenntnisinteresse {#tbl-methodenwahl}
+
+Methoden lassen sich kombinieren. Bei der **Triangulation** wird ein Gegenstand aus mehreren Perspektiven erfasst, etwa durch Interviews mit Jugendlichen, Fokusgruppen und eine Analyse der Inhalte, denen sie begegnen (→ [Sitzung 11](11-guetekriterien.qmd)).
+
+::: {.praxis}
+**Für die Praxis heißt das:** Die Frage entscheidet über die Methode. Offenheit braucht dabei Struktur – Leitfaden, Grundreiz, Beobachtungsfokus. Und wer forscht, beeinflusst das Feld; das wird dokumentiert, nicht verschwiegen.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Fallarbeit: ein Erhebungsinstrument entwerfen (20 Minuten)"}
+**Forschungsfrage:** Wie begegnen junge Menschen in Regensburg Verschwörungserzählungen in sozialen Medien?
+
+**Gruppe A · Leitfadeninterview:** eine Erzählaufforderung formulieren · zwei Leitfragen mit Check-Spalte · zwei ungünstige Fragen umformulieren
+**Gruppe B · Fokusgruppe:** Zusammensetzung festlegen und begründen · einen Grundreiz entwickeln · Rolle der Moderation klären
+**Gruppe C · Beobachtung:** Ort und Situation bestimmen · Beobachterrolle wählen und begründen · drei Schwerpunkte festlegen
+**Gruppe D · Dokumentenanalyse:** Welche Dokumente (Korpus)? · Wie sichern Sie die Inhalte? · Welche ethischen Fragen stellen sich?
+
+Je Gruppe zwei bis drei Minuten Präsentation.
+:::
+
+**Zum Weiterlesen:** Helfferich, Cornelia (2011): Die Qualität qualitativer Daten. Manual für die Durchführung qualitativer Interviews. 4. Aufl. Wiesbaden: VS. · Witzel, Andreas (2000): Das problemzentrierte Interview. In: Forum Qualitative Sozialforschung 1 (1), Art. 22. · Bohnsack, Ralf (2014): Rekonstruktive Sozialforschung. Einführung in qualitative Methoden. 9. Aufl. Opladen/Toronto: Barbara Budrich. · Bogner, Alexander/Menz, Wolfgang (2009): Das theoriegenerierende Experteninterview. In: Bogner, Alexander/Littig, Beate/Menz, Wolfgang (Hrsg.): Experteninterviews. 3. Aufl. Wiesbaden: VS, S. 61–98. · Lamnek, Siegfried/Krell, Claudia (2016): Qualitative Sozialforschung. 6. Aufl. Weinheim/Basel: Beltz.

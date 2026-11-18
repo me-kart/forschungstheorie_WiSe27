@@ -1,0 +1,116 @@
+---
+title: "Sitzung 6: Stichprobenziehung II"
+subtitle: "10.11.2026 · Bewusste Auswahl, Repräsentativität, qualitatives Sampling und Feldzugang"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Was bedeutet „repräsentativ“ wirklich, und wie wählen qualitative Studien ihre Fälle aus, wenn sie nicht verallgemeinern, sondern verstehen wollen?
+:::
+
+1936 befragte die Zeitschrift *Literary Digest* rund 2,4 Millionen Menschen zur US-Präsidentschaftswahl und sagte einen klaren Sieg von Alf Landon voraus. Gewonnen hat Franklin D. Roosevelt mit rund 61 Prozent. George Gallup lag mit einer viel kleineren Stichprobe richtig. Die Riesenstichprobe war verzerrt: Die Adressen stammten aus Telefonbüchern, Kfz-Registern und Abonnentenlisten, also in der Wirtschaftskrise eher von wohlhabenden Haushalten, und geantwortet hatte nur etwa ein Viertel. Das Beispiel verdichtet die Kernbotschaft dieser Sitzung: Eine große, aber verzerrte Stichprobe bleibt verzerrt.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Themen
+
+- Nicht-zufällige Auswahlverfahren
+- Repräsentativität, Stichprobenfehler, Stichprobengröße
+- Qualitatives Sampling
+- Feldzugang
+- Generalisierbarkeit
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- Quotenverfahren, Schneeballverfahren
+- Nonresponse, Selbstselektion
+- Theoretical Sampling, theoretische Sättigung
+- qualitativer Stichprobenplan
+- Gatekeeper
+- statistische und analytische Generalisierung
+:::
+
+:::
+
+## 1. Nicht-zufällige Auswahlverfahren
+
+Bei nicht-zufälligen Verfahren entscheidet nicht der Zufall über die Auswahl.
+
+- **Willkürliche Auswahl** (*Convenience Sampling*): Befragt wird, wer gerade erreichbar ist, etwa Passant:innen in der Fußgängerzone oder Menschen im Wartezimmer.
+- **Quotenauswahl**: Interviewer:innen füllen Quoten nach festgelegten Merkmalen wie Alter und Geschlecht, die der bekannten Verteilung in der Grundgesamtheit entsprechen. Das Verfahren ist schnell, günstig und braucht keine Liste der Grundgesamtheit. Kontrolliert sind aber nur die Quotenmerkmale; Interviewer:innen wählen leicht Erreichbare aus, und die Auswahlchancen bleiben unbekannt.
+- **Auswahl typischer oder extremer Fälle**: Besonders charakteristische, auffällige oder gewichtige Fälle werden gezielt ausgewählt, etwa die größten Träger, die ein Feld prägen (Konzentrationsprinzip).
+- **Schneeballverfahren**: Teilnehmende vermitteln weitere Teilnehmende. Das eröffnet Zugang zu schwer erreichbaren oder stigmatisierten Gruppen, etwa wohnungslosen Menschen, und nutzt das Vertrauen in Netzwerken. Gut vernetzte Personen sind dabei überrepräsentiert, isolierte fehlen.
+- **Online-Selbstrekrutierung**: Ein Link wird über soziale Medien, Newsletter oder Aushänge verbreitet. Teilnehmende wählen sich selbst aus; es antworten vor allem Interessierte und Online-Affine. Auch 5.000 Antworten ergeben keine Zufallsstichprobe.
+
+## 2. Repräsentativität, Stichprobenfehler und Stichprobengröße
+
+Im Alltag gilt eine Stichprobe als repräsentativ, wenn sie ein „verkleinertes Abbild“ der Grundgesamtheit ist. Genau genommen ist eine solche globale Repräsentativität in allen Merkmalen weder erreichbar noch prüfbar. Möglich ist nur eine **merkmalsspezifische** Übereinstimmung bestimmter Merkmale. Entscheidend ist das Auswahlverfahren, nicht die Größe.
+
+Wenn eine Studie sich als „repräsentativ“ bezeichnet, helfen sechs Prüffragen: Wie ist die Grundgesamtheit definiert? Aus welcher Auswahlgesamtheit wurde gezogen? War die Auswahl zufällig? Wie hoch war die Ausschöpfung (*Response Rate*)? Wurde gewichtet und wonach? Für welche Merkmale wurde die Übereinstimmung geprüft?
+
+Der **Stichprobenfehler** entsteht, weil nur eine Teilmenge untersucht wird; die Ergebnisse können zufällig von den tatsächlichen Werten der Grundgesamtheit abweichen. Bei Zufallsstichproben lässt er sich statistisch abschätzen. Je größer eine Zufallsstichprobe, desto kleiner der zufällige Fehler, allerdings nicht linear: Um den Stichprobenfehler zu halbieren, braucht man ungefähr die vierfache Stichprobengröße.
+
+Vom Stichprobenfehler zu unterscheiden sind systematische Fehler:
+
+| Fehlerquelle | Was passiert | Beispiel |
+|---|---|---|
+| Coverage-Fehler | Auswahlgesamtheit ≠ Grundgesamtheit | Menschen ohne Meldeadresse fehlen im Register |
+| Stichprobenfehler | zufällige Abweichung der Stichprobe | bei Zufallsauswahl berechenbar, sinkt mit *n* |
+| Nonresponse-Fehler | Ausgewählte nehmen nicht teil | belastete Familien antworten seltener |
+| Messfehler | das Instrument misst ungenau | → Sitzungen 8 und 11 |
+
+: Wo Verzerrungen entstehen {#tbl-fehler}
+
+Nur der Stichprobenfehler sinkt mit wachsender Fallzahl. Systematische Fehler bleiben bestehen, wie groß die Stichprobe auch ist.
+
+## 3. Qualitatives Sampling
+
+Quantitative Forschung fragt, wie häufig ein Merkmal verbreitet ist, und orientiert sich deshalb an Repräsentativität, Zufallsauswahl und großen, vorab festgelegten Fallzahlen. Qualitative Forschung fragt, wie und warum etwas geschieht, welche Muster, Sinnstrukturen und Typen sich zeigen. Sie wählt Fälle deshalb gezielt und kriteriengeleitet aus, oft schrittweise und mit kleinen Fallzahlen. Es geht um Tiefe statt Breite.
+
+**Theoretical Sampling** (Glaser/Strauss 1967): Die Auswahl erfolgt schrittweise im Forschungsprozess. Nach jedem Fall wird ausgewertet, verglichen und gefragt, welcher nächste Fall hilft, die entstehende Theorie weiterzuentwickeln. Ähnliche Fälle (minimale Kontrastierung) sichern Kategorien ab, sehr unterschiedliche Fälle (maximale Kontrastierung) prüfen ihre Reichweite. Gesampelt wird bis zur **theoretischen Sättigung**.
+
+**Qualitativer Stichprobenplan** (Kelle/Kluge 2010): Relevante Merkmale werden vorab festgelegt, und die Fallauswahl stellt sicher, dass alle Merkmalskombinationen besetzt sind. Beispiel: Für eine Studie zum Umgang junger Menschen mit Verschwörungserzählungen werden Alter (14–17 und 18–24 Jahre) und Bildungsweg (Schule/Ausbildung und Gymnasium/Studium) kombiniert; in jeder der vier Zellen werden drei Interviews geführt, insgesamt also zwölf. Das Verfahren eignet sich, wenn Vorwissen über relevante Einflussfaktoren vorliegt und Zeit und Ressourcen begrenzt sind, etwa in einer Abschlussarbeit. Die Merkmale müssen theoretisch begründet sein.
+
+Weitere Strategien gezielter Fallauswahl sind die **maximale Variation** (möglichst unterschiedliche Fälle), **homogene Fälle** (eine Gruppe vertieft verstehen), **typische Fälle** (der „Normalfall“), **extreme oder abweichende Fälle** (etwa Ausstiege aus der rechtsextremen Szene), **kritische Fälle** („Wenn es hier nicht gilt, dann vermutlich auch anderswo nicht“) sowie der Zugang über **Schneeball** und **Gatekeeper**.
+
+Wie viele Fälle eine qualitative Studie braucht, wird nicht berechnet, sondern begründet. Leitprinzip ist die theoretische Sättigung: Es wird so lange ausgewählt und erhoben, bis neue Fälle keine neuen Erkenntnisse für die entwickelten Kategorien mehr liefern. Die Fallzahl hängt außerdem von der Breite der Fragestellung, der Heterogenität des Feldes, der Auswertungsmethode und den Ressourcen ab.
+
+## 4. Feldzugang
+
+Das Feld ist der Untersuchungsbereich: eine Institution, eine Gruppe, ein Milieu. Der Feldzugang ist Voraussetzung dafür, dass die geplante Stichprobe überhaupt realisiert werden kann. Er beruht auf **Offenheit** (Ziele, Ablauf und Nutzung der Daten transparent machen), **Empathie** (sich mit der Lebenswelt und der Organisation vertraut machen) sowie **Ethik und Datenschutz** (informierte, freiwillige Einwilligung, Respekt und Vertraulichkeit).
+
+**Schlüsselpersonen** wie Leitungen oder anerkannte Personen aus dem Milieu wirken als „Türöffner“. Zugleich beeinflussen solche Gatekeeper, wer teilnimmt, was die Auswahl verzerren kann. In Institutionen empfiehlt sich ein schrittweises Vorgehen: Hierarchie und Instanzenweg beachten, die Zustimmung der Verantwortlichen einholen, Mitarbeitende und Teilnehmende gewinnen und ein Arbeitsbündnis schließen, in dem Ablauf, Umgang mit Daten und Rückmeldung geregelt sind. Schwierig wird es, wenn Forschung als Kontrolle erlebt wird oder das Feld überlastet ist. In der Sozialen Arbeit kommt hinzu, dass Adressat:innen von Einrichtungen abhängig sind; die Freiwilligkeit der Teilnahme muss deshalb besonders gesichert werden.
+
+## 5. Generalisierbarkeit
+
+| | Quantitativ | Qualitativ |
+|---|---|---|
+| **Ziel** | Verallgemeinerung auf die Grundgesamtheit | Verstehen von Mustern und Sinnstrukturen |
+| **Auswahl** | zufällig | gezielt, kriteriengeleitet |
+| **Zeitpunkt** | vor der Erhebung festgelegt | oft schrittweise im Prozess |
+| **Fallzahl** | groß, vorab berechnet | klein, über Sättigung begründet |
+| **Gütemaßstab** | Repräsentativität, Stichprobenfehler | Varianz der Fälle, Sättigung |
+| **Generalisierung** | statistisch | analytisch, Übertragbarkeit |
+
+: Stichprobenziehung im Vergleich {#tbl-sampling-vergleich}
+
+**Statistische Generalisierung** schließt von der Stichprobe auf die Grundgesamtheit. Sie setzt eine Zufallsauswahl voraus und trifft Aussagen über Verteilungen und Häufigkeiten („30 Prozent der Jugendlichen in Bayern …“); die Unsicherheit ist berechenbar. **Analytische Generalisierung** schließt vom Fall auf Konzepte, Typen und Theorien. Sie setzt eine begründete, kontrastierende Fallauswahl voraus und trifft Aussagen über Muster und Mechanismen („Es lassen sich drei Typen des Umgangs unterscheiden …“). Übertragbarkeit entsteht durch eine dichte Beschreibung des Kontexts. Der Unterschied liegt nicht in „besser oder schlechter“, sondern in der Art der Aussage.
+
+::: {.praxis}
+**Für die Praxis heißt das:** Stichprobenziehung ist keine Technik, sondern eine strategische Entscheidung. Sie hängt von Forschungsfrage, Erkenntnisinteresse und Feldzugang ab. Die Auswahl sollte immer transparent beschrieben und ihre Grenzen offen benannt werden.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Fallarbeit: Eine Stichprobe planen"}
+**Forschungsfrage:** Wie begegnen junge Menschen in Regensburg Verschwörungserzählungen in sozialen Medien?
+
+**Gruppen A – quantitatives Design:** Grundgesamtheit und Auswahlgesamtheit definieren · Auswahlverfahren wählen und begründen · Welche Fallzahl, welche Teilgruppen? · Wo drohen Coverage- oder Nonresponse-Fehler?
+
+**Gruppen B – qualitatives Design:** Welche Fälle, welche Kontraste sind relevant? · Theoretical Sampling oder Stichprobenplan? · Wie gelingt der Feldzugang? · Wann ist Sättigung erreicht?
+:::
+
+**Zum Weiterlesen:** Glaser, Barney G./Strauss, Anselm L. (1967): The Discovery of Grounded Theory. Chicago: Aldine. · Kelle, Udo/Kluge, Susann (2010): Vom Einzelfall zum Typus. 2. Aufl. Wiesbaden: VS. · Merkens, Hans (2000): Auswahlverfahren, Sampling, Fallkonstruktion. In: Flick, Uwe/Kardorff, Ernst von/Steinke, Ines (Hrsg.): Qualitative Forschung. Ein Handbuch. Reinbek: Rowohlt. · Squire, Peverill (1988): Why the 1936 Literary Digest Poll Failed. In: Public Opinion Quarterly 52 (1), S. 125–133.

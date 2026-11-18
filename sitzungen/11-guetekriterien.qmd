@@ -1,0 +1,98 @@
+---
+title: "Sitzung 11: Gütekriterien"
+subtitle: "15.12.2026 · Quantitative und qualitative Gütekriterien"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Woran lässt sich die Qualität einer Studie erkennen, und warum braucht qualitative Forschung eigene Kriterien?
+:::
+
+Eine Waage, die bei jedem Wiegen zwei Kilo zu viel anzeigt, misst sehr zuverlässig, aber falsch. Und wer den Kopfumfang misst, um Intelligenz zu bestimmen, misst präzise das Falsche. Gütekriterien sind Maßstäbe, mit denen die Qualität und Wissenschaftlichkeit empirischer Forschung beurteilt wird. Sie sichern die intersubjektive Überprüfbarkeit von Ergebnissen, unterscheiden wissenschaftliches Wissen von bloßer Meinung und ermöglichen es, Studien zu bewerten und zu vergleichen. Für quantitative Forschung gilt die klassische Trias aus Objektivität, Reliabilität und Validität. Qualitative Forschung folgt einer anderen Logik der Wissensproduktion und braucht deshalb eigene Kriterien.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Quantitative Gütekriterien
+
+- Objektivität
+- Reliabilität
+- Validität
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Qualitative Gütekriterien
+
+- intersubjektive Nachvollziehbarkeit
+- Regelgeleitetheit und Transparenz
+- Reflexivität
+- kommunikative Validierung
+- Triangulation
+:::
+
+:::
+
+## 1. Quantitative Gütekriterien
+
+**Objektivität.** Ein Instrument ist objektiv, wenn die Ergebnisse unabhängig von der Person sind, die die Untersuchung durchführt, auswertet und interpretiert. Entsprechend werden drei Formen unterschieden: **Durchführungsobjektivität** (standardisierte Bedingungen, alle erhalten identische Instruktionen), **Auswertungsobjektivität** (eindeutige Kodierregeln; verschiedene Auswertende kommen zum gleichen Ergebnis) und **Interpretationsobjektivität** (einheitliche Schlussfolgerungen, etwa anhand von Normwerten).
+
+**Reliabilität.** Reliabilität bezeichnet die Zuverlässigkeit einer Messung: Bei Wiederholung unter gleichen Bedingungen ergibt sich dasselbe Ergebnis. Geschätzt wird sie über die **Test-Retest-Reliabilität** (wiederholte Messung an denselben Personen), die **Paralleltest-Reliabilität** (zwei gleichwertige Testformen) und die **interne Konsistenz** (Messen die Items einer Skala dasselbe? häufig mit Cronbachs α, Richtwert α ≥ 0,70).
+
+**Validität.** Validität bezeichnet die Gültigkeit einer Messung: Ein Instrument misst das, was es zu messen vorgibt. Drei Hauptformen lassen sich unterscheiden: **Inhaltsvalidität** (Die Items decken das gesamte Spektrum des Konstrukts ab), **Konstruktvalidität** (Das Ergebnis passt zu theoretischen Erwartungen; es hängt mit verwandten Konstrukten zusammen und grenzt sich von anderen ab) und **Kriteriumsvalidität** (Das Ergebnis hängt mit einem Außenkriterium zusammen, gleichzeitig oder für die Zukunft vorhersagend). Im Experiment kommen **interne Validität** (Ist der Effekt wirklich auf die Intervention zurückzuführen?) und **externe Validität** (Lassen sich die Ergebnisse übertragen?) hinzu (→ [Sitzung 8](08-datenerhebung-quantitativ.qmd)).
+
+### Der Zusammenhang der drei Kriterien
+
+Die Kriterien bauen aufeinander auf: Objektivität ist Voraussetzung für Reliabilität, und Reliabilität ist Voraussetzung für Validität. Eine Messung kann aber reliabel sein, ohne valide zu sein. Validität ist deshalb das wichtigste Kriterium. **Zufällige Fehler**, etwa Tagesschwankungen oder Lärm während der Befragung, beeinträchtigen die Reliabilität. **Systematische Fehler**, etwa ein Fragebogen, der Angst statt Depression misst, beeinträchtigen die Validität.
+
+## 2. Warum qualitative Forschung eigene Kriterien braucht
+
+Qualitative Forschung will verstehen statt erklären und rekonstruieren statt messen. Forschende sind Teil des Forschungsprozesses; Objektivität im klassischen Sinn ist deshalb nicht erreichbar. Ergebnisse sind an soziale Kontexte gebunden, und Kategorien entstehen erst im Prozess. Die klassische Trias lässt sich daher nicht einfach übertragen. Stattdessen braucht es Kriterien, die der Eigenlogik qualitativer Forschung gerecht werden (Steinke 1999; Flick 2011).
+
+## 3. Qualitative Gütekriterien
+
+**Intersubjektive Nachvollziehbarkeit.** Wenn absolute Objektivität nicht erreichbar ist, muss der Forschungsprozess so dokumentiert werden, dass andere die Angemessenheit der Entscheidungen beurteilen können. Dazu dienen eine genaue **Verfahrensdokumentation**, **Interpretationsgruppen**, in denen Material gemeinsam ausgewertet wird, die **Prüfung durch Externe** (Auditing) und **Kodierleitfäden** mit Definitionen und Ankerbeispielen (→ [Sitzung 9](09-datenauswertung-qualitativ.qmd)).
+
+**Regelgeleitetheit und Transparenz.** Auch qualitative Forschung folgt expliziten Regeln, wenn auch flexibleren als quantitative: begründetes Sampling, dokumentierte Auswertungsschritte, etwa nach Mayring, oder eine festgelegte Abfolge der Interpretation in der Sequenzanalyse. Offengelegt werden Vorannahmen, die Gründe für die Fallauswahl und der Weg zu einer Deutung; alternative Lesarten werden diskutiert.
+
+**Reflexivität.** Die Subjektivität der Forschenden wird nicht als Fehlerquelle eliminiert, sondern als Erkenntnisquelle reflektiert genutzt. Das betrifft die eigene Position (Zugehörigkeiten, Vorerfahrungen, Vorannahmen), die Forschungsbeziehung (Machtasymmetrien, Vertrauen), den Prozess (Wie verändert sich das eigene Verständnis? festgehalten im Forschungstagebuch oder in Memos) und die Ergebnisse (alternative Deutungen, Grenzen der Interpretation).
+
+**Kommunikative Validierung.** Vorläufige Ergebnisse werden den Beforschten vorgelegt und mit ihnen diskutiert (*Member Checking*). Ihre Rückmeldungen dienen als zusätzliche Datenquelle und können vergessene oder falsch gedeutete Aspekte korrigieren. Die Grenzen: Beforschte können Ergebnisse sozial erwünscht bestätigen oder aus Scham ablehnen. Und latente Sinnstrukturen sind ihnen oft nicht bewusst; Zustimmung beweist daher nicht, dass eine Deutung richtig ist.
+
+**Triangulation** (Flick 2011). Ein Gegenstand wird aus mehreren Perspektiven untersucht: durch verschiedene **Methoden** (innerhalb qualitativer Forschung oder qualitativ und quantitativ kombiniert), verschiedene **Daten** (Personen, Zeiten, Orte), mehrere **Forschende** und verschiedene **Theorien**. Widersprüche zwischen den Perspektiven sind dabei kein Makel, sondern können neue Erkenntnisse eröffnen.
+
+Weitere Kriterien sind die **Gegenstandsangemessenheit** (Passt die Methode zum Gegenstand?), die **Indikation** (Warum wurde ein qualitativer Zugang gewählt?), die **empirische Verankerung** (Sind die Kategorien durch das Material belegt?) und die **Limitation** (Werden die Grenzen der Studie benannt?).
+
+## 4. Quantitative und qualitative Gütekriterien im Vergleich
+
+| Quantitative Forschung | Qualitative Forschung |
+|---|---|
+| **Objektivität:** Unabhängigkeit der Ergebnisse von den Forschenden | **Intersubjektive Nachvollziehbarkeit:** transparenter, dokumentierter Prozess |
+| **Reliabilität:** Zuverlässigkeit der Messung | **Regelgeleitetheit:** begründetes, schrittweises Vorgehen |
+| **Validität:** Wird das Richtige gemessen? | **Kommunikative Validierung und Triangulation** |
+| statistische Verallgemeinerung (externe Validität) | analytische Verallgemeinerung, Übertragbarkeit |
+| Ziel: Subjektivität kontrollieren | Ziel: reflektierter Umgang mit Subjektivität |
+
+: Gütekriterien im Vergleich {#tbl-guete}
+
+::: {.praxis}
+**Für die Praxis heißt das:** Gütekriterien sind ein Werkzeug, um Studien kritisch zu lesen. Bei einer Befragung lohnt die Frage, ob erprobte und geprüfte Skalen verwendet wurden. Bei einer Interviewstudie lohnt die Frage, ob nachvollziehbar wird, wie die Forschenden zu ihren Deutungen kamen.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Übung: Gütekriterien zuordnen"}
+Welches Gütekriterium ist jeweils betroffen?
+
+1. Zwei Auswertende kodieren dieselben Fragebögen und kommen zu unterschiedlichen Ergebnissen.
+2. Ein Fragebogen zur „Lebenszufriedenheit“ fragt nur nach dem Einkommen.
+3. Eine Interviewstudie legt weder Leitfaden noch Auswertungsschritte offen.
+4. Die Forschenden diskutieren ihre Deutungen mit den Interviewten.
+
+<details>
+<summary>Lösung</summary>
+
+1. Auswertungsobjektivität · 2. Validität (Inhaltsvalidität) · 3. intersubjektive Nachvollziehbarkeit und Transparenz · 4. kommunikative Validierung
+</details>
+:::
+
+**Zum Weiterlesen:** Steinke, Ines (1999): Kriterien qualitativer Forschung. Ansätze zur Bewertung qualitativ-empirischer Sozialforschung. Weinheim/München: Juventa. · Flick, Uwe (2011): Triangulation. Eine Einführung. 3. Aufl. Wiesbaden: VS. · Döring, Nicola/Bortz, Jürgen (2016): Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften. 5. Aufl. Berlin/Heidelberg: Springer.

@@ -1,0 +1,27 @@
+---
+title: "Forschungstheorie: Lernspiele"
+---
+
+Wissenschaftstheorie wirkt auf den ersten Blick abstrakt. Ihre Begriffe entscheiden aber darüber, wie wir Studien lesen und eigene Forschung anlegen. Wer Reliabilität mit Validität verwechselt oder eine Forschungsfrage für eine Hypothese hält, zieht leicht falsche Schlüsse. Und wer nicht erkennt, welche Position hinter einer Aussage steht, übersieht die Annahmen, auf denen sie beruht.
+
+Die beiden Lernspiele auf dieser Seite helfen, die Begriffe sicher zu verwenden. Im Memory ordnen Sie zehn Grundbegriffen ihre Definitionen zu. Im zweiten Spiel ordnen Sie acht Aussagen aus Forschung und Praxis einer erkenntnistheoretischen Position zu und begründen Ihre Wahl. Planen Sie für beide Spiele etwa 20 Minuten ein.
+
+## Memory: Begriffe und Definitionen {#sec-memory}
+
+::: {.callout-tip title="Lernspiel: Memory"}
+Finden Sie die zehn Paare aus Begriff und Definition. Jedes gefundene Paar zeigt die Definition vollständig an.
+
+<iframe class="lernspiel" src="interactions/forschungstheorie-memory.html" height="760" loading="lazy" title="Memory: Grundbegriffe der Forschungstheorie">
+
+</iframe>
+:::
+
+## Aussagen zuordnen {#sec-zuordnen}
+
+::: {.callout-tip title="Lernspiel: Aussagen zuordnen"}
+Lesen Sie jede Aussage und notieren Sie in einem Satz, welches Merkmal für Ihre Zuordnung entscheidet. Wählen Sie dann eine der vier Positionen. Nach jeder Wahl erklärt ein Satz, warum sie passt oder nicht. Mit „Vorherige Aussage“ können Sie frühere Aussagen erneut ansehen. Die Positionen sind in [Sitzung 2](sitzungen/02-wissenschaftstheorie.qmd) erläutert.
+
+<iframe class="lernspiel" src="interactions/forschungstheorie-zuordnen.html" height="700" loading="lazy" title="Aussagen den erkenntnistheoretischen Positionen zuordnen">
+
+</iframe>
+:::

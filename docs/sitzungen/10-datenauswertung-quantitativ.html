@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Sitzung 10: Datenauswertung II (quantitativ) – Forschungstheorie</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../sitzungen/11-guetekriterien.html" rel="next">
+<link href="../sitzungen/09-datenauswertung-qualitativ.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-396e88790eb4506ff42b3720641e1a76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../fonts/outfit.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Sitzungen</a></li><li class="breadcrumb-item"><a href="../sitzungen/09-datenauswertung-qualitativ.html">Block III · Auswertung, Qualität und Transfer</a></li><li class="breadcrumb-item"><a href="../sitzungen/10-datenauswertung-quantitativ.html">10 · Datenauswertung quantitativ</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Forschungstheorie</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Suchen"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../welcome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Willkommen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Grundlagen</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../grundlagen/01-grundbegriffe.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grundbegriffe der Forschungstheorie</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Sitzungen</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Seminarüberblick</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Block I · Wissenschaftstheorie und Forschungsdesign</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/01-einfuehrung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 · Einführung: Alltagswissen und Wissenschaft</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/02-wissenschaftstheorie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 · Wissenschaftstheoretische Grundlagen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/03-forschungsprozess-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 · Forschungsprozess und Forschungsdesign</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/04-forschungsfragen-operationalisierung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 · Forschungsfragen und Operationalisierung</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Block II · Stichprobe und Datenerhebung</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/05-stichprobenziehung-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 · Stichprobenziehung I</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/06-stichprobenziehung-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 · Stichprobenziehung II</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/07-datenerhebung-qualitativ.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 · Datenerhebung qualitativ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/08-datenerhebung-quantitativ.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 · Datenerhebung quantitativ</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Block III · Auswertung, Qualität und Transfer</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/09-datenauswertung-qualitativ.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 · Datenauswertung qualitativ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/10-datenauswertung-quantitativ.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">10 · Datenauswertung quantitativ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/11-guetekriterien.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11 · Gütekriterien</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/12-ethik-ergebnisdarstellung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12 · Ethik und Ergebnisdarstellung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/13-anwendung-transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">13 · Anwendung wissenschaftlicher Erkenntnisse</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Üben</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../03-lernspiele.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lernspiele</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../04-lernkontrolle.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lernkontrolle</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#deskriptive-statistik" id="toc-deskriptive-statistik" class="nav-link active" data-scroll-target="#deskriptive-statistik">1. Deskriptive Statistik</a></li>
+  <li><a href="#lagemaße" id="toc-lagemaße" class="nav-link" data-scroll-target="#lagemaße">2. Lagemaße</a></li>
+  <li><a href="#streuungsmaße" id="toc-streuungsmaße" class="nav-link" data-scroll-target="#streuungsmaße">3. Streuungsmaße</a></li>
+  <li><a href="#daten-visualisieren" id="toc-daten-visualisieren" class="nav-link" data-scroll-target="#daten-visualisieren">4. Daten visualisieren</a></li>
+  <li><a href="#kurze-einführung-in-die-inferenzstatistik" id="toc-kurze-einführung-in-die-inferenzstatistik" class="nav-link" data-scroll-target="#kurze-einführung-in-die-inferenzstatistik">5. Kurze Einführung in die Inferenzstatistik</a></li>
+  <li><a href="#übungen-zur-prüfungsvorbereitung" id="toc-übungen-zur-prüfungsvorbereitung" class="nav-link" data-scroll-target="#übungen-zur-prüfungsvorbereitung">Übungen zur Prüfungsvorbereitung</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Sitzungen</a></li><li class="breadcrumb-item"><a href="../sitzungen/09-datenauswertung-qualitativ.html">Block III · Auswertung, Qualität und Transfer</a></li><li class="breadcrumb-item"><a href="../sitzungen/10-datenauswertung-quantitativ.html">10 · Datenauswertung quantitativ</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Sitzung 10: Datenauswertung II (quantitativ)</h1>
+<p class="subtitle lead">08.12.2026 · Deskriptive Statistik und eine kurze Einführung in die Inferenzstatistik</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Leitfrage
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wie beschreibe ich quantitative Daten mit Häufigkeiten, Lage- und Streuungsmaßen, und wann lassen sich Ergebnisse über die Stichprobe hinaus verallgemeinern?</p>
+</div>
+</div>
+<p>Wie viele Jugendliche erleben Diskriminierung? Gibt es Unterschiede zwischen Gruppen? Hängt das eine mit dem anderen zusammen? Quantitative Datenanalyse hilft, Daten systematisch auszuwerten, Muster sichtbar zu machen, Gruppen zu vergleichen, Zusammenhänge zu erkennen und Hypothesen zu prüfen. Der Schwerpunkt dieser Sitzung liegt auf der deskriptiven Statistik. Sie ist das Fundament wissenschaftlicher Berichte in der Sozialen Arbeit, etwa bei Bedarfsanalysen, Klient:innenstatistiken oder Evaluationsdaten.</p>
+<div class="callout callout-style-simple callout-important callout-titled" title="Hinweis zur Prüfung">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis zur Prüfung
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In der schriftlichen Prüfung kommen kleine Rechenaufgaben vor. Ein <strong>Taschenrechner ist erlaubt</strong>. Schreiben Sie den Rechenweg auf: Zwischenergebnisse zählen. Die Übungen am Ende dieser Seite haben Lösungen zum Aufklappen.</p>
+</div>
+</div>
+<div class="grid">
+<section id="nach-dieser-sitzung-können-sie" class="level4 g-col-12 g-col-md-6 session-box">
+<h4 class="anchored" data-anchor-id="nach-dieser-sitzung-können-sie">Nach dieser Sitzung können Sie …</h4>
+<ul>
+<li>Häufigkeitstabellen erstellen und uni- sowie bivariat prozentuieren,</li>
+<li>Mittelwert, Median und Modus berechnen und interpretieren,</li>
+<li>Spannweite, Varianz und Standardabweichung berechnen,</li>
+<li>eine passende Grafik wählen,</li>
+<li>Signifikanz, Effektstärke und Korrelation erklären.</li>
+</ul>
+</section>
+<section id="formeln-auf-einen-blick" class="level4 g-col-12 g-col-md-6 session-box">
+<h4 class="anchored" data-anchor-id="formeln-auf-einen-blick">Formeln auf einen Blick</h4>
+<ul>
+<li>relative Häufigkeit: <em>n</em> / <em>N</em> × 100</li>
+<li>Mittelwert: x̄ = Σ xᵢ / <em>n</em></li>
+<li>Spannweite: R = Maximum − Minimum</li>
+<li>Varianz: s² = Σ (xᵢ − x̄)² / (<em>n</em> − 1)</li>
+<li>Standardabweichung: s = √s²</li>
+</ul>
+</section>
+</div>
+<section id="deskriptive-statistik" class="level2">
+<h2 class="anchored" data-anchor-id="deskriptive-statistik">1. Deskriptive Statistik</h2>
+<p>Deskriptive Statistik beschreibt und fasst vorhandene Daten zusammen, ohne Rückschlüsse auf eine größere Grundgesamtheit zu ziehen. Sie beantwortet drei Fragen: Wo liegt die Mitte (Lagemaße)? Wie weit streuen die Daten (Streuungsmaße)? Wie sind sie verteilt (Häufigkeiten, Grafiken)?</p>
+<section id="häufigkeitstabellen-univariat" class="level3">
+<h3 class="anchored" data-anchor-id="häufigkeitstabellen-univariat">Häufigkeitstabellen (univariat)</h3>
+<p>Die <strong>absolute Häufigkeit</strong> (<em>n</em>) gibt an, wie viele Fälle eine bestimmte Ausprägung aufweisen. Die <strong>relative Häufigkeit</strong> gibt den Prozentanteil an: <em>n</em> / <em>N</em> × 100, wobei <em>N</em> die Gesamtzahl ist. Die <strong>kumulierte Häufigkeit</strong> summiert die relativen Häufigkeiten bis zu einem Wert auf. <strong>Gültige Prozente</strong> werden ohne fehlende Werte berechnet.</p>
+<div id="tbl-haeufigkeit" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-haeufigkeit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;1: Beispiel einer Häufigkeitstabelle (<em>N</em> = 200). Rechenweg: 80 / 200 × 100 = 40,0 %
+</figcaption>
+<div aria-describedby="tbl-haeufigkeit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Parteipräferenz</th>
+<th><em>n</em></th>
+<th>%</th>
+<th>kum. %</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Partei A</td>
+<td>80</td>
+<td>40,0</td>
+<td>40,0</td>
+</tr>
+<tr class="even">
+<td>Partei B</td>
+<td>60</td>
+<td>30,0</td>
+<td>70,0</td>
+</tr>
+<tr class="odd">
+<td>Partei C</td>
+<td>40</td>
+<td>20,0</td>
+<td>90,0</td>
+</tr>
+<tr class="even">
+<td>Sonstige</td>
+<td>20</td>
+<td>10,0</td>
+<td>100,0</td>
+</tr>
+<tr class="odd">
+<td><strong>Gesamt</strong></td>
+<td><strong>200</strong></td>
+<td><strong>100,0</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="kreuztabellen-bivariat" class="level3">
+<h3 class="anchored" data-anchor-id="kreuztabellen-bivariat">Kreuztabellen (bivariat)</h3>
+<p>Eine Kreuztabelle zeigt, wie zwei Variablen zusammenhängen. Die Grundregel lautet: <strong>Prozentuiert wird in Richtung der unabhängigen Variable.</strong> Die Prozentwerte summieren sich also innerhalb jeder Kategorie der UV auf 100 Prozent. Steht die UV in den Zeilen, wird zeilenweise prozentuiert; steht sie in den Spalten, spaltenweise.</p>
+<div id="tbl-kreuz" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-kreuz-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;2: Geschlecht × Studienabschluss (<em>N</em> = 300), zeilenweise prozentuiert
+</figcaption>
+<div aria-describedby="tbl-kreuz-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Geschlecht (UV)</th>
+<th>Bachelor</th>
+<th>Master</th>
+<th>Gesamt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>männlich</td>
+<td>80 (53,3 %)</td>
+<td>70 (46,7 %)</td>
+<td>150 (100 %)</td>
+</tr>
+<tr class="even">
+<td>weiblich</td>
+<td>90 (60,0 %)</td>
+<td>60 (40,0 %)</td>
+<td>150 (100 %)</td>
+</tr>
+<tr class="odd">
+<td><strong>Gesamt</strong></td>
+<td>170</td>
+<td>130</td>
+<td>300</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Gelesen wird die Tabelle so: Von den Männern haben 53,3 Prozent einen Bachelor, von den Frauen 60,0 Prozent. Verglichen werden also die Gruppen der UV.</p>
+</section>
+</section>
+<section id="lagemaße" class="level2">
+<h2 class="anchored" data-anchor-id="lagemaße">2. Lagemaße</h2>
+<p><strong>Arithmetisches Mittel.</strong> x̄ = Σ xᵢ / <em>n</em>: alle Werte addieren und durch ihre Anzahl teilen. Beispiel: Alter von fünf Klient:innen: 18, 24, 31, 45, 72. x̄ = 190 / 5 = 38 Jahre. Der Mittelwert ist einfach zu berechnen und nutzt alle Werte, ist aber stark anfällig für Ausreißer und setzt metrisches Skalenniveau voraus.</p>
+<p><strong>Median.</strong> Der mittlere Wert einer der Größe nach geordneten Reihe. Im Beispiel: 18, 24, <strong>31</strong>, 45, 72 → Median = 31. Bei gerader Fallzahl ist der Median der Mittelwert der beiden mittleren Werte. Der Median ist robust gegenüber Ausreißern und setzt mindestens ordinales Niveau voraus.</p>
+<p><strong>Modus.</strong> Der am häufigsten vorkommende Wert. Beispiel: 18, 24, 24, 31, 45, 45, 45, 72 → Modus = 45. Es kann mehrere Modi geben (bimodal, multimodal). Der Modus ist das einzige Lagemaß für nominale Daten.</p>
+<div id="tbl-mittelwert-median" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mittelwert-median-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;3: Mittelwert oder Median?
+</figcaption>
+<div aria-describedby="tbl-mittelwert-median-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Mittelwert</th>
+<th>Median</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Skalenniveau</strong></td>
+<td>metrisch</td>
+<td>mindestens ordinal</td>
+</tr>
+<tr class="even">
+<td><strong>Ausreißer</strong></td>
+<td>empfindlich</td>
+<td>robust</td>
+</tr>
+<tr class="odd">
+<td><strong>Verteilung</strong></td>
+<td>symmetrisch</td>
+<td>auch schief</td>
+</tr>
+<tr class="even">
+<td><strong>typisches Beispiel</strong></td>
+<td>Testergebnisse, Alter</td>
+<td>Einkommen, Mietpreise</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled" title="Praxisbeispiel: Einkommen">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Praxisbeispiel: Einkommen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Acht Personen verdienen monatlich 900, 950, 1.100, 1.200, 1.250, 1.300, 1.400 und 12.000 Euro. Der Mittelwert beträgt 2.512,50 Euro, der Median 1.225 Euro. Der Mittelwert wird durch eine einzige Person stark nach oben gezogen; der Median beschreibt die Einkommenssituation der meisten deutlich besser.</p>
+</div>
+</div>
+</section>
+<section id="streuungsmaße" class="level2">
+<h2 class="anchored" data-anchor-id="streuungsmaße">3. Streuungsmaße</h2>
+<p>Mittelwerte allein reichen nicht. Zwei Gruppen können denselben Mittelwert haben und trotzdem sehr unterschiedlich zusammengesetzt sein.</p>
+<ul>
+<li>Die <strong>Spannweite</strong> ist die Differenz zwischen größtem und kleinstem Wert: R = Maximum − Minimum.</li>
+<li>Die <strong>Varianz</strong> ist die durchschnittliche quadrierte Abweichung vom Mittelwert: s² = Σ (xᵢ − x̄)² / (<em>n</em> − 1). Die Abweichungen werden quadriert, weil sich positive und negative Abweichungen sonst aufheben würden. Geteilt wird durch <em>n</em> − 1, weil aus einer Stichprobe geschätzt wird. Die Einheit der Varianz ist quadriert (etwa Jahre²) und deshalb schwer zu interpretieren.</li>
+<li>Die <strong>Standardabweichung</strong> ist die Wurzel der Varianz: s = √s². Sie hat wieder die Einheit der Originalwerte und ist das gebräuchlichste Streuungsmaß. Eine kleine Standardabweichung heißt: Die Werte liegen eng beieinander. Eine große heißt: Sie streuen stark.</li>
+</ul>
+<p><strong>Zwei Datensätze mit gleichem Mittelwert</strong></p>
+<div id="tbl-streuung" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-streuung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;4: Beide Datensätze haben den Mittelwert x̄ = 8
+</figcaption>
+<div aria-describedby="tbl-streuung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Beispiel 1: 7, 8, 8, 9, 8</th>
+<th></th>
+<th></th>
+<th>Beispiel 2: 2, 5, 8, 11, 14</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>xᵢ</td>
+<td>xᵢ − x̄</td>
+<td>(xᵢ − x̄)²</td>
+<td>xᵢ</td>
+<td>xᵢ − x̄</td>
+<td>(xᵢ − x̄)²</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>−1</td>
+<td>1</td>
+<td>2</td>
+<td>−6</td>
+<td>36</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+<td>−3</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>+1</td>
+<td>1</td>
+<td>11</td>
+<td>+3</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>14</td>
+<td>+6</td>
+<td>36</td>
+</tr>
+<tr class="odd">
+<td><strong>Σ</strong></td>
+<td></td>
+<td><strong>2</strong></td>
+<td><strong>Σ</strong></td>
+<td></td>
+<td><strong>90</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Beispiel 1: s² = 2 / 4 = 0,5 und s ≈ 0,71. Beispiel 2: s² = 90 / 4 = 22,5 und s = √22,5 ≈ 4,74. Die Varianz in Beispiel 2 ist 45-mal so groß, obwohl der Mittelwert identisch ist.</p>
+<p><strong>Normalverteilung.</strong> Bei normalverteilten Daten liegen etwa 68 Prozent der Werte im Bereich von ±1 Standardabweichung um den Mittelwert, etwa 95 Prozent im Bereich von ±2 und etwa 99,7 Prozent im Bereich von ±3 Standardabweichungen. Viele statistische Tests setzen eine Normalverteilung voraus. Daten der Sozialen Arbeit wie Einkommen oder Fallzahlen sind aber oft schief verteilt; das muss vor der Analyse geprüft werden.</p>
+</section>
+<section id="daten-visualisieren" class="level2">
+<h2 class="anchored" data-anchor-id="daten-visualisieren">4. Daten visualisieren</h2>
+<p>Gute Grafiken folgen einigen Grundsätzen: zuerst die Botschaft klären, dann die Grafik wählen; auf überflüssige Farben, 3D-Effekte und überladene Achsen verzichten; das Skalenniveau beachten; Titel, Achsenbeschriftung, Legende und Quelle angeben; Vergleiche ermöglichen; abgeschnittene y-Achsen und Tortendiagramme mit vielen Segmenten vermeiden.</p>
+<div id="tbl-grafiken" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-grafiken-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;5: Welche Grafik für welche Daten?
+</figcaption>
+<div aria-describedby="tbl-grafiken-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fragestellung</th>
+<th>Skalenniveau</th>
+<th>Grafik</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Häufigkeitsverteilung einer Variable</td>
+<td>nominal, ordinal</td>
+<td>Säulen- oder Balkendiagramm</td>
+<td>Wohnformen der Klient:innen</td>
+</tr>
+<tr class="even">
+<td>Verteilung metrischer Daten</td>
+<td>metrisch</td>
+<td>Histogramm</td>
+<td>Altersverteilung im Projekt</td>
+</tr>
+<tr class="odd">
+<td>Vergleich von Gruppen</td>
+<td>ordinal, metrisch</td>
+<td>Boxplot</td>
+<td>Stresswerte Intervention vs.&nbsp;Kontrolle</td>
+</tr>
+<tr class="even">
+<td>Entwicklung über Zeit</td>
+<td>ordinal, metrisch</td>
+<td>Liniendiagramm</td>
+<td>Fallzahlen über zwölf Monate</td>
+</tr>
+<tr class="odd">
+<td>Zusammenhang zweier Variablen</td>
+<td>metrisch</td>
+<td>Streudiagramm</td>
+<td>Bildungsstand und Einkommen</td>
+</tr>
+<tr class="even">
+<td>Anteile (höchstens 4–5 Kategorien)</td>
+<td>nominal</td>
+<td>Kreisdiagramm, sparsam</td>
+<td>Herkunftsländer der Klient:innen</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Ein <strong>Boxplot</strong> zeigt Median, Quartile und Ausreißer und eignet sich gut für Gruppenvergleiche; den Mittelwert zeigt er nicht. Im <strong>Histogramm</strong> berühren sich die Balken, und die gewählte Klassenbreite beeinflusst das Bild.</p>
+</section>
+<section id="kurze-einführung-in-die-inferenzstatistik" class="level2">
+<h2 class="anchored" data-anchor-id="kurze-einführung-in-die-inferenzstatistik">5. Kurze Einführung in die Inferenzstatistik</h2>
+<p>Deskriptive Statistik beschreibt, was gemessen wurde. Inferenzstatistik fragt: Gilt das auch für alle? Sie schließt von der Stichprobe auf die Grundgesamtheit und prüft Hypothesen mit Wahrscheinlichkeitsaussagen. Voraussetzung ist eine Zufallsstichprobe (→ <a href="../sitzungen/05-stichprobenziehung-1.html">Sitzung 5</a>).</p>
+<p><strong>Signifikanz.</strong> Getestet wird die Nullhypothese H₀, die behauptet, dass es keinen Effekt gibt („Das Präventionsprogramm hat keinen Einfluss auf aggressives Verhalten“). Der <strong>p-Wert</strong> gibt an, wie wahrscheinlich ein mindestens so deutliches Ergebnis wäre, wenn H₀ zuträfe. Liegt <em>p</em> unter dem vorab festgelegten Signifikanzniveau, meist 5 Prozent (<em>p</em> &lt; 0,05), wird H₀ verworfen und die Alternativhypothese H₁ vorläufig angenommen. Übliche Schwellen sind <em>p</em> &lt; 0,05 (signifikant), <em>p</em> &lt; 0,01 (sehr signifikant) und <em>p</em> &lt; 0,001 (hoch signifikant). Ein nicht signifikantes Ergebnis beweist nicht, dass es keinen Effekt gibt.</p>
+<p><strong>Effektstärke.</strong> Signifikanz sagt nichts darüber, wie groß ein Effekt ist; bei sehr großen Stichproben werden auch winzige Unterschiede signifikant. Die Effektstärke gibt die Größe eines Unterschieds unabhängig von der Fallzahl an. Für Mittelwertunterschiede wird häufig Cohens <em>d</em> verwendet: <em>d</em> ≈ 0,2 gilt als kleiner, <em>d</em> ≈ 0,5 als mittlerer und <em>d</em> ≈ 0,8 als großer Effekt.</p>
+<p><strong>Korrelation.</strong> Ein Korrelationskoeffizient misst die Stärke und Richtung eines Zusammenhangs zwischen zwei Variablen. Er liegt zwischen −1 (perfekter negativer Zusammenhang) und +1 (perfekter positiver Zusammenhang); 0 bedeutet keinen linearen Zusammenhang. Für metrische Daten wird Pearsons <em>r</em> verwendet, für ordinale oder nicht normalverteilte Daten Spearmans ρ.</p>
+<p><strong>Korrelation ist nicht Kausalität.</strong> Eisverkauf und Sonnenbrände steigen gemeinsam an. Das eine verursacht nicht das andere; beide hängen von einer Drittvariable ab: Sommer und Hitze.</p>
+<div class="praxis">
+<p><strong>Für die Praxis heißt das:</strong> Deskriptive Statistik beschreibt die eigene Klientel, Grafiken machen Muster sichtbar, und Inferenzstatistik prüft, ob ein Effekt, etwa einer Intervention, über den Zufall hinausgeht. Wer Evaluationsberichte liest, sollte deshalb immer nach Stichprobe, Signifikanz und Effektstärke fragen.</p>
+</div>
+</section>
+<section id="übungen-zur-prüfungsvorbereitung" class="level2">
+<h2 class="anchored" data-anchor-id="übungen-zur-prüfungsvorbereitung">Übungen zur Prüfungsvorbereitung</h2>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Übung 1: Schnellrechnen">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Übung 1: Schnellrechnen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="a">
+<li>Berechnen Sie den Mittelwert von 4, 5, 3, 2, 6.</li>
+<li>Berechnen Sie die Spannweite von 5, 7, 9, 12, 15.</li>
+</ol>
+<details>
+<summary>
+Lösung
+</summary>
+<ol type="a">
+<li>(4 + 5 + 3 + 2 + 6) / 5 = 20 / 5 = <strong>4</strong></li>
+<li>15 − 5 = <strong>10</strong></li>
+</ol>
+</details>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Übung 2: Alter von sieben Studierenden">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Übung 2: Alter von sieben Studierenden
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Datensatz (Alter in Jahren): 3 · 5 · 5 · 7 · 9 · 11 · 14</p>
+<p>Berechnen Sie x̄, Median, Modus, Spannweite, Varianz und Standardabweichung.</p>
+<details>
+<summary>
+Lösung
+</summary>
+<ol type="1">
+<li><strong>Mittelwert:</strong> x̄ = (3 + 5 + 5 + 7 + 9 + 11 + 14) / 7 = 54 / 7 ≈ <strong>7,71</strong></li>
+<li><strong>Median:</strong> Die Werte sind bereits geordnet; der 4. von 7 Werten ist der mittlere → Md = <strong>7</strong></li>
+<li><strong>Modus:</strong> 5 kommt zweimal vor → Mo = <strong>5</strong></li>
+<li><strong>Spannweite:</strong> R = 14 − 3 = <strong>11</strong></li>
+<li><strong>Varianz:</strong> quadrierte Abweichungen vom Mittelwert 7,71: 22,18 + 7,34 + 7,34 + 0,50 + 1,66 + 10,82 + 39,56 = 89,40 (exakt 89,43); s² = 89,43 / 6 ≈ <strong>14,90</strong></li>
+<li><strong>Standardabweichung:</strong> s = √14,90 ≈ <strong>3,86</strong></li>
+</ol>
+</details>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Übung 3: Wöchentliche Lernzeit (15 Minuten)">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Übung 3: Wöchentliche Lernzeit (15 Minuten)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fragebogendaten von acht Studierenden zur wöchentlichen Lernzeit in Stunden: 5 · 8 · 8 · 10 · 12 · 15 · 15 · 20</p>
+<ol type="1">
+<li>Erstellen Sie eine Häufigkeitstabelle mit absoluten und relativen Häufigkeiten.</li>
+<li>Berechnen Sie Mittelwert, Median und Modus.</li>
+<li>Berechnen Sie Spannweite und Standardabweichung.</li>
+<li>Wie interpretieren Sie die Ergebnisse?</li>
+<li>Welches Skalenniveau liegt vor, und sind die berechneten Maße zulässig?</li>
+</ol>
+<details>
+<summary>
+Lösung
+</summary>
+<p><strong>1. Häufigkeitstabelle</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>xᵢ</th>
+<th><em>n</em></th>
+<th>%</th>
+<th>kum. %</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5</td>
+<td>1</td>
+<td>12,5</td>
+<td>12,5</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>2</td>
+<td>25,0</td>
+<td>37,5</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>1</td>
+<td>12,5</td>
+<td>50,0</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>1</td>
+<td>12,5</td>
+<td>62,5</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>2</td>
+<td>25,0</td>
+<td>87,5</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>1</td>
+<td>12,5</td>
+<td>100,0</td>
+</tr>
+<tr class="odd">
+<td><strong>Gesamt</strong></td>
+<td><strong>8</strong></td>
+<td><strong>100,0</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>2. Lagemaße:</strong> x̄ = 93 / 8 = <strong>11,63</strong> Stunden · Md = (10 + 12) / 2 = <strong>11,0</strong> Stunden (4. und 5. Wert, da <em>n</em> gerade) · Mo = <strong>8 und 15</strong> (je zweimal, bimodal)</p>
+<p><strong>3. Streuung:</strong> R = 20 − 5 = <strong>15</strong> Stunden · Summe der quadrierten Abweichungen ≈ 165,88 · s² = 165,88 / 7 ≈ 23,70 · s = √23,70 ≈ <strong>4,87</strong> Stunden</p>
+<p><strong>4. Interpretation:</strong> Im Durchschnitt lernen die Studierenden knapp zwölf Stunden pro Woche. Die Hälfte lernt weniger als elf Stunden; der Mittelwert wird durch den hohen Wert von 20 Stunden leicht nach oben gezogen. Der bimodale Modus deutet auf zwei Gruppen hin: eher wenig und eher viel Lernende. Die Lernzeiten weichen im Schnitt fast fünf Stunden vom Mittelwert ab; das Lernverhalten ist also heterogen.</p>
+<strong>5. Skalenniveau:</strong> Lernzeit in Stunden ist verhältnisskaliert (gleiche Abstände, natürlicher Nullpunkt). Mittelwert, Varianz und Standardabweichung sind damit zulässig.
+</details>
+</div>
+</div>
+<p><strong>Zum Weiterlesen:</strong> Bortz, Jürgen/Schuster, Christof (2010): Statistik für Human- und Sozialwissenschaftler. 7. Aufl. Berlin: Springer. · Diaz-Bone, Rainer (2019): Statistik für Soziologen. 4. Aufl. Konstanz: UVK.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<!-- Passt die Höhe eingebetteter Lernspiele automatisch an, damit nichts abgeschnitten wird.
+     Weg 1: Das Spiel meldet seine Höhe selbst (postMessage {typ: "iframe-hoehe", hoehe: …}).
+     Weg 2: Läuft die Seite über quarto preview, misst die Seite das Spiel direkt.
+     Gelingt beides nicht, bleibt die Höhe aus dem iframe-Tag stehen. -->
+<script>
+(function () {
+  "use strict";
+  function setze(iframe, h) {
+    if (h && h > 50) iframe.style.height = Math.ceil(h + 8) + "px";
+  }
+  window.addEventListener("message", function (e) {
+    var d = e.data;
+    if (!d || d.typ !== "iframe-hoehe") return;
+    Array.prototype.forEach.call(document.querySelectorAll("iframe"), function (f) {
+      if (f.contentWindow === e.source) setze(f, d.hoehe);
+    });
+  });
+  function miss(f) {
+    try {
+      var doc = f.contentDocument;
+      if (!doc || !doc.documentElement) return;
+      setze(f, doc.documentElement.scrollHeight);
+      if (window.ResizeObserver && !f._beobachtet) {
+        new ResizeObserver(function () { setze(f, doc.documentElement.scrollHeight); }).observe(doc.body);
+        f._beobachtet = true;
+      }
+    } catch (err) { /* andere Herkunft: Spiel muss selbst melden */ }
+  }
+  function init() {
+    Array.prototype.forEach.call(document.querySelectorAll("iframe"), function (f) {
+      f.addEventListener("load", function () { miss(f); });
+      miss(f);
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
+})();
+</script>
+<!-- Aufklappbare Theorie-Erläuterungen auf den Sitzungsseiten.
+     Ein Eintrag [Name]{.theory-link data-theory="x"} öffnet den Kasten ::: {#theory-x .theory-panel}. -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".theory-link");
+  const panels = document.querySelectorAll(".theory-panel");
+  const open = (id, link) => {
+    panels.forEach(p => p.classList.toggle("open", p.id === "theory-" + id));
+    links.forEach(l => { const on = l === link; l.classList.toggle("active", on); l.setAttribute("aria-expanded", on); });
+    const p = document.getElementById("theory-" + id);
+    if (p) p.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+  links.forEach(l => {
+    l.setAttribute("role", "button"); l.setAttribute("tabindex", "0"); l.setAttribute("aria-expanded", "false");
+    l.addEventListener("click", () => open(l.dataset.theory, l));
+    l.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(l.dataset.theory, l); } });
+  });
+  panels.forEach(p => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "theory-close"; b.textContent = "Schließen ×";
+    b.addEventListener("click", () => { p.classList.remove("open"); links.forEach(l => { l.classList.remove("active"); l.setAttribute("aria-expanded", "false"); }); });
+    p.prepend(b);
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../sitzungen/09-datenauswertung-qualitativ.html" class="pagination-link" aria-label="9 · Datenauswertung qualitativ">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">9 · Datenauswertung qualitativ</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../sitzungen/11-guetekriterien.html" class="pagination-link" aria-label="11 · Gütekriterien">
+        <span class="nav-page-text">11 · Gütekriterien</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Prof.&nbsp;Dr.&nbsp;Mehmet Kart · CC BY-SA 4.0</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Erstellt mit <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

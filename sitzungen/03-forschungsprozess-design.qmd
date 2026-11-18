@@ -1,0 +1,117 @@
+---
+title: "Sitzung 3: Forschungsprozess und Forschungsdesign"
+subtitle: "20.10.2026"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Welche Schritte umfasst ein Forschungsprozess, worin unterscheiden sich quantitative und qualitative Forschung, und welches Studiendesign erlaubt welche Aussagen?
+:::
+
+Eine Stadt führt ein neues Präventionsprogramm gegen Radikalisierung in der Jugendarbeit ein und möchte wissen, ob es wirkt. Die Frage klingt einfach. Um sie zu beantworten, muss aber vieles entschieden werden: Was genau heißt „wirken“? Wer wird befragt, wann und wie oft? Braucht es eine Vergleichsgruppe? Diese Entscheidungen bilden das Forschungsdesign. Die Sitzung zeigt, wie ein Forschungsprozess abläuft und welche Designs zur Verfügung stehen.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Themen
+
+- Schritte des Forschungsprozesses
+- Quantitative und qualitative Forschung
+- Mixed-Methods-Ansätze
+- Studiendesigns
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- Forschungsdesign
+- Querschnitt, Längsschnitt
+- Experiment, Randomized Controlled Trial (RCT)
+- Fallstudie
+:::
+
+:::
+
+## 1. Der Forschungsprozess
+
+Empirische Forschung folgt einem systematischen Ablauf. Typische Schritte sind:
+
+1. Forschungsproblem identifizieren
+2. Literatur recherchieren und den Forschungsstand aufarbeiten
+3. Forschungsfrage formulieren
+4. Hypothesen entwickeln (bei prüfender Logik)
+5. Forschungsdesign wählen
+6. Daten erheben
+7. Daten analysieren
+8. Ergebnisse interpretieren
+9. Ergebnisse veröffentlichen
+
+Dieser Prozess verläuft nicht immer linear, sondern häufig iterativ. Besonders in der qualitativen Forschung greifen Erhebung, Auswertung und Fallauswahl ineinander.
+
+Am Beispiel des Präventionsprogramms sähe ein solcher Prozess so aus: Das **Problem** ist die zunehmende Radikalisierung Jugendlicher. Die **Forschungsfrage** lautet, ob Präventionsprogramme wirken. Die **Hypothese** besagt, dass die Teilnahme extremistische Einstellungen verringert. Das **Design** vergleicht eine Interventionsgruppe mit einer Vergleichsgruppe. Die **Daten** werden durch Befragungen vor und nach dem Programm erhoben, statistisch **ausgewertet** und schließlich **interpretiert**.
+
+## 2. Was ein Forschungsdesign festlegt
+
+Das Forschungsdesign ist der Plan einer Studie. Es legt fest, welche Daten erhoben werden, wie sie erhoben werden, bei wem sie erhoben werden und wie sie ausgewertet werden. Ziel ist eine systematische und nachvollziehbare Untersuchung sozialer Phänomene. Das Design bestimmt damit auch, welche Aussagen am Ende möglich sind.
+
+## 3. Quantitative und qualitative Forschung
+
+**Quantitative Forschung** untersucht messbare Zusammenhänge. Sie arbeitet mit größeren Stichproben, standardisierter Datenerhebung und statistischer Analyse und prüft meist Hypothesen. Typische Beispiele sind Umfragen mit standardisierten Fragebögen oder statistische Analysen sozialer Ungleichheit.
+
+**Qualitative Forschung** untersucht Bedeutungen, Erfahrungen und soziale Prozesse. Sie arbeitet mit kleineren Fallzahlen, offener Datenerhebung und interpretativer Analyse und zielt häufig auf Theorieentwicklung. Typische Beispiele sind Interviews, Gruppendiskussionen und ethnografische Beobachtungen.
+
+| Quantitative Forschung | Qualitative Forschung |
+|---|---|
+| Messung sozialer Phänomene | Verständnis sozialer Prozesse |
+| statistische Analyse | Interpretation von Bedeutungen |
+| Hypothesenprüfung | Exploration neuer Phänomene |
+| größere Stichproben | kleinere Stichproben |
+
+: Quantitative und qualitative Forschung im Vergleich {#tbl-quanti-quali}
+
+Beide Ansätze haben unterschiedliche Stärken. Keiner ist dem anderen grundsätzlich überlegen; entscheidend ist, welcher zur Fragestellung passt.
+
+## 4. Mixed Methods
+
+Mixed-Methods-Ansätze kombinieren qualitative und quantitative Methoden, um die Vorteile beider zu verbinden. Eine quantitative Befragung kann zum Beispiel zeigen, wie verbreitet ein Problem ist; anschließende qualitative Interviews können erklären, wie die Ergebnisse zustande kommen. Mixed Methods werden häufig in Evaluationsstudien, in der Programmforschung und in der sozialpolitischen Forschung eingesetzt. Wissenschaftstheoretisch stützen sie sich vor allem auf den Pragmatismus (→ [Sitzung 2](02-wissenschaftstheorie.qmd)).
+
+## 5. Studiendesigns
+
+Ein Studiendesign beschreibt die konkrete Struktur einer Untersuchung.
+
+**Querschnittsstudie.** Untersucht wird zu einem einzigen Zeitpunkt, etwa bei einer Befragung von Studierenden zur psychischen Belastung im Studium. Querschnittsstudien sind relativ einfach durchzuführen, erlauben große Stichproben und zeigen Zusammenhänge. Aussagen über Ursache und Wirkung lassen sie aber nicht zu.
+
+**Längsschnittstudie.** Untersucht wird zu mehreren Zeitpunkten, etwa wenn Jugendliche über fünf Jahre hinweg begleitet werden. So lassen sich Veränderungen und Entwicklungsprozesse analysieren, und Kausalzusammenhänge lassen sich besser untersuchen, weil die zeitliche Reihenfolge sichtbar wird.
+
+**Experiment.** Eine Variable wird gezielt verändert, und eine Interventionsgruppe wird mit einer Kontrollgruppe verglichen, etwa beim Test eines Trainingsprogramms zur Gewaltprävention. Ziel ist, Ursache-Wirkungs-Zusammenhänge zu untersuchen.
+
+**Randomized Controlled Trial (RCT).** Das RCT gilt als Goldstandard experimenteller Forschung. Die Teilnehmenden werden zufällig der Interventions- oder der Kontrollgruppe zugeteilt, und die Messungen sind standardisiert. So lassen sich möglichst klare kausale Aussagen treffen.
+
+**Fallstudie.** Ein einzelner Fall oder wenige Fälle werden intensiv untersucht, etwa eine soziale Einrichtung, ein Präventionsprojekt oder ein Radikalisierungsprozess. Ziel ist ein tiefes Verständnis komplexer sozialer Prozesse.
+
+::: {.praxis}
+**Für die Praxis heißt das:** Das Design entscheidet, welche Aussagen eine Studie tragen kann. Wer von einer Querschnittsbefragung auf die Wirkung eines Angebots schließt, überdehnt ihre Reichweite. Umgekehrt ist ein RCT in der Sozialen Arbeit nicht immer möglich oder ethisch vertretbar.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Arbeitsauftrag (Gruppen à 3–4 Personen, 20 Minuten)"}
+**Ausgangssituation:** Eine Stadt führt ein neues Präventionsprogramm gegen Radikalisierung in der Jugendarbeit ein und möchte wissen, ob es wirksam ist. Erarbeiten Sie ein Forschungsdesign:
+
+1. **Forschungsproblem und Forschungsfrage:** möglichst präzise und empirisch überprüfbar
+2. **Hypothese(n):** mindestens eine, etwa zur Wirkung des Programms
+3. **Forschungsdesign:** Experiment/RCT, Querschnitt, Längsschnitt oder Fallstudie? Wollen Sie einen Zusammenhang oder eine Ursache-Wirkungs-Beziehung zeigen?
+4. **Datenerhebung:** Fragebogen, Interviews, Beobachtung? Wer wird untersucht?
+5. **Quantitativ, qualitativ oder Mixed Methods?** Begründen Sie Ihre Wahl.
+6. **Herausforderungen und Grenzen:** Feldzugang, Verzerrungen, ethische Fragen
+
+Jede Gruppe stellt ihr Design in höchstens drei Minuten vor: Forschungsfrage, Design, zentrale Begründung.
+
+**Zur Diskussion:** Welche Designs liefern wirklich belastbare Aussagen? Wo liegen ethische Grenzen? Ist ein RCT in der Sozialen Arbeit immer sinnvoll?
+:::
+
+::: {.callout-tip title="Reflexionsfrage"}
+Welche Forschungsmethoden eignen sich besonders für die Evaluation sozialer Programme, für die Analyse von Radikalisierungsprozessen und für die Untersuchung sozialer Ungleichheit?
+:::
+
+**Zum Weiterlesen:** Schaffer, Hanne/Schaffer, Fabian (2019): Empirische Methoden für soziale Berufe. Eine anwendungsorientierte Einführung in die qualitative und quantitative Sozialforschung. Freiburg: Lambertus. · Döring, Nicola (2023): Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften. 6. Aufl. Berlin: Springer.

@@ -1,0 +1,66 @@
+---
+title: "Sitzung 1: Alltagswissen und wissenschaftliches Wissen"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Wodurch unterscheidet sich wissenschaftliches Wissen von Alltagswissen, und warum braucht die Soziale Arbeit beides?
+:::
+
+Eine Fachkraft in einem Jugendzentrum ist überzeugt: „Die Jugendlichen informieren sich nur noch über TikTok, Nachrichten interessieren sie nicht.“ Die Einschätzung beruht auf vielen Gesprächen und Beobachtungen. Sie kann zutreffen. Sie kann aber auch daran liegen, dass vor allem jene Jugendlichen auffallen, die viel am Handy sind, während andere ihr Interesse an Politik gar nicht zeigen. Die Szene verdichtet die Frage dieser Sitzung: Wann ist eine Beobachtung schon Wissen, und wann ist sie nur eine plausible Vermutung?
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Themen
+
+- Alltagswissen und seine Leistungen
+- Typische Fehlerquellen alltäglicher Urteile
+- Merkmale wissenschaftlichen Wissens
+- Forschung in der Sozialen Arbeit
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- Alltagswissen und Erfahrungswissen
+- Wissenschaftliches Wissen
+- Intersubjektivität
+- Vorläufigkeit und Kritisierbarkeit
+:::
+
+:::
+
+## 1. Alltagswissen: unverzichtbar, aber begrenzt
+
+Ohne Alltagswissen könnten wir nicht handeln. Es entlastet, weil wir nicht jede Situation neu durchdenken müssen, und es enthält oft treffende Einsichten. Auch Fachkräfte der Sozialen Arbeit verfügen über ein reiches Erfahrungswissen. Sie wissen, wie man ein Erstgespräch eröffnet oder woran man eine Krise erkennt.
+
+Zugleich hat Alltagswissen typische Grenzen. Einzelne, besonders eindrückliche Fälle werden verallgemeinert. Beobachtungen, die zur eigenen Erwartung passen, werden eher wahrgenommen als solche, die ihr widersprechen. Zusammenhänge werden als Ursachen gedeutet, obwohl sie zufällig sein oder auf einen dritten Faktor zurückgehen können. Und die Annahmen, auf denen ein Urteil beruht, bleiben meist unausgesprochen. Alltagswissen ist damit nicht falsch. Es ist aber ungeprüft.
+
+## 2. Was wissenschaftliches Wissen auszeichnet
+
+Wissenschaftliches Wissen unterscheidet sich weniger durch seine Inhalte als durch die Art, wie es gewonnen wird. Es entsteht **systematisch**: Forschende gehen nach einem Plan vor, statt Beobachtungen zufällig zu sammeln. Es ist **methodisch kontrolliert**: Das Vorgehen folgt Regeln, die Fehlerquellen begrenzen sollen. Es ist **intersubjektiv nachvollziehbar**: Andere können prüfen, wie ein Ergebnis zustande kam. Und es ist **kritisierbar und vorläufig**: Jeder Befund kann durch bessere Daten oder Argumente korrigiert werden.
+
+Gerade das letzte Merkmal wird oft missverstanden. Wissenschaft liefert keine endgültigen Wahrheiten. Ihre Stärke liegt darin, dass sie Irrtümer erkennen und korrigieren kann. Ein Befund gilt so lange, bis er widerlegt oder durch einen besser begründeten ersetzt wird.
+
+## 3. Warum Forschung für die Soziale Arbeit wichtig ist
+
+Die Soziale Arbeit greift in Lebenslagen von Menschen ein, häufig in schwierigen Situationen. Ihre Entscheidungen haben Folgen: für Kinder, deren Wohl eingeschätzt wird, für Familien, die Hilfe erhalten oder nicht, für Jugendliche, die ein Angebot erreicht oder verfehlt. Daraus ergibt sich eine besondere Begründungspflicht. Fachkräfte sollten wissen, worauf ihre Einschätzungen beruhen und wie gut diese Grundlagen sind.
+
+Forschung leistet dafür dreierlei. Sie beschreibt Lebenslagen und Problemlagen genauer, als es der Einzelfall erlaubt. Sie erklärt, unter welchen Bedingungen soziale Probleme entstehen. Und sie prüft, ob und wie Angebote wirken. Dabei geht es nicht darum, Erfahrungswissen durch Forschung zu ersetzen. Beide Wissensformen ergänzen sich: Erfahrung liefert Fragen und Kontextwissen, Forschung prüft und erweitert es.
+
+::: {.praxis}
+**Für die Praxis heißt das:** Fachkräfte müssen nicht selbst forschen, um forschungsbasiert zu arbeiten. Sie sollten aber ihre eigenen Annahmen als Annahmen erkennen, Studien kritisch lesen und beurteilen können, wie belastbar ein Befund ist.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Reflexionsaufgabe"}
+Notieren Sie eine Annahme über Ihre Adressat:innen oder Ihr Praxisfeld, die Sie für sicher halten. Beantworten Sie dann drei Fragen: Woher stammt dieses Wissen? Welche Beobachtung würde es infrage stellen? Wie könnte man es systematisch prüfen?
+:::
+
+**Zum Weiterlesen:** Döring, Nicola (2023): Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften. 6. Aufl. Berlin: Springer.
+
+::: {.placeholder}
+Lektüre, Beispielstudien und Arbeitsaufträge für diese Sitzung folgen.
+:::

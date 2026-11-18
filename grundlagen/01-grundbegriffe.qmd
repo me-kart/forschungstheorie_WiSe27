@@ -1,0 +1,196 @@
+---
+title: "Grundbegriffe der Forschungstheorie"
+---
+
+Diese Seite stellt die Begriffe vor, die in der Lehrveranstaltung immer wieder auftauchen. Klicken Sie auf einen Begriff, um die Erläuterung und die typische Verwechslung zu sehen. Üben können Sie die Begriffe anschließend auf der Seite [Lernspiele](../03-lernspiele.qmd), prüfen können Sie sich in der [Lernkontrolle](../04-lernkontrolle.qmd).
+
+```{=html}
+<div class="term-tools">
+  <button type="button" onclick="document.querySelectorAll('details.term').forEach(d=>d.open=true)">Alle aufklappen</button>
+  <button type="button" onclick="document.querySelectorAll('details.term').forEach(d=>d.open=false)">Alle zuklappen</button>
+</div>
+```
+
+## Wissen und Wissenschaft {#sec-wissen}
+
+<details class="term">
+<summary>Alltagswissen</summary>
+
+Alltagswissen ist Wissen, das wir aus eigener Erfahrung, aus Gesprächen und aus Routinen gewinnen. Es hilft, den Alltag zu bewältigen, und ist oft treffend. Es wird aber selten systematisch geprüft: Einzelfälle werden verallgemeinert, widersprechende Beobachtungen übersehen und Annahmen kaum offengelegt.
+
+::: {.confused}
+**Häufig verwechselt mit:** Erfahrungswissen von Fachkräften. Professionelles Erfahrungswissen ist reflektierter als Alltagswissen, unterliegt aber denselben Grenzen, solange es nicht methodisch geprüft wird.
+:::
+
+</details>
+
+<details class="term">
+<summary>Wissenschaftliches Wissen</summary>
+
+Wissenschaftliches Wissen entsteht systematisch und methodisch kontrolliert. Es ist begründet, für andere nachvollziehbar und grundsätzlich kritisierbar. Wissenschaftliches Wissen gilt deshalb immer nur vorläufig: Es kann durch neue Befunde korrigiert werden.
+
+::: {.confused}
+**Häufig verwechselt mit:** sicherem, endgültigem Wissen. Gerade die Offenheit für Widerlegung unterscheidet Wissenschaft von Dogmen.
+:::
+
+</details>
+
+<details class="term">
+<summary>Intersubjektivität</summary>
+
+Intersubjektivität bedeutet, dass andere Forschende das Vorgehen einer Studie nachvollziehen, prüfen und im Idealfall wiederholen können. Voraussetzung ist, dass Fragestellung, Methoden und Auswertungsschritte offengelegt werden.
+
+::: {.confused}
+**Häufig verwechselt mit:** Objektivität im Sinne einer „wahren“ Abbildung der Wirklichkeit. Intersubjektivität verlangt nicht, dass Forschende keinen Standpunkt haben, sondern dass ihr Vorgehen überprüfbar ist.
+:::
+
+</details>
+
+## Wissenschaftstheorie und Methodologie {#sec-wissenschaftstheorie}
+
+<details class="term">
+<summary>Erkenntnistheorie</summary>
+
+Die Erkenntnistheorie fragt, was wir überhaupt wissen können und wie sich Wissen begründen lässt. Sie klärt etwa, ob Erkenntnis aus Beobachtung, aus Vernunft oder aus sozialer Verständigung hervorgeht.
+
+::: {.confused}
+**Häufig verwechselt mit:** Wissenschaftstheorie. Die Erkenntnistheorie fragt nach Wissen allgemein, die Wissenschaftstheorie speziell nach den Regeln und Grundlagen wissenschaftlicher Erkenntnis.
+:::
+
+</details>
+
+<details class="term">
+<summary>Methodologie</summary>
+
+Die Methodologie ist die Lehre von den Methoden. Sie begründet, warum ein bestimmtes Vorgehen zu einer Fragestellung passt und welche Annahmen über die Wirklichkeit damit verbunden sind.
+
+::: {.confused}
+**Häufig verwechselt mit:** Methode. Eine Methode ist ein konkretes Verfahren, etwa ein Leitfadeninterview; die Methodologie begründet, wann und warum dieses Verfahren angemessen ist.
+:::
+
+</details>
+
+<details class="term">
+<summary>Paradigma</summary>
+
+Ein Paradigma ist ein von einer Forschungsgemeinschaft geteiltes Bündel aus Grundannahmen, Fragestellungen und Methoden. Es bestimmt, was als relevantes Problem und als angemessene Lösung gilt. Ein Beispiel ist das interpretative Paradigma, das Wirklichkeit als sozial hergestellt versteht und deshalb verstehende, qualitative Methoden nahelegt.
+
+::: {.confused}
+**Häufig verwechselt mit:** Theorie. Ein Paradigma ist umfassender; es bildet den Rahmen, innerhalb dessen Theorien entwickelt und geprüft werden.
+:::
+
+</details>
+
+## Theorie und Hypothese {#sec-theorie}
+
+<details class="term">
+<summary>Theorie</summary>
+
+Eine Theorie ist ein System von Aussagen, das Zusammenhänge in einem Gegenstandsbereich beschreibt und erklärt. Sie verknüpft Begriffe miteinander und erlaubt Vorhersagen, die sich empirisch prüfen lassen.
+
+::: {.confused}
+**Häufig verwechselt mit:** Vermutung im Alltagssinn („Das ist nur eine Theorie“). Wissenschaftliche Theorien sind ausgearbeitet und oft vielfach geprüft.
+:::
+
+</details>
+
+<details class="term">
+<summary>Variable</summary>
+
+Eine Variable ist ein Merkmal, das bei den Untersuchungseinheiten mindestens zwei Ausprägungen annehmen kann, etwa Alter oder Schulabschluss. Die **unabhängige Variable** (UV) ist die Einflussgröße, die **abhängige Variable** (AV) die Größe, die erklärt werden soll. Welche Variable UV und welche AV ist, legt die Fragestellung fest.
+
+::: {.confused}
+**Häufig übersehen:** Drittvariablen. Hängen zwei Variablen zusammen, kann eine dritte beide beeinflussen und einen Scheinzusammenhang erzeugen.
+:::
+
+</details>
+
+<details class="term">
+<summary>Hypothese</summary>
+
+Eine Hypothese ist eine begründete Vermutung über einen Zusammenhang zwischen mindestens zwei Merkmalen, die empirisch überprüft werden kann. Sie wird meist aus einer Theorie abgeleitet, etwa: „Je stärker Jugendliche Diskriminierung erfahren, desto geringer ist ihr Vertrauen in staatliche Institutionen.“
+
+::: {.confused}
+**Häufig verwechselt mit:** Forschungsfrage. Die Frage ist offen formuliert, die Hypothese legt sich auf eine Antwort fest, die widerlegt werden kann.
+:::
+
+</details>
+
+<details class="term">
+<summary>Induktion und Deduktion</summary>
+
+Bei der **Induktion** wird von einzelnen Beobachtungen auf allgemeine Aussagen geschlossen. Bei der **Deduktion** wird aus allgemeinen Aussagen, etwa einer Theorie, auf den Einzelfall geschlossen. Qualitative Forschung arbeitet häufiger induktiv, standardisierte quantitative Forschung häufiger deduktiv.
+
+::: {.confused}
+**Häufig verwechselt mit:** einer festen Zuordnung „qualitativ = induktiv, quantitativ = deduktiv“. In der Forschungspraxis wechseln beide Schlussformen einander ab.
+:::
+
+</details>
+
+<details class="term">
+<summary>Falsifikation</summary>
+
+Falsifikation bedeutet, eine Hypothese durch eine widersprechende Beobachtung zu widerlegen. Karl R. Popper hat sie zum Kern des Kritischen Rationalismus gemacht: Allgemeine Aussagen lassen sich nie endgültig beweisen, aber an der Erfahrung scheitern.
+
+::: {.confused}
+**Häufig verwechselt mit:** Verifikation. Viele bestätigende Fälle beweisen eine allgemeine Aussage nicht; ein einziger gut gesicherter Gegenfall kann sie widerlegen.
+:::
+
+</details>
+
+## Messen und Qualität {#sec-qualitaet}
+
+<details class="term">
+<summary>Operationalisierung</summary>
+
+Operationalisierung heißt, einen theoretischen Begriff messbar zu machen. Dazu wird festgelegt, an welchen beobachtbaren Merkmalen, Fragen oder Indikatoren sich der Begriff erkennen lässt, etwa „soziale Teilhabe“ an Vereinsmitgliedschaft, Freundschaftsnetzwerken und politischer Beteiligung.
+
+::: {.confused}
+**Häufig verwechselt mit:** Definition. Die Definition klärt, was ein Begriff bedeutet; die Operationalisierung legt fest, wie er erfasst wird.
+:::
+
+</details>
+
+<details class="term">
+<summary>Grundgesamtheit und Stichprobe</summary>
+
+Die **Grundgesamtheit** umfasst alle Einheiten, über die eine Studie etwas aussagen will, sachlich, räumlich und zeitlich bestimmt. Die **Stichprobe** ist die Teilmenge, die tatsächlich untersucht wird. Nur bei einer Zufallsauswahl lässt sich statistisch von der Stichprobe auf die Grundgesamtheit schließen.
+
+::: {.confused}
+**Häufig verwechselt:** Größe und Repräsentativität. Auch eine sehr große Stichprobe bleibt verzerrt, wenn die Auswahl verzerrt ist.
+:::
+
+</details>
+
+<details class="term">
+<summary>Skalenniveau</summary>
+
+Das Skalenniveau beschreibt, welche Informationen eine Messung enthält: **nominal** (Kategorien ohne Rangfolge), **ordinal** (Rangfolge), **intervall** (gleiche Abstände) und **verhältnis** (zusätzlich ein natürlicher Nullpunkt). Es entscheidet, welche Kennwerte zulässig sind; einen Mittelwert gibt es zum Beispiel erst ab metrischem Niveau.
+
+::: {.confused}
+**Häufig verwechselt:** ordinal und metrisch. Schulnoten haben eine Rangfolge, aber die Abstände zwischen den Noten sind nicht sicher gleich.
+:::
+
+</details>
+
+<details class="term">
+<summary>Objektivität, Reliabilität und Validität</summary>
+
+Diese drei klassischen Gütekriterien prüfen die Qualität einer Messung. **Objektivität** heißt, dass das Ergebnis nicht von der Person abhängt, die misst oder auswertet. **Reliabilität** heißt, dass die Messung bei Wiederholung unter gleichen Bedingungen zum gleichen Ergebnis führt. **Validität** heißt, dass tatsächlich gemessen wird, was gemessen werden soll.
+
+::: {.confused}
+**Häufig verwechselt:** Reliabilität und Validität. Eine Waage, die immer zwei Kilo zu viel anzeigt, misst zuverlässig (reliabel), aber nicht gültig (valide).
+:::
+
+</details>
+
+<details class="term">
+<summary>Forschungsethik</summary>
+
+Forschungsethik umfasst die Pflichten von Forschenden gegenüber den Menschen, die an einer Studie teilnehmen. Dazu gehören informierte Einwilligung, Freiwilligkeit, Schutz vor Schaden und Anonymisierung. In der Sozialen Arbeit ist sie besonders wichtig, weil Adressat:innen oft in Abhängigkeits- oder Belastungssituationen leben.
+
+::: {.confused}
+**Häufig verwechselt mit:** Datenschutz. Datenschutz ist ein Teil der Forschungsethik, deckt aber Fragen wie Machtgefälle, Belastung durch Interviews oder den Umgang mit Befunden nicht ab.
+:::
+
+</details>

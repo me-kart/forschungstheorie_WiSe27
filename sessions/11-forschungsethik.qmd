@@ -1,0 +1,21 @@
+---
+title: "Sitzung 11: Forschungsethik"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Welche Verantwortung tragen Forschende gegenüber den Menschen, die sie beforschen?
+:::
+
+::: {.placeholder}
+Diese Sitzung ist in Vorbereitung.
+:::
+
+::: {.outline}
+- Informierte Einwilligung und Freiwilligkeit
+- Schutz vor Schaden
+- Anonymisierung und Datenschutz
+- Forschung mit vulnerablen Gruppen
+- Machtverhältnisse zwischen Forschenden und Beforschten
+- Ethikkommissionen und Ethikkodizes
+:::

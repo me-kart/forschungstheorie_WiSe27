@@ -1,0 +1,130 @@
+---
+title: "Sitzung 12: Ethik in der Forschung, Interpretation und Präsentation von Ergebnissen"
+subtitle: "22.12.2026"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Welche Verantwortung tragen Forschende gegenüber den Menschen, die sie beforschen, und wie werden Ergebnisse angemessen interpretiert und dargestellt?
+:::
+
+Eine Studentin möchte für ihre Abschlussarbeit Jugendliche in der Wohngruppe interviewen, in der sie selbst arbeitet. Der Zugang ist leicht, die Jugendlichen kennen sie. Gerade das ist das Problem: Können die Jugendlichen wirklich frei entscheiden, ob sie teilnehmen? Was passiert mit dem, was sie erzählen? Und was tut die Studentin, wenn im Interview eine Kindeswohlgefährdung sichtbar wird? Soziale Arbeit forscht häufig mit Menschen in belasteten Lebenslagen. Forschungsethik ist deshalb Teil ihrer Professionsethik. Im zweiten Teil der Sitzung geht es um den letzten Schritt des Forschungsprozesses: Ergebnisse so zu interpretieren und darzustellen, dass andere sie nachvollziehen können.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Themen
+
+- Einwilligung und Datenschutz
+- Anonymisierung und Pseudonymisierung
+- Forschung mit vulnerablen Gruppen
+- ethische Richtlinien und Forschungsintegrität
+- Darstellung quantitativer und qualitativer Ergebnisse
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- informierte Einwilligung (*Informed Consent*), Assent
+- Datensparsamkeit, Zweckbindung, Trennungsprinzip
+- Anonymisierung, Pseudonymisierung
+- Vulnerabilität
+- Ankerzitat, Limitationen
+:::
+
+:::
+
+## Teil A: Ethik in der Forschung
+
+### 1. Warum Forschungsethik?
+
+Forschungsethik umfasst Normen und Prinzipien, die sicherstellen, dass Forschung zum Wohl der Beforschten und der Gesellschaft betrieben wird, ohne Schaden, Manipulation oder Ausbeutung. Wichtige Meilensteine sind der **Nürnberger Kodex** (1947), der als Reaktion auf die nationalsozialistischen Menschenversuche erstmals den Schutz von Versuchspersonen international festschrieb, die **Deklaration von Helsinki** des Weltärztebundes (1964, seither mehrfach überarbeitet), der US-amerikanische **Belmont Report** (1979) mit den drei Grundprinzipien Respekt vor der Person, Wohltun und Gerechtigkeit sowie die **Datenschutz-Grundverordnung** (DSGVO, seit 2018 anwendbar).
+
+### 2. Informierte Einwilligung
+
+Die Teilnahme an Forschung setzt eine freiwillige, informierte und ausdrückliche Einwilligung voraus (vgl. Art. 6 Abs. 1 lit. a und Art. 7 DSGVO sowie berufsethische Kodizes). Eine gültige Einwilligung umfasst:
+
+- **Aufklärung:** Zweck, Methode, Risiken, Freiwilligkeit und Widerrufsmöglichkeit werden in verständlicher Sprache erklärt.
+- **Freiwilligkeit:** keine Abhängigkeiten oder Druck; eine Ablehnung darf keine Folgen für bestehende Hilfen haben.
+- **Einwilligungsfähigkeit:** Die Person muss verstehen können, worin sie einwilligt.
+- **Ausdrückliche Zustimmung:** schriftlich oder nachweisbar mündlich, als Opt-in, nicht als Opt-out.
+- **Widerruf:** jederzeit und folgenlos möglich (Art. 7 Abs. 3 DSGVO).
+
+Informationsblatt und Einwilligungserklärung sind getrennte Dokumente; die Teilnehmenden erhalten eine Kopie.
+
+Besondere Herausforderungen stellen sich bei **verdeckter Forschung**: Sie ist ethisch nur vertretbar, wenn keine andere Methode möglich ist, kein persönlicher Schaden entsteht und die Beforschten nachträglich informiert werden. Bei **Kindern und Jugendlichen** ist in der Regel die Einwilligung der Sorgeberechtigten nötig sowie die alters- und entwicklungsangemessene Zustimmung (*Assent*) der Minderjährigen selbst; mit wachsender Einsichtsfähigkeit gewinnt ihre eigene Einwilligung an Gewicht, eine starre Altersgrenze gibt es nicht. Bei **Personen mit kognitiven Beeinträchtigungen** stimmt gegebenenfalls die rechtliche Betreuung zu; die Person selbst wird nach Möglichkeit informiert und ihr Wille berücksichtigt. In **institutionellen Settings** wie Heimen oder Haft kann strukturelle Abhängigkeit die Freiwilligkeit gefährden. Vorhaben mit Risiken oder mit vulnerablen Gruppen sollten einer **Ethikkommission** vorgelegt werden.
+
+### 3. Datenschutz
+
+Art. 5 DSGVO nennt die Grundsätze für den Umgang mit personenbezogenen Daten: Rechtmäßigkeit und Transparenz, **Zweckbindung**, **Datenminimierung** (nur erheben, was für den Forschungszweck nötig ist), Richtigkeit, Speicherbegrenzung, Integrität und Vertraulichkeit sowie die Rechenschaftspflicht. Besondere Kategorien personenbezogener Daten nach Art. 9 DSGVO, etwa Gesundheitsdaten, ethnische Herkunft, religiöse Überzeugungen oder die sexuelle Orientierung, unterliegen dem höchsten Schutz und dürfen in der Regel nur mit ausdrücklicher Einwilligung verarbeitet werden.
+
+In der Forschungspraxis heißt das: Datenschutzinformation und Einwilligung werden vor der Erhebung ausgehändigt. Kontaktdaten und Forschungsdaten werden getrennt gespeichert (**Trennungsprinzip**). Daten werden verschlüsselt übertragen und gespeichert; Cloud-Dienste nur mit entsprechender Vereinbarung. Zugriff haben nur Projektbeteiligte, und nach Ablauf der Aufbewahrungsfrist werden Daten gelöscht oder anonymisiert. Vollständige Transkripte werden nicht veröffentlicht, sondern nur sorgfältig anonymisierte Ausschnitte. Bei Drittmittelprojekten verlangen Fördergeber häufig einen **Datenmanagementplan**.
+
+### 4. Anonymisierung und Pseudonymisierung
+
+Daten gelten als **anonym**, wenn eine Person weder direkt (Name, Adresse) noch indirekt (über eine Kombination von Merkmalen) identifiziert werden kann. Anonymisierte Daten fallen nicht mehr unter die DSGVO (Erwägungsgrund 26). Direkte Merkmale werden ersetzt: Namen durch Pseudonyme, Orte und Einrichtungen durch allgemeine Bezeichnungen („eine Großstadt in Süddeutschland“), seltene Berufe durch Oberbegriffe. Indirekte Merkmale müssen geprüft werden: Ein besonderes Ereignis oder die Kombination von Alter, Herkunftsland, Beruf und Region kann eine Person eindeutig erkennbar machen. Ein hilfreicher Test lautet: Könnte die Person selbst oder ihr Umfeld sie im Text wiedererkennen? Bei qualitativen Daten ist eine vollständige Anonymisierung schwer zu erreichen.
+
+Bei der **Pseudonymisierung** (Art. 4 Nr. 5 DSGVO) werden Daten so verarbeitet, dass sie nur mit zusätzlichen Informationen, einem „Schlüssel“, einer Person zugeordnet werden können, etwa „Person A1“ oder „Interview 03“. Die Schlüsselliste wird getrennt und geschützt aufbewahrt. Pseudonymisierte Daten bleiben personenbezogen; die DSGVO gilt weiter.
+
+| Anonymisierung | Pseudonymisierung |
+|---|---|
+| Zuordnung zur Person dauerhaft unmöglich | Zuordnung über einen Schlüssel möglich |
+| fällt nicht mehr unter die DSGVO | DSGVO bleibt anwendbar |
+| keine Wiederbefragung möglich | Wiederbefragung, etwa im Längsschnitt, möglich |
+| Ziel bei der Veröffentlichung | üblich während Erhebung und Auswertung |
+| bei qualitativen Daten schwer vollständig erreichbar | praktisch leichter umsetzbar |
+
+: Anonymisierung und Pseudonymisierung {#tbl-anonym}
+
+### 5. Forschung mit vulnerablen Gruppen
+
+Vulnerabel sind Personen, die aufgrund ihrer Lebenssituation einem erhöhten Risiko ausgesetzt sind, durch Forschung Schaden zu nehmen, oder deren Fähigkeit zur freiwilligen Einwilligung eingeschränkt ist. Im Kontext der Sozialen Arbeit sind das etwa Kinder und Jugendliche, Menschen mit kognitiven Beeinträchtigungen, Menschen in Krisen oder Abhängigkeiten (Sucht, Wohnungslosigkeit, Haft), Geflüchtete und Personen ohne sicheren Aufenthaltsstatus, bei denen Angst vor Behörden und Sprachbarrieren die Freiwilligkeit gefährden können, sowie pflegebedürftige ältere Menschen. Grundsätzlich gilt: Je größer die Vulnerabilität, desto höher die ethischen Anforderungen, und oft auch die gesellschaftliche Relevanz der Forschung.
+
+Bei Forschung mit Kindern und Jugendlichen kommt das Recht auf Beteiligung nach Art. 12 der UN-Kinderrechtskonvention hinzu. Methodisch braucht es altersgerechte Instrumente (Bilder, einfache Sprache, kürzere Interviews), gegebenenfalls die Anwesenheit von Vertrauenspersonen und eine besonders sorgfältige Anonymisierung, denn eine Schulklasse oder ein Jahrgang ist leicht identifizierbar. Wie mit einer während der Forschung bekannt werdenden Kindeswohlgefährdung umzugehen ist, muss vorab geklärt werden.
+
+### 6. Ethische Richtlinien und Forschungsintegrität
+
+Der **Ethik-Kodex der Deutschen Gesellschaft für Soziologie** (DGS) verlangt wissenschaftliche Integrität (kein Datenbetrug, keine selektive Berichterstattung, kein Plagiat), den Schutz der Beforschten, die informierte Einwilligung als Grundregel und die Offenlegung von Interessenkonflikten. Die **Deutsche Gesellschaft für Soziale Arbeit** (DGSA) betont in ihren forschungsethischen Grundsätzen zusätzlich, dass Forschung der Sozialen Arbeit nicht nur „über“, sondern „mit“ den Betroffenen stattfinden soll, Macht- und Anerkennungsverhältnisse reflektiert und zur Verbesserung von Lebenslagen beitragen soll. Die **Leitlinien zur Sicherung guter wissenschaftlicher Praxis** der Deutschen Forschungsgemeinschaft (DFG 2019) verlangen Sorgfalt, Transparenz, korrekte Quellenangaben und einen offenen Umgang mit Fehlern.
+
+Besonders in der Sozialen Arbeit stellen sich Fragen von **Interessenkonflikten**: Träger wünschen sich positive Evaluationsergebnisse, Auftraggebende nehmen Einfluss auf Design oder Veröffentlichung, und Fachkräfte, die im eigenen Arbeitsfeld forschen, haben eine Doppelrolle mit möglichen blinden Flecken. Gegengewichte sind die Offenlegung von Finanzierung und Interessen, vertraglich gesicherte Publikationsfreiheit und externe Begleitung.
+
+| Risiko | Schutzmaßnahme |
+|---|---|
+| Re-Traumatisierung durch sensible Fragen | Abbruch jederzeit möglich, Unterstützungsangebote, Nachbesprechung |
+| Identifizierbarkeit trotz Anonymisierung | mehrstufige Anonymisierung, Prüfung vor Veröffentlichung |
+| Machtasymmetrie zwischen Forschenden und Beforschten | partizipative Ansätze, Peer-Forschende einbeziehen |
+| Datenverlust oder -missbrauch | Verschlüsselung, Zugriffsbeschränkung, Datenmanagementplan |
+| fehlende oder erzwungene Einwilligung | strukturelle Unabhängigkeit der Forschenden, unabhängige Aufklärung |
+| Interessenkonflikt bei Trägerforschung | Publikationsfreiheit vertraglich sichern, externe Begleitung |
+
+: Risiken und Schutzmaßnahmen {#tbl-risiken}
+
+## Teil B: Interpretation und Präsentation von Ergebnissen
+
+### 7. Ergebnisse interpretieren
+
+Interpretieren heißt, Befunde auf die Forschungsfrage, die Hypothesen und den Forschungsstand zurückzubeziehen. Dabei hilft eine klare Trennung: Zuerst wird beschrieben, was die Daten zeigen, dann wird gedeutet, was das bedeutet. Zur Interpretation gehört auch, die Reichweite der Befunde zu markieren. Eine Querschnittsbefragung zeigt Zusammenhänge, keine Ursachen (→ [Sitzung 3](03-forschungsprozess-design.qmd)); eine qualitative Studie erlaubt analytische, keine statistische Verallgemeinerung (→ [Sitzung 6](06-stichprobenziehung-2.qmd)). **Limitationen** werden offen benannt: Wie ist die Stichprobe zustande gekommen? Wo könnten Verzerrungen liegen? Was kann die Studie nicht beantworten?
+
+### 8. Quantitative Ergebnisse darstellen
+
+Tabellen und Diagramme sollen für sich verständlich sein. Dazu gehören ein aussagekräftiger Titel, die Fallzahl (*N* bzw. *n*), eindeutige Beschriftungen und die Datenquelle. Bei Prozentangaben muss klar sein, worauf sie sich beziehen; bei Kreuztabellen wird in Richtung der unabhängigen Variable prozentuiert. Die Wahl der Grafik richtet sich nach Skalenniveau und Fragestellung (→ [Sitzung 10](10-datenauswertung-quantitativ.qmd)). Kennwerte werden mit Streuung berichtet (etwa Mittelwert und Standardabweichung), Testergebnisse mit Signifikanz und Effektstärke.
+
+### 9. Qualitative Ergebnisse darstellen
+
+Qualitative Ergebnisse werden meist entlang des **Kategoriensystems** oder einer **Typologie** dargestellt. Jede Kategorie wird beschrieben und mit **Ankerzitaten** belegt, die mit Pseudonym und Kurzangabe versehen sind, etwa: Lea (17, Auszubildende) formuliert es so: „…“. Auf das Zitat folgt immer eine analytische Einordnung; Zitate sprechen nicht für sich. Längere Zitate werden als eingerückte Blockzitate gesetzt, mündliche Sprache bleibt unverändert, Auslassungen werden mit „[…]“ markiert. Übersichten, etwa eine Tabelle mit Kategorien, Definitionen und Ankerbeispielen, oder eine Abbildung der Zusammenhänge zwischen Kategorien helfen, die Ergebnisse zu überblicken.
+
+### 10. Der Forschungsbericht
+
+Ein Forschungsbericht folgt meist einem festen Aufbau: Einleitung mit Problemstellung und Forschungsfrage, theoretischer Rahmen und Forschungsstand, Methode (Design, Stichprobe, Erhebung, Auswertung), Ergebnisse, Diskussion mit Einordnung und Limitationen sowie ein Fazit mit Folgerungen für Forschung und Praxis.
+
+::: {.praxis}
+**Für die Praxis heißt das:** Forschungsethik beginnt nicht erst bei der Einwilligungserklärung, sondern bei der Frage, wem eine Studie nützt und wen sie belastet. Und eine Studie ist erst dann abgeschlossen, wenn ihre Ergebnisse so dargestellt sind, dass Fachkräfte, Adressat:innen und Entscheidungsträger:innen sie verstehen und prüfen können.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Fallarbeit: die Wohngruppen-Studie"}
+Eine Studentin möchte Jugendliche in der Wohngruppe interviewen, in der sie selbst arbeitet. Welche ethischen Probleme sehen Sie? Wie sollte die Einwilligung gestaltet werden? Wie würden Sie die Interviews anonymisieren? Was sollte vorab für den Fall geklärt werden, dass im Interview eine Gefährdung sichtbar wird?
+:::
+
+**Zum Weiterlesen:** Deutsche Gesellschaft für Soziologie/Berufsverband Deutscher Soziologinnen und Soziologen (2017): Ethik-Kodex. · Deutsche Gesellschaft für Soziale Arbeit (DGSA): Forschungsethische Prinzipien und wissenschaftliche Standards für Forschung der Sozialen Arbeit. · Deutsche Forschungsgemeinschaft (2019): Leitlinien zur Sicherung guter wissenschaftlicher Praxis. Kodex. Bonn: DFG.

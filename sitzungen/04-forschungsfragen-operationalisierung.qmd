@@ -1,0 +1,144 @@
+---
+title: "Sitzung 4: Forschungsfragen, Hypothesen und Operationalisierung"
+subtitle: "27.10.2026"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Wie wird aus einem Thema eine präzise Forschungsfrage, und wie werden theoretische Begriffe so übersetzt, dass man sie messen kann?
+:::
+
+„Wie wirkt Social Media auf Jugendliche?“ Diese Frage ist relevant, aber für eine Studie viel zu breit. Welche Plattformen, welche Jugendlichen, welche Wirkung? Die Forschungsfrage verbindet Theorie und Empirie: Sie legt fest, was eine Untersuchung herausfinden will. Hypothesen formulieren, was man erwartet, sofern die Studie prüfend angelegt ist. Und die Operationalisierung übersetzt Begriffe in beobachtbare Indikatoren. Die Sitzung geht diese drei Schritte am Thema unseres Moduls *Forschungspraxis* durch: Desinformation und Verschwörungserzählungen im digitalen Alltag junger Menschen.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Nach dieser Sitzung können Sie …
+
+- ein Thema zu einer präzisen, empirisch beantwortbaren Forschungsfrage eingrenzen,
+- qualitative von quantitativen Fragen unterscheiden,
+- Forschungsfragen von Hypothesen abgrenzen,
+- einen Begriff über Dimensionen und Indikatoren messbar machen und das Skalenniveau bestimmen.
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- Forschungsfrage
+- Prinzip der Offenheit
+- Operationalisierung, Indikator, Item
+- Skalenniveau
+- sensibilisierendes Konzept
+:::
+
+:::
+
+## 1. Was ist eine Forschungsfrage?
+
+Eine Forschungsfrage benennt präzise, was eine Untersuchung herausfinden will, und legt damit fest, welche Daten, Methoden und Theorien gebraucht werden. Sie erfüllt drei Funktionen: Sie **fokussiert**, indem sie ein breites Thema auf eine bearbeitbare Frage eingrenzt. Sie **steuert**, weil sie Forschungsdesign, Stichprobe, Erhebungs- und Auswertungsmethode bestimmt. Und sie **macht prüfbar**: Am Ende muss sich jedes Ergebnis auf die Frage zurückbeziehen lassen.
+
+### Vom Thema zur Frage
+
+Die Eingrenzung erfolgt schrittweise. Aus dem Themenfeld *Desinformation im digitalen Raum* wird das Thema *Verschwörungserzählungen im Alltag junger Menschen*. Der Fokus liegt auf 16- bis 25-Jährigen, auf sozialen Medien und auf dem Umgang im Alltag. Daraus ergibt sich die Forschungsfrage: *Wie gehen junge Menschen mit Verschwörungserzählungen um, denen sie in sozialen Medien begegnen?*
+
+Bei der Eingrenzung helfen fünf W-Fragen: **Wer?** (Zielgruppe, Altersspanne, Region) · **Was?** (Welches Phänomen genau – wahrnehmen, glauben, teilen?) · **Wo?** (Plattformen, Lebensbereiche, Kontexte) · **Wann?** (Zeitraum, Anlass, Querschnitt oder Verlauf) · **Wozu?** (Relevanz für Forschung und Praxis der Sozialen Arbeit).
+
+### Typen von Forschungsfragen
+
+| Typ | Leitfrage | Beispiel |
+|---|---|---|
+| beschreibend | Wie ist etwas verteilt, wie häufig kommt es vor? | „Wie häufig begegnen junge Menschen Verschwörungserzählungen in sozialen Medien?“ |
+| verstehend, erkundend | Wie deuten Menschen etwas, welche Bedeutung hat es für sie? | „Wie deuten junge Menschen Verschwörungserzählungen, die in ihren Messengergruppen geteilt werden?“ |
+| erklärend | Warum ist etwas so, welche Faktoren hängen zusammen? | „Welche Merkmale erklären, ob junge Menschen Verschwörungserzählungen zustimmen?“ |
+| bewertend, evaluierend | Wirkt eine Maßnahme, erreicht sie ihr Ziel? | „Verbessert ein Workshop zur Quellenkritik die Fähigkeit, Falschmeldungen zu erkennen?“ |
+
+: Typen von Forschungsfragen {#tbl-fragetypen}
+
+### Qualitative und quantitative Fragen
+
+Qualitative Fragen folgen einer rekonstruierenden, sinnverstehenden Logik. Sie fragen „Wie …?“, „Was …?“ oder „Welche Bedeutung …?“. Theoretisches Vorwissen sensibilisiert den Blick, die Forschung folgt aber dem Prinzip der Offenheit (Hoffmann-Riem 1980). Die Frage darf sich im Prozess präzisieren und verändern. Beispiel: „Wie erleben junge Menschen Gespräche über Verschwörungserzählungen im Freundeskreis?“
+
+Quantitative Fragen folgen einer prüfenden, verallgemeinernden Logik. Sie fragen „Wie viele …?“, „Wie stark …?“ oder „Hängt X mit Y zusammen?“. Hypothesen werden aus der Theorie abgeleitet, und die Frage wird vor der Erhebung festgelegt. Beispiel: „Hängt die tägliche TikTok-Nutzungsdauer mit der Zustimmung zu Verschwörungserzählungen zusammen?“
+
+### Kriterien einer guten Forschungsfrage
+
+Eine gute Forschungsfrage ist **klar und präzise** (zentrale Begriffe sind definiert), **empirisch beantwortbar** (mit Daten, nicht nur durch Meinungen oder Normen), **gut eingegrenzt** (Zielgruppe, Gegenstand und Kontext sind bestimmt), **relevant** (sie schließt an den Forschungsstand an und hat Bedeutung für die Praxis), **machbar** (Zeit, Feldzugang und Ressourcen reichen aus) und **ethisch vertretbar** (die Beteiligten sind geschützt).
+
+| Problem | Ungünstig | Besser |
+|---|---|---|
+| zu breit | „Wie wirkt Social Media auf Jugendliche?“ | „Wie hängt die tägliche TikTok-Nutzung von 16- bis 25-Jährigen mit ihrer Zustimmung zu Verschwörungserzählungen zusammen?“ |
+| normativ | „Sind Verschwörungserzählungen gefährlich?“ | „Welche Folgen für ihre Beziehungen berichten junge Menschen, deren Freund:innen Verschwörungserzählungen verbreiten?“ |
+| Ja/Nein und unklarer Begriff | „Glauben Jugendliche an Verschwörungen?“ | „Wie stark ist die Verschwörungsmentalität bei Studierenden der OTH Regensburg ausgeprägt?“ |
+
+: Typische Stolpersteine {#tbl-stolpersteine}
+
+## 2. Forschungsfrage und Hypothese
+
+Die Forschungsfrage ist offen formuliert und benennt das Erkenntnisinteresse. Die Hypothese legt sich auf eine erwartete Antwort fest, die an den Daten scheitern kann. Hypothesen gibt es nur in Studien mit prüfender Logik; qualitative Studien entwickeln Hypothesen eher, als dass sie sie prüfen. Hypothesenarten sowie Null- und Alternativhypothese sind in [Sitzung 2](02-wissenschaftstheorie.qmd) ausführlich dargestellt.
+
+## 3. Operationalisierung
+
+Viele Begriffe der Sozialen Arbeit sind nicht direkt beobachtbar: Verschwörungsmentalität, Teilhabe, Vertrauen. **Operationalisierung** ist die Angabe der Forschungsoperationen, mit denen ein theoretischer Begriff empirisch erfasst wird. Sie verbindet die theoretische Ebene (Begriff, Konstrukt) über Korrespondenzregeln mit der empirischen Ebene (Indikatoren, etwa Antworten auf Fragebogen-Items). Ohne Operationalisierung keine Messung, und ohne Messung keine Prüfung einer Hypothese.
+
+### In vier Schritten zum Messinstrument
+
+1. **Begriff definieren (Konzeptspezifikation):** Was genau meinen wir? Arbeitsdefinition auf Basis von Theorie und Forschungsstand.
+2. **Dimensionen bestimmen:** Aus welchen Teilaspekten besteht der Begriff? Ist er ein- oder mehrdimensional?
+3. **Indikatoren auswählen:** Woran lässt sich jede Dimension erkennen? Möglichst mehrere Indikatoren je Dimension.
+4. **Messung festlegen:** Item-Formulierung, Antwortformat und Skalenniveau. Erprobte Skalen sind eigenen Neuentwicklungen vorzuziehen.
+
+### Beispiel: Anfälligkeit für Desinformation
+
+| Dimension | Indikator (Item) | Antwortformat |
+|---|---|---|
+| Verschwörungsmentalität | „Viele wichtige Entscheidungen werden von Gruppen getroffen, die im Verborgenen handeln.“ | fünfstufige Zustimmungsskala |
+| Quellenprüfung | „Wie oft prüfen Sie, wer hinter einer Nachricht steckt, bevor Sie ihr glauben?“ | nie · selten · manchmal · oft · immer |
+| Weiterverbreitung | „Haben Sie in den letzten vier Wochen Inhalte weitergeleitet, bei denen Sie unsicher waren, ob sie stimmen?“ | ja · nein · weiß nicht |
+
+: Operationalisierung des Konstrukts „Anfälligkeit für Desinformation“ (didaktisch vereinfacht; Item 1 angelehnt an den Conspiracy Mentality Questionnaire, Bruder et al. 2013) {#tbl-operationalisierung}
+
+### Skalenniveaus
+
+Das Skalenniveau bestimmt, welche Aussagen eine Messung erlaubt und welche Auswertungen zulässig sind.
+
+| Skalenniveau | Eigenschaft | Zulässige Aussagen | Beispiel |
+|---|---|---|---|
+| nominal | Kategorien ohne Rangfolge | gleich / ungleich | meistgenutzte Plattform (TikTok, Instagram, YouTube …) |
+| ordinal | Rangfolge, aber ungleiche Abstände | zusätzlich größer / kleiner | Häufigkeit der Quellenprüfung (nie … immer) |
+| intervall | gleiche Abstände, kein natürlicher Nullpunkt | zusätzlich Differenzen | Summenwert einer Zustimmungsskala (meist als quasi-metrisch behandelt) |
+| verhältnis | natürlicher Nullpunkt | zusätzlich Verhältnisse | tägliche Nutzungsdauer sozialer Medien in Minuten |
+
+: Skalenniveaus {#tbl-skalenniveaus}
+
+Je höher das Skalenniveau, desto mehr Informationen enthält die Messung und desto mehr statistische Verfahren sind zulässig. Vertieft wird das in [Sitzung 8](08-datenerhebung-quantitativ.qmd).
+
+### Gut operationalisiert?
+
+Ob eine Operationalisierung gelungen ist, prüfen die klassischen Gütekriterien: **Validität** (Misst der Indikator den gemeinten Begriff?), **Reliabilität** (Führt eine wiederholte Messung zu gleichen Ergebnissen?) und **Objektivität** (Ist das Ergebnis unabhängig von der Person, die misst?). Validität ist der Prüfstein jeder Operationalisierung.
+
+In der qualitativen Forschung wird nicht operationalisiert, sondern offen erhoben. Begriffe dienen hier als **sensibilisierende Konzepte** (Blumer 1954): Sie zeigen, wohin man schaut, nicht was man findet. Statt Items gibt es offene Leitfragen und Erzählaufforderungen, etwa: „Erzählen Sie mal von einer Situation, in der Ihnen zuletzt so etwas wie eine Verschwörungserzählung begegnet ist.“
+
+::: {.praxis}
+**Für die Praxis heißt das:** Die Operationalisierung entscheidet darüber, was eine Studie überhaupt messen kann. Wer Befunde liest, sollte deshalb immer prüfen, wie ein Begriff erfasst wurde. Eine „Zufriedenheitsstudie“ mit nur einer einzigen Frage sagt etwas anderes aus als eine mit einer erprobten Skala.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Übung 1: Forschungsfragen formulieren (Partnerarbeit, 10 Minuten)"}
+1. Wählen Sie einen Teilaspekt des Themas „Desinformation und Verschwörungserzählungen im digitalen Alltag junger Menschen“.
+2. Formulieren Sie dazu eine qualitative und eine quantitative Forschungsfrage.
+3. Prüfen Sie beide Fragen anhand der sechs Kriterien. Wo hakt es?
+
+Tipp: Nutzen Sie die W-Fragen zur Eingrenzung.
+:::
+
+::: {.callout-tip title="Übung 2: Operationalisieren (Gruppenarbeit, 12 Minuten)"}
+1. Definieren Sie „Zufriedenheit mit der Mensa“ in einem Satz.
+2. Bestimmen Sie zwei Dimensionen des Begriffs.
+3. Formulieren Sie für jede Dimension ein Fragebogen-Item mit Antwortformat.
+4. Bestimmen Sie das Skalenniveau Ihrer Items.
+
+Bonus: Wie würden Sie denselben Begriff in einem qualitativen Interview erfassen?
+:::
+
+**Zum Weiterlesen:** Döring, Nicola (2023): Forschungsmethoden und Evaluation in den Sozial- und Humanwissenschaften. 6. Aufl. Berlin: Springer. · Kromrey, Helmut/Roose, Jochen/Strübing, Jörg (2016): Empirische Sozialforschung. 13. Aufl. Konstanz: UVK. · Przyborski, Aglaja/Wohlrab-Sahr, Monika (2021): Qualitative Sozialforschung. Ein Arbeitsbuch. 5. Aufl. Berlin/Boston: De Gruyter Oldenbourg. · Bruder, Martin/Haffke, Peter/Neave, Nick/Nouripanah, Nina/Imhoff, Roland (2013): Measuring individual differences in generic beliefs in conspiracy theories across cultures: Conspiracy Mentality Questionnaire. In: Frontiers in Psychology 4, Art. 225.

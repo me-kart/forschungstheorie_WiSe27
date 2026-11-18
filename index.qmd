@@ -1,0 +1,83 @@
+---
+title: "Seminarüberblick"
+subtitle: "Forschungstheorie · Soziale Arbeit (B. A.), OTH Regensburg · WiSe 2026/27"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage der Lehrveranstaltung
+Wie entsteht gesichertes Wissen über soziale Wirklichkeit, und wie kann die Soziale Arbeit dieses Wissen für ihre Praxis nutzen und kritisch prüfen?
+:::
+
+## Worum es geht
+
+Empirische Forschungsmethoden gehören zum unverzichtbaren Werkzeug wissenschaftlichen Arbeitens. Sie werden gebraucht, um eigene Forschung umzusetzen, um die Güte veröffentlichter Befunde einzuschätzen und um zu prüfen, ob Interventionen und sozialpädagogische Maßnahmen wirken.
+
+Die Lehrveranstaltung stellt dafür Methoden der qualitativen und der quantitativen Sozialforschung vor und diskutiert sie anwendungsbezogen: vom Leitfadeninterview über die Beobachtung bis zum vollstandardisierten Fragebogen. Eingebettet sind die Methoden in wissenschafts- und messtheoretische Grundlagen der Planung und Auswertung empirischer Studien. Als durchgehendes Beispiel dient das Thema unseres Moduls *Forschungspraxis*: Desinformation und Verschwörungserzählungen im digitalen Alltag junger Menschen.
+
+## Lernziele
+
+Nach der Lehrveranstaltung können Sie
+
+- die Logik, die Stärken und die Grenzen qualitativer und quantitativer Sozialforschung in der Sozialen Arbeit erläutern,
+- praxisrelevante Fragestellungen entwickeln und in passende Forschungsdesigns übersetzen,
+- Erhebungen planen, sowohl qualitativ als auch mit einem Fragebogen,
+- einfache deskriptive Auswertungen selbst berechnen und interpretieren,
+- ethische, datenschutzrechtliche und diversitätssensible Aspekte reflektieren und daraus Handlungsempfehlungen für die Praxis ableiten.
+
+## Die 13 Sitzungen
+
+::: {.block-card .block-1}
+[Block I · Sitzungen 1–4]{.block-badge}
+
+### Wissenschaftstheorie und Forschungsdesign
+
+**Schwerpunkt:** Was wissenschaftliches Wissen ausmacht, wie Erkenntnis begründet wird und wie aus einem Thema eine Forschungsfrage, eine Hypothese und ein Design werden.
+
+1. [Einführung: Alltagswissen und wissenschaftliches Wissen](sitzungen/01-einfuehrung.qmd) · 06.10.2026
+2. [Wissenschaftstheoretische Grundlagen](sitzungen/02-wissenschaftstheorie.qmd) · 13.10.2026
+3. [Forschungsprozess und Forschungsdesign](sitzungen/03-forschungsprozess-design.qmd) · 20.10.2026
+4. [Forschungsfragen, Hypothesen und Operationalisierung](sitzungen/04-forschungsfragen-operationalisierung.qmd) · 27.10.2026
+:::
+
+::: {.block-card .block-2}
+[Block II · Sitzungen 5–8]{.block-badge}
+
+### Stichprobe und Datenerhebung
+
+**Schwerpunkt:** Für wen gelten Ergebnisse, und wie werden Daten gewonnen?
+
+5. [Stichprobenziehung I: Grundgesamtheit und Zufallsauswahl](sitzungen/05-stichprobenziehung-1.qmd) · 03.11.2026
+6. [Stichprobenziehung II: bewusste Auswahl, Repräsentativität, qualitatives Sampling](sitzungen/06-stichprobenziehung-2.qmd) · 10.11.2026
+7. [Datenerhebung I: qualitative Methoden](sitzungen/07-datenerhebung-qualitativ.qmd) · 17.11.2026
+8. [Datenerhebung II: quantitative Methoden](sitzungen/08-datenerhebung-quantitativ.qmd) · 24.11.2026
+:::
+
+::: {.block-card .block-3}
+[Block III · Sitzungen 9–13]{.block-badge}
+
+### Auswertung, Qualität und Transfer
+
+**Schwerpunkt:** Wie aus Daten Befunde werden, woran gute Forschung zu erkennen ist und wie Ergebnisse in die Praxis gelangen.
+
+9. [Datenauswertung I: qualitativ](sitzungen/09-datenauswertung-qualitativ.qmd) · 01.12.2026
+10. [Datenauswertung II: quantitativ](sitzungen/10-datenauswertung-quantitativ.qmd) · 08.12.2026
+11. [Gütekriterien](sitzungen/11-guetekriterien.qmd) · 15.12.2026
+12. [Ethik in der Forschung und Darstellung von Ergebnissen](sitzungen/12-ethik-ergebnisdarstellung.qmd) · 22.12.2026
+13. [Anwendung wissenschaftlicher Erkenntnisse](sitzungen/13-anwendung-transfer.qmd) · 12.01.2027
+:::
+
+Die Sitzungen finden dienstags von 12:15 bis 13:45 Uhr statt, der Termin am 12.01.2027 von 10:00 bis 11:30 Uhr. Am 19.01.2027 entfällt die Sitzung.
+
+## Prüfung
+
+Die Lehrveranstaltung schließt mit einer **schriftlichen Prüfung (60 Minuten)** ab. Prüfungsrelevant sind die Inhalte aller Sitzungen. In der Prüfung kommen auch kleine Rechenaufgaben zur deskriptiven Statistik vor; ein Taschenrechner ist erlaubt. Die [Lernkontrolle](04-lernkontrolle.qmd) und die Übungsaufgaben in [Sitzung 10](sitzungen/10-datenauswertung-quantitativ.qmd) helfen bei der Vorbereitung.
+
+## Lehrbücher
+
+- Schaffer, Hanne/Schaffer, Fabian (2019): Empirische Methoden für soziale Berufe. Eine anwendungsorientierte Einführung in die qualitative und quantitative Sozialforschung. Freiburg: Lambertus.
+- Baur, Nina/Blasius, Jörg (Hrsg.) (2022): Handbuch Methoden der empirischen Sozialforschung. 3. Aufl., Bd. 1 und 2. Wiesbaden: Springer VS. <https://doi.org/10.1007/978-3-658-37985-8>
+- Schnell, Rainer/Hill, Paul B./Esser, Elke (2023): Methoden der empirischen Sozialforschung. 12. Aufl. München: De Gruyter Oldenbourg.
+
+## Kontakt
+
+Prof. Dr. Mehmet Kart · <mehmet.kart@oth-regensburg.de> · Fragen sind jederzeit willkommen, in der Veranstaltung, per Mail oder in der Sprechstunde.

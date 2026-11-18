@@ -1,0 +1,203 @@
+---
+title: "Sitzung 2: Wissenschaftstheoretische Grundlagen"
+subtitle: "13.10.2026 · Erkenntnistheoretische Positionen, Grundbegriffe und Hypothesen"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Wie lassen sich wissenschaftliche Aussagen begründen und überprüfen, und mit welchen Begriffen, Schlussformen und Hypothesen arbeitet empirische Forschung?
+:::
+
+Jede Studie beruht auf Annahmen, die selten ausgesprochen werden. Gibt es eine soziale Wirklichkeit unabhängig davon, wie Menschen sie deuten? Lassen sich Theorien beweisen oder nur widerlegen? Und bestimmt die Methode die Frage oder die Frage die Methode? Mit solchen Fragen befasst sich die Wissenschaftstheorie. Sie forscht nicht selbst empirisch, sondern klärt als Metaebene die Voraussetzungen empirischer Forschung. Die Sitzung stellt zunächst die wichtigsten Positionen vor und führt dann in die Grundbegriffe ein, mit denen wir im weiteren Verlauf arbeiten.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Erkenntnistheoretische Positionen
+
+[Klicken Sie auf eine Position, um unten eine kurze Einführung zu lesen.]{.theory-hint}
+
+- [Rationalismus und Empirismus]{.theory-link data-theory="re"}
+- [Positivismus]{.theory-link data-theory="pos"}
+- [Kritischer Rationalismus (Karl R. Popper)]{.theory-link data-theory="kr"}
+- [Konstruktivismus und interpretatives Paradigma]{.theory-link data-theory="ko"}
+- [Pragmatismus]{.theory-link data-theory="pr"}
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Grundbegriffe
+
+- Begriffs- und Definitionsarten
+- Variable, unabhängige und abhängige Variable
+- Deduktion, Induktion, Abduktion
+- Hypothese, Hypothesenarten, Null- und Alternativhypothese
+:::
+
+:::
+
+## 1. Was ist Wissenschaftstheorie?
+
+Wissenschaftstheorie reflektiert die Wissenschaft selbst. Sie fragt, was wissenschaftliches Wissen von Alltagswissen unterscheidet, wie sich Aussagen begründen und überprüfen lassen, welche Methoden für welche Fragen angemessen sind und welchen Status Theorien haben: Sind sie wahr, bewährt oder nur vorläufig? Die Antworten darauf fallen je nach erkenntnistheoretischer Position unterschiedlich aus.
+
+
+::: {#theory-re .theory-panel}
+### Rationalismus und Empirismus
+
+**Kernidee.** Im 17. und 18. Jahrhundert standen sich zwei Antworten auf die Frage gegenüber, woher sicheres Wissen stammt. Der **Rationalismus** (René Descartes, Gottfried Wilhelm Leibniz, Baruch de Spinoza) sah die Vernunft als Quelle sicherer Erkenntnis; sein Leitbild war die Mathematik, sein Verfahren die Deduktion. Der **Empirismus** (Francis Bacon, John Locke, David Hume) ging davon aus, dass alle Erkenntnis aus der Sinneserfahrung stammt; sein Leitbild war die Beobachtung, sein Verfahren die Induktion.
+
+**Vermittlung.** Immanuel Kant verband beide Positionen: Erkenntnis entsteht im Zusammenspiel von Erfahrung und den Strukturen des Verstandes.
+
+**Bedeutung für die Forschung.** Moderne Wissenschaft verbindet beides: theoretisch-logische Ableitung und empirische Prüfung.
+:::
+
+::: {#theory-pos .theory-panel}
+### Positivismus
+
+**Kernidee.** Wissenschaft hält sich an das „positiv“ Gegebene, also an beobachtbare Tatsachen. Die Sozialwissenschaften sollen wie die Naturwissenschaften arbeiten. Begründet wurde der Positivismus von Auguste Comte im 19. Jahrhundert; im Logischen Empirismus des Wiener Kreises (1920er- und 1930er-Jahre) wurde er weiterentwickelt.
+
+**Zentrale Annahmen**
+
+- Gesellschaft folgt erkennbaren Gesetzmäßigkeiten.
+- Erkenntnis entsteht durch Beobachtung und Messung.
+- Tatsachen und Werturteile sind zu trennen.
+- Sinnvoll ist nur, was sich empirisch verifizieren lässt (Wiener Kreis).
+
+**Bedeutung für die Forschung.** Der Positivismus war historisch prägend für die quantitative Forschung. Heute wird diese aber meist kritisch-rationalistisch begründet.
+:::
+
+::: {#theory-kr .theory-panel}
+### Kritischer Rationalismus · Karl R. Popper
+
+**Kernidee.** Karl R. Popper (*Logik der Forschung*, 1935) und Hans Albert gehen vom Induktionsproblem aus: Aus noch so vielen beobachteten weißen Schwänen folgt nicht, dass alle Schwäne weiß sind. Allgemeine Aussagen lassen sich deshalb nicht verifizieren, wohl aber falsifizieren.
+
+**Zentrale Annahmen**
+
+- Wissenschaftlich ist, was prinzipiell widerlegbar ist (Falsifizierbarkeit als Abgrenzungskriterium).
+- Aus einer Theorie wird eine Hypothese abgeleitet und empirisch geprüft. Scheitert sie, gilt sie als falsifiziert; übersteht sie die Prüfung, gilt sie als vorläufig bewährt.
+- Alles Wissen bleibt Vermutungswissen (Fallibilismus).
+
+**Bedeutung für die Forschung.** Der Kritische Rationalismus ist die wichtigste Begründung hypothesenprüfender, meist quantitativer Forschung. Auch die Logik des Signifikanztests, bei dem eine Nullhypothese verworfen wird, folgt diesem Gedanken der Widerlegung.
+:::
+
+::: {#theory-ko .theory-panel}
+### Konstruktivismus und interpretatives Paradigma
+
+**Kernidee.** Wir haben keinen unmittelbaren Zugang zur Wirklichkeit. Wissen über sie entsteht durch Wahrnehmung, Deutung und Kommunikation. Nach dem Sozialkonstruktivismus von Peter L. Berger und Thomas Luckmann (1966) wird soziale Wirklichkeit, etwa Institutionen oder Kategorien wie „Jugend“ oder „Geschlecht“, in Interaktion hergestellt und erscheint dann als objektiv gegeben.
+
+**Zentrale Annahmen**
+
+- Wissen ist kontextgebunden, standortgebunden und sozial geprägt.
+- Forschende sind Teil des Forschungsprozesses; ihre Rolle muss reflektiert werden (Reflexivität).
+- Verwandte Grundlagen sind der Symbolische Interaktionismus, die Phänomenologie (Alfred Schütz) und die Hermeneutik.
+
+**Bedeutung für die Forschung.** Der Konstruktivismus ist besonders wichtig für die qualitative Forschung, die den Sinn rekonstruiert, den Menschen ihrem Handeln geben.
+:::
+
+::: {#theory-pr .theory-panel}
+### Pragmatismus
+
+**Kernidee.** Wissen bewährt sich an seinen Folgen im Handeln und an der Lösung von Problemen. Der Pragmatismus geht auf Charles S. Peirce, William James und John Dewey zurück (ab Ende des 19. Jahrhunderts).
+
+**Zentrale Annahmen**
+
+- Die Forschungsfrage bestimmt die Methode, nicht umgekehrt.
+- Der Gegensatz „objektiv gegeben“ versus „sozial konstruiert“ wird nicht vorab entschieden.
+- Quantitative und qualitative Zugänge lassen sich begründet miteinander verbinden.
+
+**Bedeutung für die Forschung.** Der Pragmatismus gilt als wichtigste wissenschaftstheoretische Grundlage der Mixed-Methods-Forschung und damit auch unseres eigenen Projekts im Modul *Forschungspraxis*.
+:::
+
+## 2. Die Positionen im Überblick
+
+| | Positivismus | Kritischer Rationalismus | Konstruktivismus | Pragmatismus |
+|---|---|---|---|---|
+| **Wirklichkeit** | objektiv gegeben, beobachtbar | existiert unabhängig, nur annähernd erkennbar | sozial hergestellt, über Deutungen zugänglich | zeigt sich im Handeln und seinen Folgen |
+| **Erkenntnisweg** | Beobachtung, Induktion, Verifikation | Deduktion, Prüfung, Falsifikation | Interpretation, Rekonstruktion von Sinn | problemorientiert; die Methode folgt der Frage |
+| **Ziel** | Gesetze entdecken | erklären, Theorien prüfen | verstehen | brauchbares Wissen |
+| **Typische Forschung** | standardisiert, quantitativ | hypothesenprüfend, meist quantitativ | offen, qualitativ | Mixed Methods |
+
+: Erkenntnistheoretische Positionen im Überblick {#tbl-positionen}
+
+Die Tabelle zeigt Idealtypen. Reale Forschung kombiniert und verschiebt diese Zuordnungen.
+
+## 3. Begriffe und Definitionen
+
+Wissenschaftliche Aussagen bestehen aus Begriffen. **Logische Begriffe** wie „und“, „oder“, „nicht“, „wenn – dann“, „alle“ oder „einige“ verknüpfen Aussagen und haben keinen empirischen Bezug. **Empirische Begriffe** bezeichnen Sachverhalte der Wirklichkeit. Manche haben einen direkten Bezug und sind beobachtbar, etwa Alter, Wohnort oder Schulabschluss. Andere haben nur einen indirekten Bezug: theoretische Konstrukte wie Vorurteil, Radikalisierung oder soziale Ungleichheit. Je indirekter der empirische Bezug, desto wichtiger werden Definition und Operationalisierung.
+
+Eine Definition legt die Bedeutung eines Begriffs fest. Drei Arten lassen sich unterscheiden:
+
+- Die **Realdefinition** behauptet, was eine Sache „ihrem Wesen nach“ ist („Der Mensch ist ein vernunftbegabtes Lebewesen“). Sie kann wahr oder falsch sein und ist in der Empirie problematisch.
+- Die **Nominaldefinition** legt fest, wie ein Begriff verwendet wird, etwa „Jugendliche“ als Personen von 14 bis unter 18 Jahren (vgl. § 7 SGB VIII). Sie ist weder wahr noch falsch, sondern nur mehr oder weniger zweckmäßig.
+- Die **operationale Definition** legt fest, wie ein Begriff gemessen wird, etwa „Demokratiezufriedenheit“ als Antwort auf einer fünfstufigen Zustimmungsskala. Sie bildet die Brücke zur Variable.
+
+Die empirische Sozialforschung arbeitet mit Nominal- und operationalen Definitionen.
+
+## 4. Variablen
+
+Eine **Variable** ist ein Merkmal, das bei den Untersuchungseinheiten mindestens zwei unterschiedliche Ausprägungen annehmen kann. Die Ausprägungen müssen vollständig und überschneidungsfrei sein; eine Antwortvorgabe „ja / nein / häufig“ verletzt diese Regel.
+
+| Variable | Ausprägungen | Skalenniveau |
+|---|---|---|
+| Alter | 14, 15, 16 … Jahre | metrisch |
+| Geschlecht | weiblich, männlich, divers | nominal |
+| Schulabschluss | ohne, Mittelschule, Mittlere Reife, Abitur | ordinal |
+| Diskriminierungserfahrungen | nie, selten, manchmal, häufig | ordinal |
+
+: Beispiele für Variablen {#tbl-variablen}
+
+Die **unabhängige Variable (UV)** ist die Einflussgröße, die etwas erklären soll, zum Beispiel das Bildungsniveau. Die **abhängige Variable (AV)** ist die Ergebnisgröße, die erklärt werden soll, zum Beispiel die politische Partizipation. Ob eine Variable UV oder AV ist, legt die Fragestellung fest, nicht die Variable selbst. **Drittvariablen** wie das Einkommen der Eltern können beide beeinflussen und so Scheinzusammenhänge erzeugen.
+
+## 5. Schlussformen: Deduktion, Induktion, Abduktion
+
+**Deduktion** schließt vom Allgemeinen auf das Besondere. Sie ist logisch zwingend, erweitert aber nicht das Wissen. Beispiel: Aus der Theorie „Soziale Ungleichheit beeinflusst Bildungschancen“ wird die Hypothese abgeleitet „Kinder aus einkommensarmen Familien erreichen seltener das Abitur“, die anschließend an Daten geprüft wird.
+
+**Induktion** schließt vom Besonderen auf das Allgemeine. Sie erweitert das Wissen, ist aber nicht sicher. Beispiel: Interviews mit Jugendlichen zeigen ähnliche Diskriminierungserfahrungen in der Schule; daraus wird verallgemeinert, dass Diskriminierung im Schulalltag strukturell verankert ist. Der nächste Fall kann widersprechen.
+
+**Abduktion** geht auf Charles S. Peirce zurück. Sie schließt von einer überraschenden Beobachtung auf eine mögliche neue Erklärung. Beispiel: Jugendliche mit vielen Diskriminierungserfahrungen engagieren sich stark in Initiativen. Eine neue Erklärung lautet, dass Diskriminierung auch demokratisch politisieren kann. Diese Vermutung wird dann an weiteren Fällen geprüft.
+
+Deduktion ist typisch für hypothesenprüfende, Induktion für hypothesengenerierende Forschung. Qualitative Forschung arbeitet allerdings selten rein induktiv, sondern im Wechsel von Abduktion, Induktion und Deduktion, etwa in der Grounded Theory.
+
+## 6. Hypothesen
+
+Eine **Hypothese** ist eine theoretisch begründete, empirisch prüfbare Annahme über einen Zusammenhang zwischen zwei oder mehr Variablen. Sie wird meist in einer Wenn-dann-Form („Wenn Jugendliche aus sozial benachteiligten Familien kommen, dann brechen sie häufiger die Schule ab“) oder einer Je-desto-Form formuliert („Je niedriger der sozioökonomische Status der Familie, desto höher das Risiko eines Schulabbruchs“). Hypothesen sind vorläufig: Sie können sich bewähren oder scheitern, bewiesen werden sie nicht.
+
+Hypothesen strukturieren die Forschung, leiten Datenerhebung und Auswertung und machen prüfbar, was eine Theorie behauptet. Nicht jede Forschung beginnt allerdings mit Hypothesen. **Hypothesenprüfende** Forschung will erklären und ist typischerweise quantitativ und deduktiv. **Hypothesengenerierende** Forschung will entdecken und verstehen und ist typischerweise qualitativ und explorativ. Auch beschreibende und explorative Studien sind wissenschaftlich.
+
+Hypothesen lassen sich nach mehreren Dimensionen unterscheiden, die sich kombinieren lassen:
+
+| Dimension | Unterscheidung | Leitfrage |
+|---|---|---|
+| Inhalt | Zusammenhangs-, Unterschieds-, Veränderungshypothese | Was wird behauptet? |
+| Kausalanspruch | Zusammenhang oder Ursache-Wirkung | Wird eine Wirkung behauptet? |
+| Richtung | gerichtet oder ungerichtet | Ist die Richtung festgelegt? |
+| Statistische Form | Nullhypothese H₀ und Alternativhypothese H₁ | Was wird im Test geprüft? |
+
+: Hypothesenarten {#tbl-hypothesen}
+
+- Eine **Zusammenhangshypothese** behauptet einen Zusammenhang zwischen zwei Variablen („Je höher das Bildungsniveau, desto höher die politische Partizipation“). Ein Zusammenhang ist noch keine Aussage über Ursache und Wirkung.
+- Eine **Unterschiedshypothese** behauptet Unterschiede zwischen Gruppen („Jugendliche mit Migrationserfahrung berichten häufiger von Diskriminierung als Jugendliche ohne Migrationserfahrung“). Die Vergleichsgruppe muss benannt werden.
+- Eine **Kausalhypothese** behauptet, dass eine Variable eine andere beeinflusst („Politische Bildung reduziert Vorurteile“). Kausalaussagen setzen dreierlei voraus: einen Zusammenhang, die richtige zeitliche Reihenfolge und den Ausschluss von Drittvariablen. Dafür braucht es ein passendes Design, etwa ein Experiment mit Zufallszuteilung oder eine Längsschnittstudie.
+- **Gerichtete** Hypothesen legen die Richtung fest, **ungerichtete** behaupten nur einen Zusammenhang. Gerichtete Hypothesen sind präziser und damit im Sinne Poppers leichter widerlegbar.
+- Die **Alternativhypothese H₁** behauptet einen Effekt und ist meist die eigentliche Forschungshypothese. Die **Nullhypothese H₀** behauptet, dass es keinen Effekt gibt. Ein Signifikanztest prüft, ob H₀ verworfen werden kann (mehr dazu in [Sitzung 10](10-datenauswertung-quantitativ.qmd)). Wird H₀ nicht verworfen, ist sie damit nicht bewiesen.
+
+Gute Hypothesen sind theoretisch begründet, präzise formuliert, operationalisierbar, empirisch überprüfbar, falsifizierbar und nicht normativ. Typische Fehler sind eine unklare Variablenstruktur, normative statt empirischer Aussagen, vage Begriffe wie „viel“ oder „oft“, eine fehlende Vergleichsgruppe und eine behauptete Kausalität ohne passendes Design. Aus „Social Media ist schlecht für Jugendliche“ wird so eine prüfbare, gerichtete Zusammenhangshypothese: „Je mehr Zeit 14- bis 17-Jährige täglich auf Social Media verbringen, desto geringer ist ihre selbstberichtete Lebenszufriedenheit.“
+
+::: {.praxis}
+**Für die Praxis heißt das:** Wer eine Studie liest oder plant, sollte fragen, welche Annahmen über Wirklichkeit und Erkenntnis ihr zugrunde liegen und ob ihre Hypothesen wirklich prüfbar formuliert sind. Die Wahl einer Methode ist keine rein technische Entscheidung.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Übung: Hypothesen formulieren"}
+Thema: soziale Ungleichheit und Bildung.
+
+1. Formulieren Sie je eine Zusammenhangs-, Unterschieds- und Kausalhypothese.
+2. Benennen Sie jeweils UV, AV und deren Ausprägungen.
+3. Prüfen Sie Ihre Hypothesen an den Kriterien: Welche Daten und welches Design bräuchte man?
+
+Diskutieren Sie: Welche Hypothesen sind empirisch überprüfbar, welche nur normativ?
+:::
+
+Aussagen den Positionen zuordnen können Sie im Lernspiel [Aussagen zuordnen](../03-lernspiele.qmd#sec-zuordnen).
+
+**Zum Weiterlesen:** Popper, Karl R. (1935): Logik der Forschung. Wien: Springer. · Berger, Peter L./Luckmann, Thomas (1969): Die gesellschaftliche Konstruktion der Wirklichkeit. Eine Theorie der Wissenssoziologie. Frankfurt a. M.: S. Fischer. · Schnell, Rainer/Hill, Paul B./Esser, Elke (2023): Methoden der empirischen Sozialforschung. 12. Aufl. München: De Gruyter Oldenbourg.

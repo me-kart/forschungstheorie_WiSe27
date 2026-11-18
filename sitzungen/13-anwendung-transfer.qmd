@@ -1,0 +1,93 @@
+---
+title: "Sitzung 13: Anwendung wissenschaftlicher Erkenntnisse"
+subtitle: "12.01.2027 · Evidenzbasierte Praxis und Transfer in soziale und gesundheitliche Handlungsfelder"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Wie gelangen Forschungsergebnisse in die Praxis der Sozialen Arbeit, und was kann evidenzbasierte Praxis leisten, was nicht?
+:::
+
+Ein Landkreis möchte ein Programm zur Gewaltprävention an Schulen einführen. Zur Auswahl stehen ein bundesweit verbreitetes Programm mit mehreren Evaluationsstudien und ein Konzept, das eine örtliche Fachkraft entwickelt hat und das bei Jugendlichen gut ankommt. Wie soll entschieden werden? Nach der Studienlage, nach der Erfahrung vor Ort oder nach den Wünschen der Schüler:innen? Die Frage verdichtet das Thema der letzten Sitzung. Sie führt die Inhalte des Semesters zusammen: Wer Forschung in der Praxis nutzen will, muss Studien lesen, ihre Güte beurteilen und ihre Reichweite einschätzen können.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Themen
+
+- Was ist evidenzbasierte Praxis?
+- Evidenz beurteilen
+- Kritik an evidenzbasierter Praxis
+- Transfer von Forschungsergebnissen
+- Rückblick auf das Semester
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- Evidenz
+- Wirksamkeit
+- Fachlichkeit, Erfahrungswissen
+- Adressat:innenperspektive
+- Transfer
+:::
+
+:::
+
+## 1. Was ist evidenzbasierte Praxis?
+
+Der Begriff stammt aus der Medizin. Evidenzbasierte Medizin wurde als gewissenhafte, ausdrückliche und umsichtige Nutzung der besten verfügbaren Forschungsbefunde für Entscheidungen im Einzelfall beschrieben (Sackett et al. 1996). Entscheidend ist dabei, dass Forschungsbefunde nicht allein stehen. Sie werden mit dem Erfahrungswissen der Fachkräfte und mit den Werten, Wünschen und der Lebenssituation der Betroffenen verbunden. In die Soziale Arbeit wurde das Konzept unter anderem von Eileen Gambrill (1999) übertragen, die es als Alternative zu einer Praxis verstand, die sich vor allem auf Autorität und Tradition stützt.
+
+Evidenzbasierte Praxis heißt damit nicht, dass Studien Entscheidungen vorschreiben. Sie heißt, dass Fachkräfte begründen können, worauf ihre Entscheidungen beruhen, und dass sie die verfügbare Forschung dabei kennen und kritisch berücksichtigen.
+
+## 2. Evidenz beurteilen
+
+Nicht jede Studie liefert gleich belastbare Aussagen über die Wirkung einer Maßnahme. In der Diskussion um Wirksamkeit gelten randomisierte kontrollierte Studien und systematische Übersichtsarbeiten, die mehrere solcher Studien zusammenfassen, als besonders aussagekräftig; Fallstudien und Expert:innenmeinungen gelten als weniger belastbar. Für die Praxis helfen die Prüffragen, die wir im Semester kennengelernt haben:
+
+- **Design:** Erlaubt das Design überhaupt eine Aussage über Wirkung (→ [Sitzung 3](03-forschungsprozess-design.qmd))?
+- **Stichprobe:** Für wen gelten die Ergebnisse? Passt die untersuchte Gruppe zu meiner Zielgruppe (→ [Sitzungen 5](05-stichprobenziehung-1.qmd) und [6](06-stichprobenziehung-2.qmd))?
+- **Messung:** Wie wurde „Wirkung“ operationalisiert, und sind die Instrumente valide (→ [Sitzungen 4](04-forschungsfragen-operationalisierung.qmd) und [11](11-guetekriterien.qmd))?
+- **Ergebnis:** Ist ein Effekt nicht nur signifikant, sondern auch relevant groß (→ [Sitzung 10](10-datenauswertung-quantitativ.qmd))?
+- **Unabhängigkeit:** Wer hat die Studie durchgeführt und finanziert (→ [Sitzung 12](12-ethik-ergebnisdarstellung.qmd))?
+
+Qualitative Studien beantworten andere Fragen: Sie zeigen, wie Angebote erlebt werden, warum Menschen sie annehmen oder abbrechen und unter welchen Bedingungen sie gelingen. Für eine reflektierte Praxis ist dieses Wissen ebenso wichtig wie das Wissen über Wirkungen.
+
+## 3. Kritik an evidenzbasierter Praxis
+
+In der Sozialen Arbeit wird evidenzbasierte Praxis kontrovers diskutiert (vgl. Otto/Polutta/Ziegler 2010). Die Kritik richtet sich nicht gegen Forschung, sondern gegen eine verkürzte Lesart. Erstens lassen sich viele Ziele Sozialer Arbeit, etwa Teilhabe, Anerkennung oder Autonomie, nur schwer messen. Was leicht messbar ist, droht wichtiger zu werden als das, was fachlich wichtig ist. Zweitens wirken Hilfen in der Sozialen Arbeit über Beziehungen und Aushandlungen; sie lassen sich nicht wie ein Medikament standardisieren. Drittens besteht die Gefahr, dass „Evidenz“ zum Steuerungsinstrument wird, mit dem Kosten begrenzt oder Angebote ausgeschlossen werden, die nicht evaluiert sind, weil ihnen die Mittel dafür fehlten.
+
+Beide Verkürzungen greifen deshalb zu kurz: eine Praxis, die Forschung ignoriert und sich allein auf Erfahrung verlässt, ebenso wie eine Praxis, die Fachlichkeit und Adressat:innenperspektive durch Studienergebnisse ersetzt. Der professionelle Weg liegt dazwischen: Forschung als eine wichtige, aber nicht die einzige Grundlage fachlicher Entscheidungen.
+
+## 4. Transfer in die Handlungsfelder
+
+Forschungsergebnisse werden in der Praxis auf unterschiedliche Weise genutzt. Sie können **instrumentell** genutzt werden, wenn eine Studie direkt eine Entscheidung begründet, etwa für ein bestimmtes Programm. Sie können **konzeptionell** wirken, wenn sie den Blick auf ein Problem verändern, etwa wenn Forschung zeigt, dass Radikalisierung mit Diskriminierungserfahrungen zusammenhängt. Und sie können **legitimierend** eingesetzt werden, um bereits getroffene Entscheidungen oder fachpolitische Forderungen zu begründen.
+
+Transfer gelingt eher, wenn Forschung und Praxis früh zusammenarbeiten, etwa in Praxisforschung, partizipativer Forschung oder wissenschaftlicher Begleitung von Projekten. Er gelingt auch eher, wenn Ergebnisse verständlich aufbereitet werden: in Handreichungen, Fortbildungen und Fachtagen. Und er setzt voraus, dass Fachkräfte über die Kompetenz verfügen, Studien zu lesen und einzuordnen. Genau diese Kompetenz sollte die Lehrveranstaltung vermitteln.
+
+::: {.praxis}
+**Für die Praxis heißt das:** Fachkräfte müssen nicht selbst forschen, um forschungsbasiert zu arbeiten. Sie sollten aber Studien kritisch lesen, ihre Reichweite einschätzen und sie mit ihrem Erfahrungswissen und der Perspektive ihrer Adressat:innen verbinden können.
+:::
+
+## 5. Rückblick auf das Semester
+
+| Schritt im Forschungsprozess | Sitzungen | Leitfrage |
+|---|---|---|
+| Grundlagen | 1–2 | Was ist wissenschaftliches Wissen, und wie wird es begründet? |
+| Design | 3–4 | Was will ich wissen, was erwarte ich, wie mache ich es messbar? |
+| Auswahl | 5–6 | Für wen gelten meine Ergebnisse? |
+| Erhebung | 7–8 | Wie gewinne ich Daten? |
+| Auswertung | 9–10 | Wie werden aus Daten Befunde? |
+| Qualität und Ethik | 11–12 | Woran erkenne ich gute und verantwortliche Forschung? |
+| Transfer | 13 | Wie nutze ich Forschung in der Praxis? |
+
+: Der rote Faden des Semesters {#tbl-rueckblick}
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Diskussion: das Präventionsprogramm"}
+Zurück zum Landkreis vom Anfang: Wie würden Sie entscheiden? Welche Informationen bräuchten Sie über die Evaluationsstudien des bundesweiten Programms? Wie ließe sich das örtliche Konzept so begleiten, dass man mehr über seine Wirkung erfährt? Und wie könnten die Schüler:innen an der Entscheidung beteiligt werden?
+:::
+
+Zur Prüfungsvorbereitung: [Lernkontrolle](../04-lernkontrolle.qmd) und [Übungen zur deskriptiven Statistik](10-datenauswertung-quantitativ.qmd#übungen-zur-prüfungsvorbereitung).
+
+**Zum Weiterlesen:** Otto, Hans-Uwe/Polutta, Andreas/Ziegler, Holger (Hrsg.) (2010): What Works – Welches Wissen braucht die Soziale Arbeit? Zum Konzept evidenzbasierter Praxis. Opladen/Farmington Hills: Barbara Budrich. · Gambrill, Eileen (1999): Evidence-Based Practice: An Alternative to Authority-Based Practice. In: Families in Society 80 (4), S. 341–350. · Sackett, David L./Rosenberg, William M. C./Gray, J. A. Muir/Haynes, R. Brian/Richardson, W. Scott (1996): Evidence based medicine: what it is and what it isn't. In: BMJ 312, S. 71–72.

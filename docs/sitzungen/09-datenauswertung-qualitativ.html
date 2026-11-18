@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Sitzung 9: Datenauswertung I (qualitativ) – Forschungstheorie</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../sitzungen/10-datenauswertung-quantitativ.html" rel="next">
+<link href="../sitzungen/08-datenerhebung-quantitativ.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-396e88790eb4506ff42b3720641e1a76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../fonts/outfit.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Sitzungen</a></li><li class="breadcrumb-item"><a href="../sitzungen/09-datenauswertung-qualitativ.html">Block III · Auswertung, Qualität und Transfer</a></li><li class="breadcrumb-item"><a href="../sitzungen/09-datenauswertung-qualitativ.html">9 · Datenauswertung qualitativ</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Forschungstheorie</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Suchen"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../welcome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Willkommen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Grundlagen</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../grundlagen/01-grundbegriffe.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grundbegriffe der Forschungstheorie</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Sitzungen</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Seminarüberblick</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Block I · Wissenschaftstheorie und Forschungsdesign</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/01-einfuehrung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 · Einführung: Alltagswissen und Wissenschaft</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/02-wissenschaftstheorie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 · Wissenschaftstheoretische Grundlagen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/03-forschungsprozess-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 · Forschungsprozess und Forschungsdesign</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/04-forschungsfragen-operationalisierung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 · Forschungsfragen und Operationalisierung</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Block II · Stichprobe und Datenerhebung</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/05-stichprobenziehung-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 · Stichprobenziehung I</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/06-stichprobenziehung-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 · Stichprobenziehung II</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/07-datenerhebung-qualitativ.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 · Datenerhebung qualitativ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/08-datenerhebung-quantitativ.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 · Datenerhebung quantitativ</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Block III · Auswertung, Qualität und Transfer</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/09-datenauswertung-qualitativ.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">9 · Datenauswertung qualitativ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/10-datenauswertung-quantitativ.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10 · Datenauswertung quantitativ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/11-guetekriterien.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11 · Gütekriterien</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/12-ethik-ergebnisdarstellung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12 · Ethik und Ergebnisdarstellung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitzungen/13-anwendung-transfer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">13 · Anwendung wissenschaftlicher Erkenntnisse</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Üben</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../03-lernspiele.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lernspiele</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../04-lernkontrolle.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lernkontrolle</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#was-ist-qualitative-datenauswertung" id="toc-was-ist-qualitative-datenauswertung" class="nav-link active" data-scroll-target="#was-ist-qualitative-datenauswertung">1. Was ist qualitative Datenauswertung?</a></li>
+  <li><a href="#qualitative-inhaltsanalyse-mayring" id="toc-qualitative-inhaltsanalyse-mayring" class="nav-link" data-scroll-target="#qualitative-inhaltsanalyse-mayring">2. Qualitative Inhaltsanalyse (Mayring)</a></li>
+  <li><a href="#grounded-theory" id="toc-grounded-theory" class="nav-link" data-scroll-target="#grounded-theory">3. Grounded Theory</a></li>
+  <li><a href="#qualitative-inhaltsanalyse-und-grounded-theory-im-vergleich" id="toc-qualitative-inhaltsanalyse-und-grounded-theory-im-vergleich" class="nav-link" data-scroll-target="#qualitative-inhaltsanalyse-und-grounded-theory-im-vergleich">4. Qualitative Inhaltsanalyse und Grounded Theory im Vergleich</a></li>
+  <li><a href="#zur-vertiefung" id="toc-zur-vertiefung" class="nav-link" data-scroll-target="#zur-vertiefung">Zur Vertiefung</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Sitzungen</a></li><li class="breadcrumb-item"><a href="../sitzungen/09-datenauswertung-qualitativ.html">Block III · Auswertung, Qualität und Transfer</a></li><li class="breadcrumb-item"><a href="../sitzungen/09-datenauswertung-qualitativ.html">9 · Datenauswertung qualitativ</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Sitzung 9: Datenauswertung I (qualitativ)</h1>
+<p class="subtitle lead">01.12.2026 · Qualitative Inhaltsanalyse, Grounded Theory, Kodieren und Kategorienbildung</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Leitfrage
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wie werden aus Interviews, Protokollen und Dokumenten nachvollziehbare Befunde, und worin unterscheiden sich qualitative Inhaltsanalyse und Grounded Theory?</p>
+</div>
+</div>
+<p>„Am Anfang dachte ich, ich kann wirklich etwas verändern. Aber heute – nach all den Jahren – merke ich, dass es mehr ums Verwalten geht als ums Helfen. Ich schreibe Berichte, fülle Formulare aus. Die Zeit für die Familien – die fehlt einfach.“ Was sagt diese Sozialarbeiterin aus dem Jugendamt über ihre Arbeit? Qualitative Auswertung fragt nicht „Wie viele?“, sondern „Was bedeutet das?“. Sie interpretiert sprachliches, visuelles oder handlungsbasiertes Material und sucht nach Bedeutungen, Mustern und Strukturen. Die Sitzung stellt die beiden wichtigsten Verfahren vor.</p>
+<div class="grid">
+<section id="nach-dieser-sitzung-können-sie" class="level4 g-col-12 g-col-md-6 session-box">
+<h4 class="anchored" data-anchor-id="nach-dieser-sitzung-können-sie">Nach dieser Sitzung können Sie …</h4>
+<ul>
+<li>qualitative von quantitativer Auswertung abgrenzen,</li>
+<li>die qualitative Inhaltsanalyse nach Mayring erklären,</li>
+<li>induktive und deduktive Kategorienbildung unterscheiden,</li>
+<li>die Grundprinzipien der Grounded Theory benennen,</li>
+<li>offenes, axiales und selektives Kodieren beschreiben und erproben.</li>
+</ul>
+</section>
+<section id="zentrale-begriffe" class="level4 g-col-12 g-col-md-6 session-box">
+<h4 class="anchored" data-anchor-id="zentrale-begriffe">Zentrale Begriffe</h4>
+<ul>
+<li>Kategoriensystem, Kodierleitfaden</li>
+<li>Definition, Ankerbeispiel, Kodierregel</li>
+<li>In-vivo-Kode</li>
+<li>Constant Comparison, Memo</li>
+<li>Kernkategorie, theoretische Sättigung</li>
+</ul>
+</section>
+</div>
+<section id="was-ist-qualitative-datenauswertung" class="level2">
+<h2 class="anchored" data-anchor-id="was-ist-qualitative-datenauswertung">1. Was ist qualitative Datenauswertung?</h2>
+<p>Qualitative Auswertung arbeitet mit Interviews, Fokusgruppen, Feldnotizen und Beobachtungsprotokollen, mit Dokumenten, Fallakten, Medientexten und Social-Media-Inhalten. Sie will <strong>verstehen</strong> (subjektive Bedeutungen und Sinnkonstruktionen rekonstruieren), <strong>Typen bilden</strong> (Kategorien und Muster aus dem Material entwickeln) und <strong>Theorien entwickeln</strong> (neue Konzepte und Zusammenhänge generieren).</p>
+<div id="tbl-auswertung" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-auswertung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;1: Quantitative und qualitative Auswertung
+</figcaption>
+<div aria-describedby="tbl-auswertung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Quantitativ</th>
+<th>Qualitativ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ziel</strong></td>
+<td>messen, vergleichen, erklären, vorhersagen</td>
+<td>verstehen, interpretieren, Theorie bilden</td>
+</tr>
+<tr class="even">
+<td><strong>Daten</strong></td>
+<td>Zahlen, Skalen, standardisierte Antworten</td>
+<td>Texte, Bilder, Tonaufnahmen, Beobachtungen</td>
+</tr>
+<tr class="odd">
+<td><strong>Vorgehen</strong></td>
+<td>deduktiv: Hypothese → Daten → Prüfung</td>
+<td>induktiv oder abduktiv: Daten → Konzepte → Theorie</td>
+</tr>
+<tr class="even">
+<td><strong>Auswertung</strong></td>
+<td>Statistik</td>
+<td>Kodierung, Kategorienbildung, Interpretation</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="qualitative-inhaltsanalyse-mayring" class="level2">
+<h2 class="anchored" data-anchor-id="qualitative-inhaltsanalyse-mayring">2. Qualitative Inhaltsanalyse (Mayring)</h2>
+<p>Die qualitative Inhaltsanalyse nach Philipp Mayring (2015) ist ein systematisches, regelgeleitetes Verfahren zur Analyse von Kommunikationsmaterial. Sie läuft nach festgelegten Schritten ab, ordnet das Material Kategorien zu, ist für andere nachvollziehbar und überprüfbar, bewahrt die Bedeutung im Kontext und verdichtet große Textmengen auf das Wesentliche. Mayring hat sie als Brücke zwischen qualitativer Tiefe und systematisch-nachvollziehbarer Auswertung entwickelt.</p>
+<section id="drei-grundformen" class="level3">
+<h3 class="anchored" data-anchor-id="drei-grundformen">Drei Grundformen</h3>
+<ul>
+<li>Die <strong>zusammenfassende</strong> Inhaltsanalyse reduziert das Material auf wesentliche Inhalte, indem sie paraphrasiert, generalisiert und reduziert. Sie eignet sich für große Textmengen und Überblicksanalysen.</li>
+<li>Die <strong>explikative</strong> Inhaltsanalyse klärt unklare oder mehrdeutige Textstellen, indem sie den engen Kontext der Stelle und weiteres Hintergrundwissen heranzieht.</li>
+<li>Die <strong>strukturierende</strong> Inhaltsanalyse filtert bestimmte Aspekte, Typen oder Strukturen aus dem Material heraus. Sie ist die häufigste Form und in der Sozialen Arbeit am weitesten verbreitet.</li>
+</ul>
+</section>
+<section id="ablauf" class="level3">
+<h3 class="anchored" data-anchor-id="ablauf">Ablauf</h3>
+<p>Mayring beschreibt einen schrittweisen Ablauf: (1) Material festlegen, (2) Entstehungssituation analysieren, (3) formale Charakteristika bestimmen (etwa die Transkriptionsregeln), (4) Richtung der Analyse festlegen, (5) Fragestellung theoriegeleitet differenzieren, (6) Analysetechnik bestimmen, (7) Analyseeinheiten definieren, (8) Kategoriensystem entwickeln, (9) Material kodieren und Kategorien am Material überarbeiten, (10) Ergebnisse im Hinblick auf die Forschungsfrage interpretieren. Der Prozess ist zirkulär: Kategorien werden bei Bedarf angepasst und erneut angewandt.</p>
+</section>
+<section id="kategorienbildung" class="level3">
+<h3 class="anchored" data-anchor-id="kategorienbildung">Kategorienbildung</h3>
+<p>Bei <strong>deduktiver</strong> Kategorienbildung werden die Kategorien vor der Analyse aus Theorie oder Forschungsstand abgeleitet, und das Material wird ihnen zugeordnet. Das ist theoretisch gut verankert, kann aber neue, unerwartete Aspekte übersehen. Bei <strong>induktiver</strong> Kategorienbildung entstehen die Kategorien aus dem Material selbst: paraphrasieren, abstrahieren, Kategorien bilden, subsumieren. Das ist offen für Neues, aber aufwendiger. In der Praxis werden beide oft kombiniert: ein deduktiver Rahmen mit induktiver Ergänzung.</p>
+</section>
+<section id="der-kodierleitfaden" class="level3">
+<h3 class="anchored" data-anchor-id="der-kodierleitfaden">Der Kodierleitfaden</h3>
+<p>Damit verschiedene Personen gleich kodieren, wird jede Kategorie durch drei Elemente bestimmt: eine <strong>Definition</strong> (was die Kategorie umfasst), ein <strong>Ankerbeispiel</strong> (eine Textstelle, die sie prototypisch zeigt) und eine <strong>Kodierregel</strong> (die Abgrenzung zu ähnlichen Kategorien).</p>
+<div id="tbl-kodierleitfaden" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-kodierleitfaden-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;2: Ausschnitt aus einem Kodierleitfaden (fiktive Beispiele)
+</figcaption>
+<div aria-describedby="tbl-kodierleitfaden-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kategorie</th>
+<th>Kodierregel</th>
+<th>Ankerbeispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Diskriminierungserfahrung</td>
+<td>Aussagen über Benachteiligung aufgrund von Herkunft, Religion oder Aussehen</td>
+<td>„Ich hatte das Gefühl, wegen meines Namens schlechter behandelt zu werden.“</td>
+</tr>
+<tr class="even">
+<td>Soziale Ausgrenzung</td>
+<td>Aussagen über fehlende Zugehörigkeit oder Ausschluss</td>
+<td>„In der Klasse wurde ich oft ignoriert.“</td>
+</tr>
+<tr class="odd">
+<td>Demokratieskepsis</td>
+<td>Aussagen, die Misstrauen gegenüber demokratischen Institutionen ausdrücken</td>
+<td>„Politik interessiert sich sowieso nicht für Leute wie uns.“</td>
+</tr>
+<tr class="even">
+<td>Zugehörigkeitsgefühl</td>
+<td>Aussagen über Anerkennung, Gemeinschaft oder Akzeptanz</td>
+<td>„Im Verein habe ich endlich Anschluss gefunden.“</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p><strong>Ein Beispiel aus der Sozialen Arbeit:</strong> Eine Studie fragt, wie Fachkräfte der Kinder- und Jugendhilfe ihre berufliche Belastung erleben, und stützt sich auf zwölf problemzentrierte Interviews. Die Hauptkategorien werden deduktiv aus einem Belastungsmodell abgeleitet, die Unterkategorien induktiv aus dem Material gewonnen. Zwei Personen kodieren unabhängig voneinander, und ihre Übereinstimmung wird geprüft. Am Ende stehen Hauptkategorien wie emotionale Belastung, Zeitdruck, Ressourcenmangel und kollegiale Unterstützung.</p>
+</section>
+</section>
+<section id="grounded-theory" class="level2">
+<h2 class="anchored" data-anchor-id="grounded-theory">3. Grounded Theory</h2>
+<p>Die Grounded Theory wurde von Barney Glaser und Anselm Strauss (1967) entwickelt. Ihr Ziel ist eine „gegenstandsverankerte“ Theorie, die im Material verwurzelt ist. Die Theorie entsteht nicht vor der Forschung, sondern durch sie: Daten → Konzepte → Kategorien → Theorie. Erhebung und Auswertung finden parallel statt. Weiterentwickelt wurde der Ansatz unter anderem von Strauss und Corbin, die das Vorgehen methodisch stärker ausgearbeitet haben, und von Kathy Charmaz (2006), die eine konstruktivistische Variante begründet hat. Die Grounded Theory ist damit nicht nur ein Auswertungsverfahren, sondern ein Forschungsstil.</p>
+<section id="grundprinzipien" class="level3">
+<h3 class="anchored" data-anchor-id="grundprinzipien">Grundprinzipien</h3>
+<ul>
+<li><strong>Theoretical Sampling:</strong> Neue Fälle werden auf Grundlage der bisherigen Analyse ausgewählt (→ <a href="../sitzungen/06-stichprobenziehung-2.html">Sitzung 6</a>).</li>
+<li><strong>Ständiges Vergleichen</strong> (<em>Constant Comparison</em>): Neue Daten werden fortlaufend mit den gebildeten Kategorien verglichen: Wie verhält sich dieser Fall zum vorherigen?</li>
+<li><strong>Theoretische Sättigung:</strong> Die Auswahl endet, wenn neue Daten keine neuen Konzepte mehr liefern.</li>
+<li><strong>Memos:</strong> Theoretische Ideen, Vergleiche und Fragen werden während der gesamten Analyse schriftlich festgehalten.</li>
+</ul>
+</section>
+<section id="drei-kodierphasen-strausscorbin-1996" class="level3">
+<h3 class="anchored" data-anchor-id="drei-kodierphasen-strausscorbin-1996">Drei Kodierphasen (Strauss/Corbin 1996)</h3>
+<p><strong>Offenes Kodieren.</strong> Das Material wird Zeile für Zeile oder Satz für Satz aufgebrochen und mit Kodes versehen. Kodes können <em>In-vivo-Kodes</em> sein, also Worte der Befragten, oder von den Forschenden gebildet werden. Leitfragen sind: Was? Wer? Wann? Wie? Warum? Wozu? Ähnliche Kodes werden zu Konzepten und diese zu abstrakteren Kategorien gebündelt. Aus dem Satz „Wir haben keine Zeit mehr für die wirklichen Gespräche mit den Kindern“ können etwa die Kodes „Zeitdruck“, „Qualitätseinbuße“ und „Verlust von Beziehungsarbeit“ entstehen und daraus das Konzept „Entfremdung vom professionellen Kern“.</p>
+<p><strong>Axiales Kodieren.</strong> Die Beziehungen zwischen den Kategorien werden herausgearbeitet. Strauss und Corbin nutzen dafür das <em>paradigmatische Modell</em>: ursächliche Bedingungen, Phänomen, Kontext, intervenierende Bedingungen, Handlungsstrategien und Konsequenzen. Für das Phänomen „professionelle Erschöpfung“ wäre etwa Personalmangel eine Ursache, die Trägerstruktur der Kontext, Rückzug eine Strategie und höhere Fluktuation eine Konsequenz.</p>
+<p><strong>Selektives Kodieren.</strong> Alle Kategorien werden um eine <strong>Kernkategorie</strong> integriert, die den roten Faden der Analyse bildet und sich in einer „Story Line“ erzählen lässt. Eine mögliche Kernkategorie wäre „Zerrissenheit zwischen Anspruch und Wirklichkeit“: Fachkräfte erleben einen ständigen Widerspruch zwischen ihrem beziehungsorientierten Selbstverständnis und den Zwängen von Zeitdruck, Bürokratie und Fallzahlen.</p>
+<p>Die Phasen sind nicht strikt getrennt; Rückschleifen sind ausdrücklich erwünscht.</p>
+</section>
+</section>
+<section id="qualitative-inhaltsanalyse-und-grounded-theory-im-vergleich" class="level2">
+<h2 class="anchored" data-anchor-id="qualitative-inhaltsanalyse-und-grounded-theory-im-vergleich">4. Qualitative Inhaltsanalyse und Grounded Theory im Vergleich</h2>
+<div id="tbl-qia-gt" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-qia-gt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;3: Qualitative Inhaltsanalyse und Grounded Theory
+</figcaption>
+<div aria-describedby="tbl-qia-gt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Qualitative Inhaltsanalyse</th>
+<th>Grounded Theory</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ziel</strong></td>
+<td>systematische Auswertung und Beschreibung von Inhalten</td>
+<td>Theoriegenerierung aus dem Material</td>
+</tr>
+<tr class="even">
+<td><strong>Kategorien</strong></td>
+<td>deduktiv, induktiv oder kombiniert</td>
+<td>induktiv, im iterativen Kodieren entwickelt</td>
+</tr>
+<tr class="odd">
+<td><strong>Ablauf</strong></td>
+<td>festgelegtes Ablaufmodell</td>
+<td>zirkulär, flexibel, bis zur Sättigung</td>
+</tr>
+<tr class="even">
+<td><strong>Stärke</strong></td>
+<td>transparent, nachprüfbar, auch für große Materialmengen</td>
+<td>offen für Neues, Theorieentwicklung</td>
+</tr>
+<tr class="odd">
+<td><strong>Grenze</strong></td>
+<td>Theorieentwicklung, unerwartete Phänomene</td>
+<td>standardisierte Fragestellungen</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Welche Methode passt, hängt von Forschungsfrage und Erkenntnisziel ab. Für die Auswertung gibt es Software wie MAXQDA oder ATLAS.ti. Gütekriterien qualitativer Auswertung behandeln wir in <a href="../sitzungen/11-guetekriterien.html">Sitzung 11</a>.</p>
+<div class="praxis">
+<p><strong>Für die Praxis heißt das:</strong> Auch Fallbesprechungen und Dokumentationen in der Sozialen Arbeit sind Deutungsarbeit. Die Verfahren qualitativer Auswertung schärfen den Blick dafür, Deutungen am Material zu begründen und alternative Lesarten ernst zu nehmen.</p>
+</div>
+</section>
+<section id="zur-vertiefung" class="level2">
+<h2 class="anchored" data-anchor-id="zur-vertiefung">Zur Vertiefung</h2>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Übung 1: Offenes Kodieren (Einzelarbeit, 10 Minuten)">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Übung 1: Offenes Kodieren (Einzelarbeit, 10 Minuten)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Lesen Sie den Ausschnitt aus einem Interview mit einer Sozialarbeiterin (Jugendamt, sieben Jahre Berufserfahrung):</p>
+<blockquote class="blockquote">
+<p>„Am Anfang dachte ich, ich kann wirklich etwas verändern. Aber heute – nach all den Jahren – merke ich, dass es mehr ums Verwalten geht als ums Helfen. Ich schreibe Berichte, fülle Formulare aus. Die Zeit für die Familien – die fehlt einfach.“</p>
+</blockquote>
+<ol type="1">
+<li>Vergeben Sie für jede Sinneinheit mindestens einen Kode.</li>
+<li>Formulieren Sie In-vivo-Kodes und selbst gebildete Kodes.</li>
+<li>Fassen Sie ähnliche Kodes zu einem Konzept zusammen.</li>
+<li>Notieren Sie Ihre Fragen und Ideen als Memo.</li>
+</ol>
+<details>
+<summary>
+Musterkodes
+</summary>
+<p><strong>Satz 1:</strong> „initiale Motivation“, „Veränderungsanspruch“, „Idealismus“ <strong>Satz 2:</strong> „Verwaltungsarbeit vs.&nbsp;Beziehungsarbeit“, „Rollenkonflikt“, „Bürokratisierung“ <strong>Satz 3:</strong> „Zeitdruck“, „Ressourcenmangel“, „Qualitätsverlust“</p>
+<p><strong>Mögliches Konzept:</strong> „Zerrissenheit zwischen professionellem Ethos und strukturellen Zwängen“</p>
+<strong>Memo:</strong> Zusammenhang mit der Burnout-Literatur? Die Diskrepanz zwischen Ideal und Realität als Belastungsfaktor – prüfen, ob sich das in weiteren Interviews bestätigt.
+</details>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Übung 2: Kategorienbildung (Partnerarbeit, 15 Minuten)">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Übung 2: Kategorienbildung (Partnerarbeit, 15 Minuten)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Kodieren Sie vier weitere Interviewausschnitte zum Thema „Belastungserleben in der Sozialen Arbeit“. Bilden Sie drei bis fünf induktive Hauptkategorien, definieren Sie jede Kategorie und nennen Sie ein Ankerbeispiel. Wo gibt es Abgrenzungsprobleme? Vergleichen Sie Ihre Kategorien mit denen anderer Gruppen: Was sagt das über Intersubjektivität in der qualitativen Forschung?</p>
+</div>
+</div>
+<p><strong>Zum Weiterlesen:</strong> Mayring, Philipp (2015): Qualitative Inhaltsanalyse. Grundlagen und Techniken. 12. Aufl. Weinheim: Beltz. · Kuckartz, Udo (2018): Qualitative Inhaltsanalyse. Methoden, Praxis, Computerunterstützung. 4. Aufl. Weinheim: Beltz Juventa. · Strauss, Anselm/Corbin, Juliet (1996): Grounded Theory. Grundlagen qualitativer Sozialforschung. Weinheim: Beltz. · Charmaz, Kathy (2006): Constructing Grounded Theory. A Practical Guide through Qualitative Analysis. London: Sage.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<!-- Passt die Höhe eingebetteter Lernspiele automatisch an, damit nichts abgeschnitten wird.
+     Weg 1: Das Spiel meldet seine Höhe selbst (postMessage {typ: "iframe-hoehe", hoehe: …}).
+     Weg 2: Läuft die Seite über quarto preview, misst die Seite das Spiel direkt.
+     Gelingt beides nicht, bleibt die Höhe aus dem iframe-Tag stehen. -->
+<script>
+(function () {
+  "use strict";
+  function setze(iframe, h) {
+    if (h && h > 50) iframe.style.height = Math.ceil(h + 8) + "px";
+  }
+  window.addEventListener("message", function (e) {
+    var d = e.data;
+    if (!d || d.typ !== "iframe-hoehe") return;
+    Array.prototype.forEach.call(document.querySelectorAll("iframe"), function (f) {
+      if (f.contentWindow === e.source) setze(f, d.hoehe);
+    });
+  });
+  function miss(f) {
+    try {
+      var doc = f.contentDocument;
+      if (!doc || !doc.documentElement) return;
+      setze(f, doc.documentElement.scrollHeight);
+      if (window.ResizeObserver && !f._beobachtet) {
+        new ResizeObserver(function () { setze(f, doc.documentElement.scrollHeight); }).observe(doc.body);
+        f._beobachtet = true;
+      }
+    } catch (err) { /* andere Herkunft: Spiel muss selbst melden */ }
+  }
+  function init() {
+    Array.prototype.forEach.call(document.querySelectorAll("iframe"), function (f) {
+      f.addEventListener("load", function () { miss(f); });
+      miss(f);
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
+})();
+</script>
+<!-- Aufklappbare Theorie-Erläuterungen auf den Sitzungsseiten.
+     Ein Eintrag [Name]{.theory-link data-theory="x"} öffnet den Kasten ::: {#theory-x .theory-panel}. -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".theory-link");
+  const panels = document.querySelectorAll(".theory-panel");
+  const open = (id, link) => {
+    panels.forEach(p => p.classList.toggle("open", p.id === "theory-" + id));
+    links.forEach(l => { const on = l === link; l.classList.toggle("active", on); l.setAttribute("aria-expanded", on); });
+    const p = document.getElementById("theory-" + id);
+    if (p) p.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+  links.forEach(l => {
+    l.setAttribute("role", "button"); l.setAttribute("tabindex", "0"); l.setAttribute("aria-expanded", "false");
+    l.addEventListener("click", () => open(l.dataset.theory, l));
+    l.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(l.dataset.theory, l); } });
+  });
+  panels.forEach(p => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "theory-close"; b.textContent = "Schließen ×";
+    b.addEventListener("click", () => { p.classList.remove("open"); links.forEach(l => { l.classList.remove("active"); l.setAttribute("aria-expanded", "false"); }); });
+    p.prepend(b);
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../sitzungen/08-datenerhebung-quantitativ.html" class="pagination-link" aria-label="8 · Datenerhebung quantitativ">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">8 · Datenerhebung quantitativ</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../sitzungen/10-datenauswertung-quantitativ.html" class="pagination-link" aria-label="10 · Datenauswertung quantitativ">
+        <span class="nav-page-text">10 · Datenauswertung quantitativ</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Prof.&nbsp;Dr.&nbsp;Mehmet Kart · CC BY-SA 4.0</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Erstellt mit <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

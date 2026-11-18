@@ -1,0 +1,218 @@
+---
+title: "Sitzung 10: Datenauswertung II (quantitativ)"
+subtitle: "08.12.2026 · Deskriptive Statistik und eine kurze Einführung in die Inferenzstatistik"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Wie beschreibe ich quantitative Daten mit Häufigkeiten, Lage- und Streuungsmaßen, und wann lassen sich Ergebnisse über die Stichprobe hinaus verallgemeinern?
+:::
+
+Wie viele Jugendliche erleben Diskriminierung? Gibt es Unterschiede zwischen Gruppen? Hängt das eine mit dem anderen zusammen? Quantitative Datenanalyse hilft, Daten systematisch auszuwerten, Muster sichtbar zu machen, Gruppen zu vergleichen, Zusammenhänge zu erkennen und Hypothesen zu prüfen. Der Schwerpunkt dieser Sitzung liegt auf der deskriptiven Statistik. Sie ist das Fundament wissenschaftlicher Berichte in der Sozialen Arbeit, etwa bei Bedarfsanalysen, Klient:innenstatistiken oder Evaluationsdaten.
+
+::: {.callout-important title="Hinweis zur Prüfung"}
+In der schriftlichen Prüfung kommen kleine Rechenaufgaben vor. Ein **Taschenrechner ist erlaubt**. Schreiben Sie den Rechenweg auf: Zwischenergebnisse zählen. Die Übungen am Ende dieser Seite haben Lösungen zum Aufklappen.
+:::
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Nach dieser Sitzung können Sie …
+
+- Häufigkeitstabellen erstellen und uni- sowie bivariat prozentuieren,
+- Mittelwert, Median und Modus berechnen und interpretieren,
+- Spannweite, Varianz und Standardabweichung berechnen,
+- eine passende Grafik wählen,
+- Signifikanz, Effektstärke und Korrelation erklären.
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Formeln auf einen Blick
+
+- relative Häufigkeit: *n* / *N* × 100
+- Mittelwert: x̄ = Σ xᵢ / *n*
+- Spannweite: R = Maximum − Minimum
+- Varianz: s² = Σ (xᵢ − x̄)² / (*n* − 1)
+- Standardabweichung: s = √s²
+:::
+
+:::
+
+## 1. Deskriptive Statistik
+
+Deskriptive Statistik beschreibt und fasst vorhandene Daten zusammen, ohne Rückschlüsse auf eine größere Grundgesamtheit zu ziehen. Sie beantwortet drei Fragen: Wo liegt die Mitte (Lagemaße)? Wie weit streuen die Daten (Streuungsmaße)? Wie sind sie verteilt (Häufigkeiten, Grafiken)?
+
+### Häufigkeitstabellen (univariat)
+
+Die **absolute Häufigkeit** (*n*) gibt an, wie viele Fälle eine bestimmte Ausprägung aufweisen. Die **relative Häufigkeit** gibt den Prozentanteil an: *n* / *N* × 100, wobei *N* die Gesamtzahl ist. Die **kumulierte Häufigkeit** summiert die relativen Häufigkeiten bis zu einem Wert auf. **Gültige Prozente** werden ohne fehlende Werte berechnet.
+
+| Parteipräferenz | *n* | % | kum. % |
+|---|---|---|---|
+| Partei A | 80 | 40,0 | 40,0 |
+| Partei B | 60 | 30,0 | 70,0 |
+| Partei C | 40 | 20,0 | 90,0 |
+| Sonstige | 20 | 10,0 | 100,0 |
+| **Gesamt** | **200** | **100,0** | |
+
+: Beispiel einer Häufigkeitstabelle (*N* = 200). Rechenweg: 80 / 200 × 100 = 40,0 % {#tbl-haeufigkeit}
+
+### Kreuztabellen (bivariat)
+
+Eine Kreuztabelle zeigt, wie zwei Variablen zusammenhängen. Die Grundregel lautet: **Prozentuiert wird in Richtung der unabhängigen Variable.** Die Prozentwerte summieren sich also innerhalb jeder Kategorie der UV auf 100 Prozent. Steht die UV in den Zeilen, wird zeilenweise prozentuiert; steht sie in den Spalten, spaltenweise.
+
+| Geschlecht (UV) | Bachelor | Master | Gesamt |
+|---|---|---|---|
+| männlich | 80 (53,3 %) | 70 (46,7 %) | 150 (100 %) |
+| weiblich | 90 (60,0 %) | 60 (40,0 %) | 150 (100 %) |
+| **Gesamt** | 170 | 130 | 300 |
+
+: Geschlecht × Studienabschluss (*N* = 300), zeilenweise prozentuiert {#tbl-kreuz}
+
+Gelesen wird die Tabelle so: Von den Männern haben 53,3 Prozent einen Bachelor, von den Frauen 60,0 Prozent. Verglichen werden also die Gruppen der UV.
+
+## 2. Lagemaße
+
+**Arithmetisches Mittel.** x̄ = Σ xᵢ / *n*: alle Werte addieren und durch ihre Anzahl teilen. Beispiel: Alter von fünf Klient:innen: 18, 24, 31, 45, 72. x̄ = 190 / 5 = 38 Jahre. Der Mittelwert ist einfach zu berechnen und nutzt alle Werte, ist aber stark anfällig für Ausreißer und setzt metrisches Skalenniveau voraus.
+
+**Median.** Der mittlere Wert einer der Größe nach geordneten Reihe. Im Beispiel: 18, 24, **31**, 45, 72 → Median = 31. Bei gerader Fallzahl ist der Median der Mittelwert der beiden mittleren Werte. Der Median ist robust gegenüber Ausreißern und setzt mindestens ordinales Niveau voraus.
+
+**Modus.** Der am häufigsten vorkommende Wert. Beispiel: 18, 24, 24, 31, 45, 45, 45, 72 → Modus = 45. Es kann mehrere Modi geben (bimodal, multimodal). Der Modus ist das einzige Lagemaß für nominale Daten.
+
+| | Mittelwert | Median |
+|---|---|---|
+| **Skalenniveau** | metrisch | mindestens ordinal |
+| **Ausreißer** | empfindlich | robust |
+| **Verteilung** | symmetrisch | auch schief |
+| **typisches Beispiel** | Testergebnisse, Alter | Einkommen, Mietpreise |
+
+: Mittelwert oder Median? {#tbl-mittelwert-median}
+
+::: {.callout-note title="Praxisbeispiel: Einkommen"}
+Acht Personen verdienen monatlich 900, 950, 1.100, 1.200, 1.250, 1.300, 1.400 und 12.000 Euro. Der Mittelwert beträgt 2.512,50 Euro, der Median 1.225 Euro. Der Mittelwert wird durch eine einzige Person stark nach oben gezogen; der Median beschreibt die Einkommenssituation der meisten deutlich besser.
+:::
+
+## 3. Streuungsmaße
+
+Mittelwerte allein reichen nicht. Zwei Gruppen können denselben Mittelwert haben und trotzdem sehr unterschiedlich zusammengesetzt sein.
+
+- Die **Spannweite** ist die Differenz zwischen größtem und kleinstem Wert: R = Maximum − Minimum.
+- Die **Varianz** ist die durchschnittliche quadrierte Abweichung vom Mittelwert: s² = Σ (xᵢ − x̄)² / (*n* − 1). Die Abweichungen werden quadriert, weil sich positive und negative Abweichungen sonst aufheben würden. Geteilt wird durch *n* − 1, weil aus einer Stichprobe geschätzt wird. Die Einheit der Varianz ist quadriert (etwa Jahre²) und deshalb schwer zu interpretieren.
+- Die **Standardabweichung** ist die Wurzel der Varianz: s = √s². Sie hat wieder die Einheit der Originalwerte und ist das gebräuchlichste Streuungsmaß. Eine kleine Standardabweichung heißt: Die Werte liegen eng beieinander. Eine große heißt: Sie streuen stark.
+
+**Zwei Datensätze mit gleichem Mittelwert**
+
+| Beispiel 1: 7, 8, 8, 9, 8 | | | Beispiel 2: 2, 5, 8, 11, 14 | | |
+|---|---|---|---|---|---|
+| xᵢ | xᵢ − x̄ | (xᵢ − x̄)² | xᵢ | xᵢ − x̄ | (xᵢ − x̄)² |
+| 7 | −1 | 1 | 2 | −6 | 36 |
+| 8 | 0 | 0 | 5 | −3 | 9 |
+| 8 | 0 | 0 | 8 | 0 | 0 |
+| 9 | +1 | 1 | 11 | +3 | 9 |
+| 8 | 0 | 0 | 14 | +6 | 36 |
+| **Σ** | | **2** | **Σ** | | **90** |
+
+: Beide Datensätze haben den Mittelwert x̄ = 8 {#tbl-streuung}
+
+Beispiel 1: s² = 2 / 4 = 0,5 und s ≈ 0,71. Beispiel 2: s² = 90 / 4 = 22,5 und s = √22,5 ≈ 4,74. Die Varianz in Beispiel 2 ist 45-mal so groß, obwohl der Mittelwert identisch ist.
+
+**Normalverteilung.** Bei normalverteilten Daten liegen etwa 68 Prozent der Werte im Bereich von ±1 Standardabweichung um den Mittelwert, etwa 95 Prozent im Bereich von ±2 und etwa 99,7 Prozent im Bereich von ±3 Standardabweichungen. Viele statistische Tests setzen eine Normalverteilung voraus. Daten der Sozialen Arbeit wie Einkommen oder Fallzahlen sind aber oft schief verteilt; das muss vor der Analyse geprüft werden.
+
+## 4. Daten visualisieren
+
+Gute Grafiken folgen einigen Grundsätzen: zuerst die Botschaft klären, dann die Grafik wählen; auf überflüssige Farben, 3D-Effekte und überladene Achsen verzichten; das Skalenniveau beachten; Titel, Achsenbeschriftung, Legende und Quelle angeben; Vergleiche ermöglichen; abgeschnittene y-Achsen und Tortendiagramme mit vielen Segmenten vermeiden.
+
+| Fragestellung | Skalenniveau | Grafik | Beispiel |
+|---|---|---|---|
+| Häufigkeitsverteilung einer Variable | nominal, ordinal | Säulen- oder Balkendiagramm | Wohnformen der Klient:innen |
+| Verteilung metrischer Daten | metrisch | Histogramm | Altersverteilung im Projekt |
+| Vergleich von Gruppen | ordinal, metrisch | Boxplot | Stresswerte Intervention vs. Kontrolle |
+| Entwicklung über Zeit | ordinal, metrisch | Liniendiagramm | Fallzahlen über zwölf Monate |
+| Zusammenhang zweier Variablen | metrisch | Streudiagramm | Bildungsstand und Einkommen |
+| Anteile (höchstens 4–5 Kategorien) | nominal | Kreisdiagramm, sparsam | Herkunftsländer der Klient:innen |
+
+: Welche Grafik für welche Daten? {#tbl-grafiken}
+
+Ein **Boxplot** zeigt Median, Quartile und Ausreißer und eignet sich gut für Gruppenvergleiche; den Mittelwert zeigt er nicht. Im **Histogramm** berühren sich die Balken, und die gewählte Klassenbreite beeinflusst das Bild.
+
+## 5. Kurze Einführung in die Inferenzstatistik
+
+Deskriptive Statistik beschreibt, was gemessen wurde. Inferenzstatistik fragt: Gilt das auch für alle? Sie schließt von der Stichprobe auf die Grundgesamtheit und prüft Hypothesen mit Wahrscheinlichkeitsaussagen. Voraussetzung ist eine Zufallsstichprobe (→ [Sitzung 5](05-stichprobenziehung-1.qmd)).
+
+**Signifikanz.** Getestet wird die Nullhypothese H₀, die behauptet, dass es keinen Effekt gibt („Das Präventionsprogramm hat keinen Einfluss auf aggressives Verhalten“). Der **p-Wert** gibt an, wie wahrscheinlich ein mindestens so deutliches Ergebnis wäre, wenn H₀ zuträfe. Liegt *p* unter dem vorab festgelegten Signifikanzniveau, meist 5 Prozent (*p* < 0,05), wird H₀ verworfen und die Alternativhypothese H₁ vorläufig angenommen. Übliche Schwellen sind *p* < 0,05 (signifikant), *p* < 0,01 (sehr signifikant) und *p* < 0,001 (hoch signifikant). Ein nicht signifikantes Ergebnis beweist nicht, dass es keinen Effekt gibt.
+
+**Effektstärke.** Signifikanz sagt nichts darüber, wie groß ein Effekt ist; bei sehr großen Stichproben werden auch winzige Unterschiede signifikant. Die Effektstärke gibt die Größe eines Unterschieds unabhängig von der Fallzahl an. Für Mittelwertunterschiede wird häufig Cohens *d* verwendet: *d* ≈ 0,2 gilt als kleiner, *d* ≈ 0,5 als mittlerer und *d* ≈ 0,8 als großer Effekt.
+
+**Korrelation.** Ein Korrelationskoeffizient misst die Stärke und Richtung eines Zusammenhangs zwischen zwei Variablen. Er liegt zwischen −1 (perfekter negativer Zusammenhang) und +1 (perfekter positiver Zusammenhang); 0 bedeutet keinen linearen Zusammenhang. Für metrische Daten wird Pearsons *r* verwendet, für ordinale oder nicht normalverteilte Daten Spearmans ρ.
+
+**Korrelation ist nicht Kausalität.** Eisverkauf und Sonnenbrände steigen gemeinsam an. Das eine verursacht nicht das andere; beide hängen von einer Drittvariable ab: Sommer und Hitze.
+
+::: {.praxis}
+**Für die Praxis heißt das:** Deskriptive Statistik beschreibt die eigene Klientel, Grafiken machen Muster sichtbar, und Inferenzstatistik prüft, ob ein Effekt, etwa einer Intervention, über den Zufall hinausgeht. Wer Evaluationsberichte liest, sollte deshalb immer nach Stichprobe, Signifikanz und Effektstärke fragen.
+:::
+
+## Übungen zur Prüfungsvorbereitung
+
+::: {.callout-tip title="Übung 1: Schnellrechnen"}
+a) Berechnen Sie den Mittelwert von 4, 5, 3, 2, 6.
+b) Berechnen Sie die Spannweite von 5, 7, 9, 12, 15.
+
+<details>
+<summary>Lösung</summary>
+
+a) (4 + 5 + 3 + 2 + 6) / 5 = 20 / 5 = **4**
+b) 15 − 5 = **10**
+</details>
+:::
+
+::: {.callout-tip title="Übung 2: Alter von sieben Studierenden"}
+Datensatz (Alter in Jahren): 3 · 5 · 5 · 7 · 9 · 11 · 14
+
+Berechnen Sie x̄, Median, Modus, Spannweite, Varianz und Standardabweichung.
+
+<details>
+<summary>Lösung</summary>
+
+1. **Mittelwert:** x̄ = (3 + 5 + 5 + 7 + 9 + 11 + 14) / 7 = 54 / 7 ≈ **7,71**
+2. **Median:** Die Werte sind bereits geordnet; der 4. von 7 Werten ist der mittlere → Md = **7**
+3. **Modus:** 5 kommt zweimal vor → Mo = **5**
+4. **Spannweite:** R = 14 − 3 = **11**
+5. **Varianz:** quadrierte Abweichungen vom Mittelwert 7,71: 22,18 + 7,34 + 7,34 + 0,50 + 1,66 + 10,82 + 39,56 = 89,40 (exakt 89,43); s² = 89,43 / 6 ≈ **14,90**
+6. **Standardabweichung:** s = √14,90 ≈ **3,86**
+</details>
+:::
+
+::: {.callout-tip title="Übung 3: Wöchentliche Lernzeit (15 Minuten)"}
+Fragebogendaten von acht Studierenden zur wöchentlichen Lernzeit in Stunden: 5 · 8 · 8 · 10 · 12 · 15 · 15 · 20
+
+1. Erstellen Sie eine Häufigkeitstabelle mit absoluten und relativen Häufigkeiten.
+2. Berechnen Sie Mittelwert, Median und Modus.
+3. Berechnen Sie Spannweite und Standardabweichung.
+4. Wie interpretieren Sie die Ergebnisse?
+5. Welches Skalenniveau liegt vor, und sind die berechneten Maße zulässig?
+
+<details>
+<summary>Lösung</summary>
+
+**1. Häufigkeitstabelle**
+
+| xᵢ | *n* | % | kum. % |
+|---|---|---|---|
+| 5 | 1 | 12,5 | 12,5 |
+| 8 | 2 | 25,0 | 37,5 |
+| 10 | 1 | 12,5 | 50,0 |
+| 12 | 1 | 12,5 | 62,5 |
+| 15 | 2 | 25,0 | 87,5 |
+| 20 | 1 | 12,5 | 100,0 |
+| **Gesamt** | **8** | **100,0** | |
+
+**2. Lagemaße:** x̄ = 93 / 8 = **11,63** Stunden · Md = (10 + 12) / 2 = **11,0** Stunden (4. und 5. Wert, da *n* gerade) · Mo = **8 und 15** (je zweimal, bimodal)
+
+**3. Streuung:** R = 20 − 5 = **15** Stunden · Summe der quadrierten Abweichungen ≈ 165,88 · s² = 165,88 / 7 ≈ 23,70 · s = √23,70 ≈ **4,87** Stunden
+
+**4. Interpretation:** Im Durchschnitt lernen die Studierenden knapp zwölf Stunden pro Woche. Die Hälfte lernt weniger als elf Stunden; der Mittelwert wird durch den hohen Wert von 20 Stunden leicht nach oben gezogen. Der bimodale Modus deutet auf zwei Gruppen hin: eher wenig und eher viel Lernende. Die Lernzeiten weichen im Schnitt fast fünf Stunden vom Mittelwert ab; das Lernverhalten ist also heterogen.
+
+**5. Skalenniveau:** Lernzeit in Stunden ist verhältnisskaliert (gleiche Abstände, natürlicher Nullpunkt). Mittelwert, Varianz und Standardabweichung sind damit zulässig.
+</details>
+:::
+
+**Zum Weiterlesen:** Bortz, Jürgen/Schuster, Christof (2010): Statistik für Human- und Sozialwissenschaftler. 7. Aufl. Berlin: Springer. · Diaz-Bone, Rainer (2019): Statistik für Soziologen. 4. Aufl. Konstanz: UVK.

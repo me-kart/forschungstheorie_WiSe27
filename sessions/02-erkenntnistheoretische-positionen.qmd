@@ -1,0 +1,180 @@
+---
+title: "Sitzung 2: Erkenntnistheoretische Positionen"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Wie lässt sich wissenschaftliche Erkenntnis begründen, und welche Antworten geben die großen erkenntnistheoretischen Positionen darauf?
+:::
+
+Jede Studie beruht auf Annahmen, die selten ausgesprochen werden. Gibt es eine soziale Wirklichkeit unabhängig davon, wie Menschen sie deuten? Lassen sich Theorien durch Beobachtung beweisen, oder nur widerlegen? Und darf Forschung Partei ergreifen? Die Sitzung stellt fünf Positionen vor, die auf diese Fragen unterschiedlich antworten. Sie erklären, warum quantitative und qualitative Forschung verschieden vorgehen, und sie machen sichtbar, welche Haltung hinter einem Forschungsdesign steht.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Themen
+
+- Erfahrung als Grundlage von Erkenntnis
+- Beweisen oder Widerlegen?
+- Wissenschaft als soziale Praxis
+- Wirklichkeit als soziale Konstruktion
+- Erkenntnis und Gesellschaftskritik
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Positionen
+
+[Klicken Sie auf eine Position, um unten eine kurze Einführung zu lesen.]{.theory-hint}
+
+- [Positivismus und Empirismus]{.theory-link data-theory="pos"}
+- [Kritischer Rationalismus (Karl R. Popper)]{.theory-link data-theory="kr"}
+- [Paradigmen und wissenschaftliche Revolutionen (Thomas S. Kuhn)]{.theory-link data-theory="kuhn"}
+- [Sozialkonstruktivismus (Peter L. Berger/Thomas Luckmann)]{.theory-link data-theory="sk"}
+- [Kritische Theorie (Max Horkheimer/Theodor W. Adorno)]{.theory-link data-theory="kt"}
+:::
+
+:::
+
+
+::: {#theory-pos .theory-panel}
+### Positivismus und Empirismus
+
+**Kernidee.** Gesichertes Wissen beruht auf Erfahrung, also auf dem, was sich beobachten und messen lässt. Spekulative Aussagen, die sich nicht an der Erfahrung prüfen lassen, gelten als unwissenschaftlich. Den Begriff „positive Philosophie“ prägte Auguste Comte im 19. Jahrhundert; im 20. Jahrhundert entwickelte der Wiener Kreis daraus den logischen Empirismus.
+
+**Ziel der Position.** Die Wissenschaften auf eine sichere Grundlage zu stellen und die Sozialwissenschaften nach dem Vorbild der Naturwissenschaften zu gestalten.
+
+**Zentrale Annahmen**
+
+- Es gibt eine Wirklichkeit, die unabhängig von den Beobachtenden besteht.
+- Erkenntnis beginnt mit Beobachtung; aus vielen Beobachtungen werden allgemeine Gesetze gewonnen (Induktion).
+- Eine Aussage ist nur dann sinnvoll, wenn sie sich durch Erfahrung bestätigen lässt (Verifikationsprinzip des Wiener Kreises).
+- Forschung soll beschreiben und erklären, nicht bewerten.
+
+**Schlüsselbegriffe:** Empirie · Beobachtung · Induktion · Verifikation · Werturteilsfreiheit
+
+**Kritik.** Aus noch so vielen Einzelbeobachtungen folgt kein allgemeines Gesetz; dieses Induktionsproblem hat vor allem Popper hervorgehoben. Zudem ist Beobachtung nie theoriefrei: Was wir sehen, hängt davon ab, wonach wir suchen.
+
+**Bedeutung für die Soziale Arbeit.** Der Anspruch, Aussagen an der Erfahrung zu prüfen, prägt bis heute die standardisierte Forschung, etwa Wirkungsstudien. Zugleich zeigt die Kritik, dass auch scheinbar neutrale Daten auf Vorentscheidungen beruhen.
+
+**Zum Weiterlesen:** Comte, Auguste (1830–1842): *Cours de philosophie positive.* Paris.
+:::
+
+::: {#theory-kr .theory-panel}
+### Kritischer Rationalismus · Karl R. Popper
+
+**Kernidee.** Allgemeine Aussagen lassen sich nie endgültig beweisen, wohl aber widerlegen. Wissenschaft schreitet nicht durch Bestätigung voran, sondern durch Versuch und Irrtum: Theorien werden aufgestellt und ernsthaft an der Erfahrung geprüft.
+
+**Ziel der Position.** Ein Kriterium zu finden, das Wissenschaft von Nicht-Wissenschaft abgrenzt, und das Induktionsproblem zu lösen.
+
+**Zentrale Annahmen**
+
+- Eine Aussage ist wissenschaftlich, wenn sie an der Erfahrung scheitern kann (Falsifizierbarkeit als Abgrenzungskriterium).
+- Hypothesen werden aus Theorien abgeleitet (Deduktion) und empirisch geprüft.
+- Eine Theorie, die viele Widerlegungsversuche übersteht, gilt als bewährt, aber nicht als wahr.
+- Gute Theorien sind gehaltvoll: Sie verbieten viel und sind daher leicht prüfbar.
+- Wissen bleibt grundsätzlich vorläufig.
+
+**Schlüsselbegriffe:** Falsifikation · Falsifizierbarkeit · Bewährung · Deduktion · Abgrenzungskriterium
+
+**Kritik.** In der Forschungspraxis werden Theorien selten nach einem einzigen Gegenbefund verworfen, weil auch die Messung fehlerhaft sein kann. Thomas S. Kuhn hat zudem gezeigt, dass Wissenschaft historisch anders verlaufen ist, als Poppers Modell nahelegt.
+
+**Bedeutung für die Soziale Arbeit.** Der Kritische Rationalismus bildet die Grundlage der hypothesenprüfenden, quantitativen Forschung. Für die Praxis lässt sich daraus eine Haltung gewinnen: eigene Annahmen nicht bestätigen, sondern prüfen wollen.
+
+**Zum Weiterlesen:** Popper, Karl R. (1935): *Logik der Forschung.* Wien: Springer.
+:::
+
+::: {#theory-kuhn .theory-panel}
+### Paradigmen und wissenschaftliche Revolutionen · Thomas S. Kuhn
+
+**Kernidee.** Wissenschaft ist eine soziale Praxis. Forschungsgemeinschaften arbeiten innerhalb eines Paradigmas, das festlegt, welche Probleme relevant und welche Lösungen gültig sind. Neue Paradigmen setzen sich nicht allein durch bessere Argumente durch, sondern in wissenschaftlichen Revolutionen.
+
+**Ziel der Position.** Zu beschreiben, wie Wissenschaft tatsächlich verläuft, statt vorzuschreiben, wie sie verlaufen sollte.
+
+**Zentrale Annahmen**
+
+- In Phasen der **Normalwissenschaft** wird das Paradigma nicht infrage gestellt, sondern angewandt und verfeinert.
+- Häufen sich **Anomalien**, also Befunde, die nicht ins Paradigma passen, gerät es in eine Krise.
+- In einer **wissenschaftlichen Revolution** wird das alte Paradigma durch ein neues ersetzt.
+- Konkurrierende Paradigmen sind oft nur begrenzt vergleichbar, weil sie Begriffe und Maßstäbe unterschiedlich verwenden.
+
+**Schlüsselbegriffe:** Paradigma · Normalwissenschaft · Anomalie · Krise · wissenschaftliche Revolution
+
+**Kritik.** Kritiker:innen werfen Kuhn vor, wissenschaftlichen Fortschritt zu relativieren und den Wechsel von Paradigmen zu sehr als Frage von Macht und Überzeugung darzustellen. Der Begriff des Paradigmas wird zudem sehr unterschiedlich verwendet.
+
+**Bedeutung für die Soziale Arbeit.** Kuhns Perspektive erklärt, warum in der Sozialforschung verschiedene „Lager“ nebeneinander bestehen, etwa quantitative und qualitative Forschung. Sie macht auch Fachdiskurse der Sozialen Arbeit als Paradigmen lesbar, etwa den Wandel von der Defizit- zur Ressourcenorientierung.
+
+**Zum Weiterlesen:** Kuhn, Thomas S. (1962): *The Structure of Scientific Revolutions.* Chicago: University of Chicago Press (dt. 1967: *Die Struktur wissenschaftlicher Revolutionen.* Frankfurt a. M.: Suhrkamp).
+:::
+
+::: {#theory-sk .theory-panel}
+### Sozialkonstruktivismus · Peter L. Berger/Thomas Luckmann
+
+**Kernidee.** Soziale Wirklichkeit ist nicht einfach gegeben. Sie wird von Menschen in ihrem Handeln und in ihrer Kommunikation hervorgebracht, verfestigt sich zu Institutionen und erscheint dann als selbstverständlich und „objektiv“.
+
+**Ziel der Position.** Zu verstehen, wie Menschen ihre Wirklichkeit gemeinsam herstellen und wie Wissen im Alltag entsteht, weitergegeben und gesichert wird.
+
+**Zentrale Annahmen**
+
+- Gesellschaft ist menschliches Produkt und wirkt zugleich auf die Menschen zurück.
+- Handlungen werden zu Routinen, Routinen zu Institutionen (Institutionalisierung).
+- Institutionen werden von nachfolgenden Generationen als gegebene Wirklichkeit übernommen (Internalisierung).
+- Was als „normal“, „abweichend“ oder „problematisch“ gilt, ist das Ergebnis sozialer Deutungsprozesse.
+
+**Schlüsselbegriffe:** gesellschaftliche Konstruktion · Alltagswissen · Institutionalisierung · Legitimation · Internalisierung
+
+**Kritik.** Kritiker:innen fragen, ob materielle Bedingungen wie Armut oder Krankheit nicht zu sehr in Deutungen aufgelöst werden. Zudem bleibt offen, wie sich konkurrierende Konstruktionen bewerten lassen.
+
+**Bedeutung für die Soziale Arbeit.** Die Position bildet eine wichtige Grundlage qualitativer Forschung, die den Sinn rekonstruiert, den Menschen ihrem Handeln geben. Sie sensibilisiert auch dafür, dass Kategorien wie „Problemfamilie“ oder „Systemsprenger“ keine Eigenschaften von Menschen beschreiben, sondern Zuschreibungen sind.
+
+**Zum Weiterlesen:** Berger, Peter L./Luckmann, Thomas (1969): *Die gesellschaftliche Konstruktion der Wirklichkeit. Eine Theorie der Wissenssoziologie.* Frankfurt a. M.: S. Fischer (engl. Original 1966).
+:::
+
+::: {#theory-kt .theory-panel}
+### Kritische Theorie · Max Horkheimer/Theodor W. Adorno
+
+**Kernidee.** Wissenschaft ist selbst Teil der Gesellschaft, die sie untersucht. Eine Forschung, die nur beschreibt, was ist, läuft Gefahr, bestehende Herrschaftsverhältnisse als unveränderlich darzustellen. Kritische Theorie will gesellschaftliche Verhältnisse deshalb nicht nur erklären, sondern auch auf ihre Veränderbarkeit hin befragen.
+
+**Ziel der Position.** Gesellschaftliche Widersprüche und Herrschaftsverhältnisse aufzudecken und zur Emanzipation der Menschen beizutragen.
+
+**Zentrale Annahmen**
+
+- Max Horkheimer unterscheidet „traditionelle“ Theorie, die sich als neutral versteht, von „kritischer“ Theorie, die ihre gesellschaftliche Einbindung reflektiert.
+- Fakten sind gesellschaftlich vermittelt; sie lassen sich nicht vom Ganzen der Gesellschaft trennen.
+- Erkenntnis ist mit einem Interesse an gesellschaftlicher Veränderung verbunden.
+- Im sogenannten Positivismusstreit der 1960er-Jahre stritten Adorno und Jürgen Habermas mit Popper und Hans Albert über Werturteile und die Aufgabe der Sozialwissenschaften.
+
+**Schlüsselbegriffe:** traditionelle und kritische Theorie · Emanzipation · Herrschaft · Ideologiekritik · Positivismusstreit
+
+**Kritik.** Der Kritischen Theorie wird vorgeworfen, ihre Aussagen schwer empirisch prüfbar zu machen und normative Maßstäbe vorauszusetzen, die selbst begründungsbedürftig sind.
+
+**Bedeutung für die Soziale Arbeit.** Die Soziale Arbeit versteht sich vielfach als Menschenrechtsprofession mit einem Auftrag zu sozialer Gerechtigkeit. Kritische Theorie bietet dafür eine Grundlage, etwa für partizipative Forschung, die Adressat:innen nicht nur beforscht, sondern beteiligt.
+
+**Zum Weiterlesen:** Horkheimer, Max (1937): Traditionelle und kritische Theorie. In: *Zeitschrift für Sozialforschung* 6 (2), S. 245–294. · Adorno, Theodor W. et al. (1969): *Der Positivismusstreit in der deutschen Soziologie.* Neuwied/Berlin: Luchterhand.
+:::
+
+## Die Positionen im Vergleich
+
+Die fünf Positionen lassen sich nicht einfach in „richtig“ und „falsch“ sortieren. Sie setzen unterschiedliche Schwerpunkte. Positivismus und Kritischer Rationalismus fragen, wie sich Aussagen an der Erfahrung prüfen lassen. Kuhn fragt, wie Wissenschaft als soziale Praxis tatsächlich funktioniert. Der Sozialkonstruktivismus fragt, wie Menschen ihre Wirklichkeit deuten und herstellen. Die Kritische Theorie fragt, wem Wissen nützt und welche Verhältnisse es stabilisiert.
+
+| | Positivismus | Kritischer Rationalismus | Sozialkonstruktivismus | Kritische Theorie |
+|---|---|---|---|---|
+| **Wirklichkeit** | unabhängig gegeben | unabhängig gegeben, nur annähernd erkennbar | sozial hergestellt | gesellschaftlich vermittelt |
+| **Weg zur Erkenntnis** | Beobachtung, Induktion | Hypothesen prüfen, Falsifikation | Sinn rekonstruieren | Widersprüche aufdecken |
+| **Rolle der Werte** | Werturteilsfreiheit | Werturteilsfreiheit in der Begründung | Deutungen sind standortgebunden | Erkenntnis ist an Emanzipation gebunden |
+| **Nähe zu** | standardisierter Forschung | quantitativer, hypothesenprüfender Forschung | qualitativer Forschung | partizipativer, gesellschaftskritischer Forschung |
+
+: Vier Positionen im Überblick (vereinfacht) {#tbl-positionen}
+
+::: {.praxis}
+**Für die Praxis heißt das:** Wer eine Studie liest oder plant, sollte fragen, welche Annahmen über Wirklichkeit und Erkenntnis ihr zugrunde liegen. Die Wahl einer Methode ist keine rein technische Entscheidung. Sie folgt aus einer Haltung dazu, was wir wissen können und wozu wir es wissen wollen.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Übung"}
+Ordnen Sie Aussagen den Positionen zu: Das Lernspiel [Aussagen zuordnen](../03-lernspiele.qmd#sec-zuordnen) enthält acht kurze Aussagen aus Forschung und Praxis.
+:::
+
+::: {.placeholder}
+Lektüre und weitere Arbeitsaufträge für diese Sitzung folgen.
+:::

@@ -1,0 +1,20 @@
+---
+title: "Sitzung 6: Stichprobe und standardisierte Befragung"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Unter welchen Bedingungen lassen sich Aussagen über eine Stichprobe auf eine Grundgesamtheit übertragen?
+:::
+
+::: {.placeholder}
+Diese Sitzung ist in Vorbereitung.
+:::
+
+::: {.outline}
+- Grundgesamtheit und Stichprobe
+- Zufallsstichproben und bewusste Auswahl
+- Repräsentativität
+- Formen der Befragung: persönlich, telefonisch, online
+- Fehlerquellen: Antwortverweigerung und soziale Erwünschtheit
+:::

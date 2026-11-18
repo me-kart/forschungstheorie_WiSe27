@@ -1,0 +1,92 @@
+---
+title: "Sitzung 1: Einführung – Alltagswissen und wissenschaftliches Wissen"
+subtitle: "06.10.2026 · Wissenschaftstheoretische Grundlagen I"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Was ist empirische Sozialforschung, wodurch unterscheidet sich wissenschaftliches Wissen von Alltagswissen, und warum braucht die Soziale Arbeit beides?
+:::
+
+„Jugendliche mit Migrationshintergrund sind häufiger kriminell.“ Sätze wie dieser fallen im Alltag schnell, auch unter Fachkräften. Sie klingen nach Erfahrung und scheinen sich durch einzelne Beobachtungen zu bestätigen. Wissenschaftliche Forschung stellt andere Fragen: Stimmt die Aussage empirisch? Welche Faktoren beeinflussen Kriminalität überhaupt? Welche Rolle spielen soziale Lebensbedingungen, Kontrollpraxis oder Anzeigeverhalten? Das Beispiel verdichtet das Anliegen dieser ersten Sitzung: Forschung soll Erklärungen statt Vorurteile entwickeln.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Themen
+
+- Was heißt empirische Sozialforschung?
+- Alltagswissen und wissenschaftliches Wissen
+- Was Methoden leisten
+- Bedeutung für die Soziale Arbeit
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- empirische Sozialforschung
+- Alltagstheorie
+- intersubjektive Nachprüfbarkeit
+- Übergeneralisierung
+:::
+
+:::
+
+## 1. Was heißt empirische Sozialforschung?
+
+Peter Atteslander bestimmt empirische Sozialforschung als „systematische Erfassung und Deutung sozialer Tatbestände“. In dieser kurzen Definition stecken drei Elemente:
+
+- **Systematisches Erfassen** heißt, dass soziale Daten nach festgelegten methodischen Regeln erhoben werden.
+- **Soziale Tatbestände** sind menschliches Verhalten, Einstellungen, Meinungen, Erfahrungen und die Bedingungen, unter denen sie entstehen.
+- **Deutung** heißt, dass Daten erst dann zu Erkenntnis werden, wenn sie analysiert und im Hinblick auf ein Forschungsziel interpretiert werden.
+
+Empirisch bedeutet dabei: Aussagen werden an der Erfahrung, also an beobachtbaren Daten, geprüft. Das unterscheidet empirische Forschung von rein theoretischer oder normativer Argumentation.
+
+## 2. Alltagswissen und wissenschaftliches Wissen
+
+Jede und jeder von uns verfügt über Alltagstheorien: „Wer früh aufsteht, ist erfolgreicher“, „Gegensätze ziehen sich an“, „Strenge Eltern haben bravere Kinder“. Solche Annahmen helfen, den Alltag zu bewältigen. Sie unterscheiden sich aber grundlegend davon, wie wissenschaftliches Wissen entsteht.
+
+| Alltagswissen | Wissenschaftliches Wissen |
+|---|---|
+| beruht auf alltäglicher, subjektiver Beobachtung | beruht auf systematischer, zumindest intersubjektiv nachprüfbarer Beobachtung |
+| wird aufgefüllt mit persönlicher Erfahrung und Wissenssplittern aus unterschiedlichen Quellen | dokumentiert jeden einzelnen Untersuchungsschritt |
+| verlässt sich auf Intuition und praktische Erfahrung | wird im Licht weiterer Untersuchungen und im wissenschaftlichen Diskurs geprüft |
+| beansprucht Gültigkeit aufgrund subjektiver Einschätzung | lässt nur gelten, was sich vorläufig bewährt hat bzw. nicht widerlegt wurde |
+
+: Alltagswissen und wissenschaftliches Wissen im Vergleich {#tbl-wissen}
+
+Für professionelles Handeln reicht Alltagswissen deshalb nicht aus. Es ist häufig unpräzise und vage. Alltagshypothesen nennen zwar eine Richtung („Armut macht krank“), aber nicht die Stärke eines Effekts. Und Alltagserfahrungen lassen sich nicht ohne Weiteres verallgemeinern, weil sie auf wenigen, zufällig zustande gekommenen Beobachtungen beruhen.
+
+## 3. Was Methoden der empirischen Sozialforschung leisten
+
+Methoden sind keine bürokratischen Hürden. Sie sollen typische Fehler alltäglicher Urteile begrenzen:
+
+- Sie **reduzieren die Gefahr der Übergeneralisierung**, indem Fälle systematisch und, wo möglich, repräsentativ ausgewählt werden.
+- Sie **reduzieren das Risiko selektiver Beobachtung und willkürlicher Schlussfolgerungen**, indem Beobachtungen und Messungen systematisch und nachprüfbar erfolgen.
+- Sie **ermöglichen folgerichtige Begründungen und Erklärungen**, weil Kriterien und Verfahren offengelegt werden.
+- Sie **stellen traditionelle Überzeugungen und den nicht hinterfragten Respekt vor Autoritäten auf den Prüfstand**: Aussagen werden geprüft, kritisiert und, wenn nötig, revidiert.
+
+## 4. Bedeutung für die Soziale Arbeit
+
+Die Soziale Arbeit versteht sich als angewandte Wissenschaft. Empirische Forschung ist für sie in mehrfacher Hinsicht wichtig:
+
+- für die **Evaluation** sozialer Programme, etwa die Wirksamkeit eines Präventionsprogramms oder die Evaluation von Jugendhilfeprojekten,
+- für die **Analyse sozialer Problemlagen**, etwa von Armut oder Diskriminierung,
+- für die **Entwicklung evidenzbasierter Interventionen**,
+- für die **Bewertung politischer Maßnahmen**.
+
+Hinzu kommen Anforderungen aus dem Berufsalltag. Fachkräfte müssen ihre Arbeit dokumentieren, Statistiken führen und Konzepte klar definieren, nicht zuletzt, um Fördermittel zu erhalten. Sie vertreten die Anliegen ihrer Adressat:innen häufig auch auf (lokal-)politischer Ebene. Kenntnisse über aktuelle Forschungsergebnisse helfen dann, eigene Argumente zu untermauern und Gegenargumente zu entkräften. Und schließlich befähigt Methodenwissen dazu, Berichte in den Medien und Studien kritisch zu lesen: Wer weiß, wie eine Zahl zustande kommt, lässt sich weniger leicht von ihr beeindrucken.
+
+Dabei geht es nicht nur darum, eigene Arbeitsabläufe zu optimieren. Die Sozialarbeitswissenschaft kann einen eigenständigen Beitrag dazu leisten, soziale Probleme besser zu verstehen, und in Zusammenarbeit mit Soziologie, Psychologie und Erziehungswissenschaft ergänzende Forschungsansätze entwickeln.
+
+::: {.praxis}
+**Für die Praxis heißt das:** Empirische Sozialforschung hilft Fachkräften, gesellschaftliche Entwicklungen umfassender zu verstehen, die eigene Arbeit nachvollziehbar zu dokumentieren und in fachpolitischen Debatten begründet zu argumentieren. Ziel ist, Theorie und Praxis der Sozialen Arbeit fortlaufend auf ihre Gültigkeit und Angemessenheit hin zu überprüfen.
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Übung: Alltagstheorien prüfen"}
+Notieren Sie zwei Alltagstheorien aus Ihrem Umfeld oder Praxisfeld. Beantworten Sie für jede: Woher stammt dieses Wissen? Welche Beobachtung würde es infrage stellen? Wie könnte man es systematisch untersuchen?
+:::
+
+**Zum Weiterlesen:** Schaffer, Hanne/Schaffer, Fabian (2019): Empirische Methoden für soziale Berufe. Eine anwendungsorientierte Einführung in die qualitative und quantitative Sozialforschung. Freiburg: Lambertus.

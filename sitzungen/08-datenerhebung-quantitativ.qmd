@@ -1,0 +1,122 @@
+---
+title: "Sitzung 8: Datenerhebungsmethoden II (quantitativ)"
+subtitle: "24.11.2026 · Befragung, Skalen, Messinstrumente und Skalenniveaus"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Wie werden soziale Phänomene standardisiert erfasst, und was muss man beim Konstruieren eines Fragebogens beachten?
+:::
+
+„Wie belastet fühlen sich Fachkräfte der Jugendhilfe?“ Um diese Frage quantitativ zu beantworten, reicht es nicht, Fachkräfte zu fragen, ob sie gestresst sind. Belastung muss in Dimensionen zerlegt und mit Indikatoren erfasst werden: Fallzahlen und Überstunden, Zeitdruck („Ich habe genügend Zeit für jedes Kind“, 1 = nie bis 5 = immer), emotionale Anforderungen, etwa mit dem Maslach Burnout Inventory (Maslach 1981), und Arbeitszufriedenheit in mehreren Dimensionen. Die Ergebnisse einer solchen Befragung können Grundlage für Fortbildungen, arbeitsplatzbezogene Maßnahmen und politische Forderungen sein, etwa nach einem besseren Personalschlüssel. Die Sitzung zeigt, wie standardisierte Erhebungen funktionieren.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Nach dieser Sitzung können Sie …
+
+- quantitative Erhebungsmethoden beschreiben und einordnen,
+- Befragungsformen (schriftlich, mündlich, online) unterscheiden,
+- Skalen und Messinstrumente erklären und auswählen,
+- Skalenniveaus bestimmen und geeignete Statistiken ableiten,
+- Fragebögen kritisch beurteilen.
+:::
+
+::: {.g-col-12 .g-col-md-6 .session-box}
+#### Zentrale Begriffe
+
+- Standardisierung
+- CAWI, CAPI, CATI
+- Likert-Skala, Summenscore
+- Nominal-, Ordinal-, Intervall-, Verhältnisskala
+- Experiment, Sekundärdatenanalyse
+:::
+
+:::
+
+## 1. Was quantitative Erhebung ausmacht
+
+Quantitative Forschung untersucht soziale Wirklichkeit anhand numerischer Daten. Sie will **messen** (Phänomene in Zahlen abbilden), **vergleichen** (Gruppen oder Zeitpunkte gegenüberstellen), **erklären** (Ursache-Wirkungs-Zusammenhänge prüfen) und **vorhersagen**. Typische Fragen lauten: Wie viele? Wie häufig? In welchem Ausmaß?
+
+Kennzeichen sind **Standardisierung** (alle Befragten erhalten identische Fragen in gleicher Reihenfolge), **Objektivität** (Ergebnisse unabhängig von der forschenden Person), **Messbarkeit** (abstrakte Konzepte werden operationalisiert), **große Stichproben**, **statistische Auswertung** und ein deduktives Vorgehen: Theorie → Hypothese → Daten → Prüfung. Beispiel: „Wie verbreitet sind Vorurteile gegenüber Migrant:innen in Bayern?“ wird mit einem Fragebogen mit geschlossenen Fragen in einer Zufallsstichprobe untersucht.
+
+## 2. Die Befragung
+
+Die Befragung ist das am häufigsten eingesetzte Instrument der Sozialforschung. Sie erfasst Einstellungen und Meinungen, Wissen, Verhalten und Erfahrungen. Damit die Daten gültig sind, müssen die Befragten die Fragen verstehen, auskunftsbereit sein und sich erinnern können. Eine Gefahr ist die **soziale Erwünschtheit**: Befragte antworten so, wie es ihnen gesellschaftlich akzeptiert erscheint.
+
+**Formen der Befragung.** *Schriftliche* Befragungen erfolgen auf Papier oder online (CAWI, Computer Assisted Web Interviewing). *Mündliche* Befragungen erfolgen persönlich (CAPI, Computer Assisted Personal Interviewing) oder telefonisch (CATI, Computer Assisted Telephone Interviewing). Nach dem Standardisierungsgrad lassen sich vollstandardisierte Befragungen (alle Fragen und Antwortkategorien festgelegt) von halbstandardisierten unterscheiden (offene und geschlossene Fragen gemischt).
+
+| | Schriftlich / online | Mündlich |
+|---|---|---|
+| **Vorteile** | kostengünstig, große Stichproben, Anonymität fördert ehrliche Antworten bei sensiblen Themen, kein Interviewereinfluss | Rückfragen möglich, meist höhere Teilnahme, komplexe Filterführung möglich, nonverbale Zusatzinformationen |
+| **Nachteile** | oft geringer Rücklauf, keine Klärung von Missverständnissen, Selektivität (Bildungsbias), keine Kontrolle, wer ausfüllt | zeit- und kostenaufwendig, Interviewereffekte (Geschlecht, Alter, Auftreten), soziale Erwünschtheit bei heiklen Themen |
+
+: Schriftliche und mündliche Befragung im Vergleich {#tbl-befragung}
+
+## 3. Von der Operationalisierung zum Messinstrument
+
+Wie ein theoretisches Konzept messbar wird, haben wir in [Sitzung 4](04-forschungsfragen-operationalisierung.qmd) gesehen: Begriff definieren, Dimensionen bestimmen, Indikatoren bilden, Skalierung festlegen. Am Beispiel „Stress“: Dimensionen sind emotionaler, körperlicher und kognitiver Stress; Indikatoren sind etwa „Ich fühle mich überfordert“, Schlafprobleme oder Konzentrationsprobleme; gemessen wird Häufigkeit, Intensität oder Dauer.
+
+**Messinstrumente** sind vor allem **Fragebögen** (mit geschlossenen und offenen Fragen), **Skalen** zur Messung von Einstellungen und Konstrukten, **Tests** für Fähigkeiten oder Persönlichkeitsmerkmale und **Indizes**, die mehrere Indikatoren zu einer Kennzahl zusammenfassen. Wo möglich, sollten bewährte Instrumente genutzt werden, deren Güte geprüft ist.
+
+## 4. Skalen
+
+Skalen machen Einstellungen und Konstrukte messbar. Ein Beispiel ist eine fünfstufige Zustimmungsskala: „Ich fühle mich an meiner Hochschule wohl.“ 1 = stimme überhaupt nicht zu · 2 = stimme eher nicht zu · 3 = teils/teils · 4 = stimme eher zu · 5 = stimme voll zu.
+
+Für die Konstruktion gelten einige Faustregeln: Vier bis sieben Antwortstufen sind üblich; mehr Stufen bringen kaum zusätzlichen Gewinn. Eine gerade Anzahl vermeidet eine neutrale Mittelkategorie. Alle Stufen zu beschriften, erhöht Verständlichkeit und Zuverlässigkeit. Und negativ formulierte Items helfen, Zustimmungstendenzen zu kontrollieren.
+
+Die **Likert-Skala** (Likert 1932) ist die am häufigsten verwendete Skala der Sozialforschung. Mehrere Items messen dasselbe Konstrukt und werden zu einem **Summenscore** addiert. Beispiel „Studienbelastung“ mit drei Items: „Das Studium ist zeitlich sehr belastend.“ · „Ich kann Studium und Privatleben kaum vereinbaren.“ · „Der Leistungsdruck ist hoch.“ Bei fünf Stufen ergibt sich ein Summenscore von 3 bis 15; je höher, desto höher die Belastung. Likert-Skalen sind formal ordinal, werden aber oft wie Intervallskalen behandelt. Das ist methodisch umstritten.
+
+## 5. Skalenniveaus
+
+Das Skalenniveau entscheidet, welche statistischen Verfahren zulässig sind. Je höher das Niveau, desto mehr Möglichkeiten.
+
+| Skalenniveau | Merkmale | Beispiele | zulässige Kennwerte und Verfahren |
+|---|---|---|---|
+| **Nominal** | Kategorien ohne Rangfolge; Zahlen sind nur Etiketten | Geschlecht, Religionszugehörigkeit, Familienstand | Häufigkeiten, Prozente, Modus, Chi²-Test |
+| **Ordinal** | Rangfolge, aber unbekannte bzw. ungleiche Abstände | Schulnoten, Zufriedenheit, Likert-Items | zusätzlich Median, Quartile, Rangkorrelation (Spearman), Mann-Whitney-U-Test |
+| **Intervall** | gleiche Abstände, kein natürlicher Nullpunkt | Temperatur in °C, IQ-Werte, Jahreszahlen | zusätzlich Mittelwert, Standardabweichung, Pearson-Korrelation, t-Test |
+| **Verhältnis** | gleiche Abstände und natürlicher Nullpunkt | Alter, Einkommen, Anzahl Kinder, Arbeitsstunden | zusätzlich Verhältnisaussagen („doppelt so viel“) |
+
+: Skalenniveaus und zulässige Statistiken {#tbl-skalen}
+
+Bei der Intervallskala sind Verhältnisaussagen nicht möglich: 20 °C ist nicht „doppelt so warm“ wie 10 °C. Bei der Verhältnisskala dagegen schon: Ein Einkommen von 40.000 Euro ist doppelt so hoch wie eines von 20.000 Euro. Intervall- und Verhältnisskala werden zusammen auch als **metrisch** bezeichnet.
+
+::: {.callout-tip title="Übung: Skalenniveau bestimmen"}
+Bestimmen Sie das Skalenniveau: Alter · Schulnote · Geschlecht · Einkommen · Zufriedenheit · Religionszugehörigkeit.
+
+<details>
+<summary>Lösung</summary>
+
+Alter → Verhältnisskala · Schulnote → Ordinalskala · Geschlecht → Nominalskala · Einkommen → Verhältnisskala · Zufriedenheit → Ordinalskala · Religionszugehörigkeit → Nominalskala.
+
+**Diskussionsfrage:** Warum werden Schulnoten trotzdem oft mit dem Mittelwert ausgewertet? Weil man in der Praxis stillschweigend gleiche Abstände zwischen den Noten unterstellt. Methodisch ist das eine Vereinfachung, die man kennen und benennen sollte.
+</details>
+:::
+
+## 6. Weitere quantitative Erhebungsmethoden
+
+**Strukturierte Beobachtung.** Beobachtung ist die systematische, regelgeleitete Wahrnehmung und Aufzeichnung von Verhalten. Sie erfasst tatsächliches statt berichtetes Verhalten und eignet sich auch für Personen, die nicht befragt werden können, etwa Kleinkinder, zum Beispiel bei Eltern-Kind-Interaktionen in der Frühförderung. In der quantitativen Forschung ist sie strukturiert (Beobachtungsbogen mit festen, zählbaren Kategorien) und meist nicht teilnehmend. Probleme sind Selektivität, Reaktivität und unterschiedliche Deutungen; bei offener Beobachtung kann das Wissen, beobachtet zu werden, das Verhalten verändern (Hawthorne-Effekt). Ob verschiedene Beobachter:innen übereinstimmen, wird mit der Interrater-Reliabilität geprüft, etwa mit Cohens Kappa.
+
+**Experiment.** Das Experiment ist die Methode, mit der sich Kausalität am besten prüfen lässt. Es beruht auf **Manipulation** (gezielte Veränderung der unabhängigen Variable), **Kontrolle** anderer Einflüsse und **Randomisierung** (zufällige Zuteilung zu Experimental- und Kontrollgruppe). Im Prätest-Posttest-Kontrollgruppendesign wird die abhängige Variable vorher und nachher bei beiden Gruppen gemessen; nur die Experimentalgruppe erhält die Intervention, etwa ein Stressbewältigungstraining für Fachkräfte. Laborexperimente haben eine hohe **interne Validität** (Effekte lassen sich der Intervention zuschreiben), aber eine geringe **externe Validität** (Übertragbarkeit auf den Alltag). Feldexperimente, etwa in Schulen oder Einrichtungen, sind realitätsnäher, aber schwerer zu kontrollieren. In der Sozialen Arbeit sind **Quasi-Experimente** ohne Randomisierung häufig; bei Kausalaussagen ist dann Vorsicht geboten.
+
+**Sekundärdatenanalyse.** Ausgewertet werden Daten, die ursprünglich für einen anderen Zweck erhoben wurden: amtliche Statistiken wie die Kinder- und Jugendhilfestatistik, Panelstudien wie das Sozio-oekonomische Panel (SOEP), der Mikrozensus, Forschungsdatenbanken wie GESIS oder Verwaltungsdaten. Vorteile sind geringe Kosten, große Stichproben, Längsschnittdaten und fehlende Reaktivität. Nachteile sind, dass die Daten nicht genau zur eigenen Frage passen, eigene Konzepte möglicherweise nicht enthalten sind und Erhebungsmängel unbekannt bleiben.
+
+## 7. Gütekriterien standardisierter Erhebungen
+
+Ein Messinstrument wird an drei Kriterien gemessen. **Objektivität**: gleiche Bedingungen für alle Befragten (Durchführung) und eindeutige Kodierung (Auswertung). **Reliabilität**: Eine Wiederholung ergibt gleiche Ergebnisse (Test-Retest), und die Items einer Skala messen dasselbe Konstrukt (interne Konsistenz, als Richtwert Cronbachs α ≥ 0,70). **Validität**: Das Instrument deckt alle Aspekte des Konstrukts ab (Inhaltsvalidität) und verhält sich so, wie es theoretisch zu erwarten ist (Konstruktvalidität). Ein Instrument kann reliabel sein, ohne valide zu sein, aber nicht umgekehrt. Vertieft wird das in [Sitzung 11](11-guetekriterien.qmd).
+
+::: {.praxis}
+**Für die Praxis heißt das:** Viele Einrichtungen entwickeln eigene Zufriedenheitsbögen. Bevor man das tut, lohnt die Suche nach erprobten Skalen. Und wer selbst Fragen formuliert, sollte sie vorab an einigen Personen testen: Werden sie so verstanden, wie sie gemeint sind?
+:::
+
+## Zur Vertiefung
+
+::: {.callout-tip title="Gruppenarbeit (15 Minuten): Zufriedenheit von Studierenden mit dem Studium"}
+1. Formulieren Sie fünf standardisierte Fragen.
+2. Entwickeln Sie passende Antwortkategorien.
+3. Bestimmen Sie das Skalenniveau.
+4. Diskutieren Sie mögliche Probleme der Messung.
+:::
+
+**Zum Weiterlesen:** Porst, Rolf (2014): Fragebogen. Ein Arbeitsbuch. 4. Aufl. Wiesbaden: Springer VS. · Raithel, Jürgen (2008): Quantitative Forschung. Ein Praxiskurs. 2. Aufl. Wiesbaden: VS. · Schnell, Rainer/Hill, Paul B./Esser, Elke (2023): Methoden der empirischen Sozialforschung. 12. Aufl. München: De Gruyter Oldenbourg.

@@ -1,0 +1,20 @@
+---
+title: "Sitzung 12: Mixed Methods und Forschen in der Sozialen Arbeit"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+### Leitfrage
+Wie lassen sich quantitative und qualitative Zugänge verbinden, und was bedeutet das für die Forschung in der Sozialen Arbeit?
+:::
+
+::: {.placeholder}
+Diese Sitzung ist in Vorbereitung.
+:::
+
+::: {.outline}
+- Gründe für die Kombination von Methoden
+- Sequenzielle und parallele Designs
+- Triangulation
+- Praxisforschung und partizipative Forschung
+- Ausblick auf das Modul Forschungspraxis
+:::
